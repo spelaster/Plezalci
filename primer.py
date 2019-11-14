@@ -1,5 +1,9 @@
+def f(x, y):
+    return x + y
+
+
 def h(x):
-    return x + 10
+    return f(x, 10)
 
 def g(x):
-    return  x + 30
+    return  f(x, 30)
