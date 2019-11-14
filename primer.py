@@ -1,4 +1,4 @@
-def f(x):
+def h(x):
     return x + 10
 
 def g(x):
