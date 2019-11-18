@@ -2,5 +2,5 @@
 
 Primer za predavanja iz Podatkovnih baz 1
 
-# dodamo sliko
+# ER diagram plezalcev
 ![ER diagram](plezanje.png)
