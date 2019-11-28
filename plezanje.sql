@@ -3,7 +3,7 @@ BEGIN TRANSACTION;
 
 -- Table: otrok
 CREATE TABLE otrok (
-    id    INTEGER PRIMARY KEY AUTOINCREMENT,
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
     ime TEXT,
     priimek TEXT,
     datum_rojstva DATE,
@@ -13,8 +13,8 @@ CREATE TABLE otrok (
 
 -- Table: stars
 CREATE TABLE stars (
-    id        INTEGER PRIMARY KEY,
-    ime    TEXT,
+    id INTEGER PRIMARY KEY,
+    ime TEXT,
     priimek TEXT,
     mail TEXT,
     naslov TEXT,
@@ -23,14 +23,14 @@ CREATE TABLE stars (
 
 -- Table: skrbnik
 CREATE TABLE skrbnik (
-    otrok  INTEGER REFERENCES otrok(id),
-    stars  INTEGER REFERENCES stars(id),
+    otrok INTEGER REFERENCES otrok(id),
+    stars INTEGER REFERENCES stars(id),
     PRIMARY KEY (otrok, stars)
 );
 
 -- Table: racun
 CREATE TABLE racun (
-    otrok  INTEGER   REFERENCES otrok(id),
+    otrok INTEGER REFERENCES otrok(id),
     datum DATENOT NULL,
     znesek DECIMAL(2),
     izlet REFERENCES izlet(id),
