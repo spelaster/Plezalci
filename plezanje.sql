@@ -59,10 +59,9 @@ CREATE TABLE izlet (
 CREATE TABLE plezalisce (
     id INTEGER PRIMARY KEY,
     ime TEXT
->>>>>>> a37ff0d58d753f8c80c7716c857746a33d1324ed
 );
 
 
 COMMIT TRANSACTION;
-<<<<<<< HEAD
 PRAGMA foreign_keys = on;
+
