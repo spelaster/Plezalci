@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 --
 -- File generated with SQLiteStudio v3.2.1 on cet. nov. 28 09:46:17 2019
 --
@@ -66,5 +66,3 @@ CREATE TABLE plezalisce (
 COMMIT TRANSACTION;
 <<<<<<< HEAD
 PRAGMA foreign_keys = on;
-=======
->>>>>>> a37ff0d58d753f8c80c7716c857746a33d1324ed
