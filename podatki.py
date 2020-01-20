@@ -38,7 +38,14 @@ with open('preglednica_podatki.csv') as datoteka:
         ])
         cur = conn.execute(sql, parametri)
         id_otroka = cur.lastrowid
-        INSERT INTO pripada (otrok, skupina) VALUES (?, ?)
+        sql = '''
+            INSERT INTO pripada (otrok, skupina) 
+            VALUES (?, ?)
+            '''
+        parametri = [
+            vrstica['otrok_id'],
+            vrstica['skupina_id'],
+        ]
 
         
     conn.commit()
