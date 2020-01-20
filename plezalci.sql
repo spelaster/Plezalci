@@ -1,5 +1,5 @@
 --
--- File generated with SQLiteStudio v3.2.1 on pon. jan. 20 09:50:59 2020
+-- File generated with SQLiteStudio v3.2.1 on čet. jan. 16 09:30:36 2020
 --
 -- Text encoding used: UTF-8
 --
@@ -64,19 +64,6 @@ CREATE TABLE plezalisce (
 );
 
 
--- Table: pripada
-DROP TABLE IF EXISTS pripada;
-
-CREATE TABLE pripada (
-    otrok   INTEGER REFERENCES otrok (id),
-    skupina INTEGER REFERENCES skupina (id),
-    PRIMARY KEY (
-        otrok,
-        skupina
-    )
-);
-
-
 -- Table: racun
 DROP TABLE IF EXISTS racun;
 
@@ -95,6 +82,7 @@ CREATE TABLE racun (
 );
 
 
+
 -- Table: skrbnik
 DROP TABLE IF EXISTS skrbnik;
 
@@ -109,25 +97,16 @@ CREATE TABLE skrbnik (
 );
 
 
--- Table: skupina
-DROP TABLE IF EXISTS skupina;
-
-CREATE TABLE skupina (
-    id                INTEGER PRIMARY KEY,
-    trener            TEXT,
-    stevilo_treningov INTEGER
-);
-
-
 -- Table: smer
 DROP TABLE IF EXISTS smer;
 
 CREATE TABLE smer (
     id         INTEGER PRIMARY KEY,
     ime        TEXT,
-    tezavnost  TEXT    REFERENCES plezalisce (id),
+    tezavnost  TEXT,
     plezalisce INTEGER REFERENCES plezalisce (id) 
 );
+
 
 
 -- Table: stars
@@ -141,20 +120,31 @@ CREATE TABLE stars (
     naslov  TEXT,
     telefon TEXT
 );
-
-
 -- Table: trener
-DROP TABLE IF EXISTS trener;
-
 CREATE TABLE trener (
-    id      INTEGER PRIMARY KEY,
-    ime     TEXT,
+    id INTEGER PRIMARY KEY,
+    ime TEXT,
     priimek TEXT,
-    mail    TEXT,
+    mail TEXT,
     telefon TEXT,
-    naslov  TEXT
+    naslov TEXT
 );
 
+-- Table: skupina
+CREATE TABLE skupina (
+    id INTEGER PRIMARY KEY,
+    oznaka TEXT,
+    stevilo_treningov INTEGER,
+    trener INTEGER REFERENCES trener(id)
+);
+
+
+-- Table: pripada
+CREATE TABLE pripada (
+    otrok INTEGER REFERENCES otrok(id),
+    skupina INTEGER REFERENCES skupina(id),
+    PRIMARY KEY (otrok,skupina)
+);
 
 COMMIT TRANSACTION;
 PRAGMA foreign_keys = on;
