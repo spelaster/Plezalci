@@ -46,6 +46,20 @@ with open('preglednica_podatki.csv') as datoteka:
             vrstica['otrok_id'],
             vrstica['skupina_id'],
         ]
+        cur = conn.execute(sql, parametri)
 
+        sql = '''
+            INSERT INTO stars (id, ime, priimek, mail, naslov, telefon)
+            VALUES (?, ?, ?, ?, ?, ?)
+        '''
+        parametri = [
+            vrstica['id'],
+            vrstica['ime'],
+            vrstica['priimek'],
+            vrstica['mail'],
+            vrstica['naslov'],
+            vrstica['telefon'],
+        ])
+        cur = conn.execute(sql, parametri)
         
     conn.commit()
