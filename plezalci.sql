@@ -1,107 +1,23 @@
---
--- File generated with SQLiteStudio v3.2.1 on pon. jan. 20 10:01:00 2020
---
--- Text encoding used: UTF-8
---
+
 PRAGMA foreign_keys = off;
 BEGIN TRANSACTION;
 
--- Table: izlet
-DROP TABLE IF EXISTS izlet;
-
-CREATE TABLE izlet (
-    id    INTEGER PRIMARY KEY,
-    datum DATE
-);
-
-
--- Table: je_splezal
-DROP TABLE IF EXISTS je_splezal;
-
-CREATE TABLE je_splezal (
-    nacin                  TEXT,
-    datum_preplezane_smeri DATE,
-    otrok                  INTEGER REFERENCES otrok (id),
-    smer                   INTEGER REFERENCES smer (id),
-    PRIMARY KEY (
-        otrok,
-        smer
-    )
-);
-
-
--- Table: kam
-DROP TABLE IF EXISTS kam;
-
-CREATE TABLE kam (
-    plezalisce INTEGER REFERENCES plezalisce (id),
-    izlet      INTEGER REFERENCES izlet (id),
-    PRIMARY KEY (
-        plezalisce,
-        izlet
-    )
-);
-
 
 -- Table: otrok
-DROP TABLE IF EXISTS otrok;
-
 CREATE TABLE otrok (
-    id            INTEGER PRIMARY KEY AUTOINCREMENT,
-    ime           TEXT,
-    priimek       TEXT,
+    otrok_id      INTEGER PRIMARY KEY AUTOINCREMENT,
+    otrok_ime     TEXT,
+    otrok_priimek TEXT,
     datum_rojstva DATE,
     leto_vpisa    DATE
 );
 
 
--- Table: plezalisce
-DROP TABLE IF EXISTS plezalisce;
-
-CREATE TABLE plezalisce (
-    id  INTEGER PRIMARY KEY,
-    ime TEXT
-);
-
-
--- Table: pripada
-DROP TABLE IF EXISTS pripada;
-
-CREATE TABLE pripada (
-    otrok   INTEGER REFERENCES otrok (id),
-    skupina INTEGER REFERENCES skupina (id),
-    PRIMARY KEY (
-        otrok,
-        skupina
-    )
-);
-
-
--- Table: racun
-DROP TABLE IF EXISTS racun;
-
-CREATE TABLE racun (
-    id            INTEGER PRIMARY KEY
-                          NOT NULL,
-    otrok         INTEGER REFERENCES otrok (id),
-    datum         DATE    NOT NULL,
-    datum_placila DATE,
-    izlet                 REFERENCES izlet (id),
-    znesek        DECIMAL,
-    UNIQUE (
-        otrok,
-        datum
-    )
-);
-
-
 -- Table: skrbnik
-DROP TABLE IF EXISTS skrbnik;
-
 CREATE TABLE skrbnik (
     dobiva_maile TEXT,
-    otrok        INTEGER REFERENCES otrok (id),
-    stars        INTEGER REFERENCES stars (id),
+    otrok        INTEGER REFERENCES otrok (otrok_id),
+    stars        INTEGER REFERENCES stars (stars_id),
     PRIMARY KEY (
         otrok,
         stars
@@ -109,53 +25,151 @@ CREATE TABLE skrbnik (
 );
 
 
--- Table: skupina
-DROP TABLE IF EXISTS skupina;
+-- Table: stars
+CREATE TABLE stars (
+    stars_id      INTEGER PRIMARY KEY,
+    stars_ime     TEXT,
+    stars_priimek TEXT,
+    stars_mail    TEXT,
+    stars_naslov  TEXT,
+    stars_telefon TEXT
+);
 
-CREATE TABLE skupina (
-    id                INTEGER PRIMARY KEY,
-    oznaka            TEXT,
-    stevilo_treningov INTEGER,
-    trener            INTEGER REFERENCES trener (id) 
+   
+
+-- Table: racun
+CREATE TABLE racun (
+    racun_id      INTEGER PRIMARY KEY
+                          NOT NULL,
+    otrok         INTEGER REFERENCES otrok (otrok_id),
+    racun_datum   DATE    NOT NULL,
+    datum_placila DATE,
+    znesek        DECIMAL,
+    UNIQUE (
+        otrok,
+        racun_datum
+    )
+);
+
+--Table: vadnina
+CREATE TABLE vadnina (
+    racun INTEGER REFERENCES racun (racun_id) 
+                  UNIQUE,
+    otrok INTEGER REFERENCES otrok (otrok_id) 
+);
+
+--Table: je_splezal
+CREATE TABLE je_splezal (
+    nacin                  TEXT,
+    datum_preplezane_smeri DATE,
+    otrok                  INTEGER REFERENCES otrok (otrok_id),
+    smer                   INTEGER REFERENCES smer (smer_id),
+    PRIMARY KEY (
+        otrok,
+        smer
+    )
 );
 
 
 -- Table: smer
-DROP TABLE IF EXISTS smer;
-
 CREATE TABLE smer (
-    id         INTEGER PRIMARY KEY,
-    ime        TEXT,
-    tezavnost  TEXT    REFERENCES plezalisce (id),
-    plezalisce INTEGER REFERENCES plezalisce (id) 
+    smer_id    INTEGER PRIMARY KEY,
+    smer_ime   TEXT,
+    tezavnost  TEXT    REFERENCES plezalisce (plezalisce_id),
+    plezalisce INTEGER REFERENCES plezalisce (plezalisce_id) 
 );
 
 
--- Table: stars
-DROP TABLE IF EXISTS stars;
-
-CREATE TABLE stars (
-    id      INTEGER PRIMARY KEY,
-    ime     TEXT,
-    priimek TEXT,
-    mail    TEXT,
-    naslov  TEXT,
-    telefon TEXT
+--Table: se nahaja
+CREATE TABLE se_nahaja (
+    smer       INTEGER REFERENCES smer (smer_id) 
+                       UNIQUE,
+    plezalisce INTEGER REFERENCES plezalisce (plezalisce_id) 
 );
 
+
+-- Table: plezalisce
+CREATE TABLE plezalisce (
+    plezalisce_id  INTEGER PRIMARY KEY,
+    plezalisce_ime TEXT
+);
+
+
+--Table: kam
+CREATE TABLE kam (
+    plezalisce INTEGER REFERENCES plezalisce (plezalisce_id),
+    izlet      INTEGER REFERENCES izlet (izlet_id),
+    PRIMARY KEY (
+        plezalisce,
+        izlet
+    )
+);
+
+
+-- Table: izlet
+CREATE TABLE izlet (
+    izlet_id    INTEGER PRIMARY KEY,
+    izlet_datum DATE,
+    plezalisce  INTEGER,
+    FOREIGN KEY (
+        plezalisce
+    )
+    REFERENCES plezalisce (id) 
+);
 
 -- Table: trener
-DROP TABLE IF EXISTS trener;
-
 CREATE TABLE trener (
-    id      INTEGER PRIMARY KEY,
-    ime     TEXT,
-    priimek TEXT,
-    mail    TEXT,
-    telefon TEXT,
-    naslov  TEXT
+    trener_id      INTEGER PRIMARY KEY,
+    trener_ime     TEXT,
+    trener_priimek TEXT,
+    trener_mail    TEXT,
+    trener_naslov  TEXT,
+    trener_telefon TEXT
 );
 
+-- Table: vodi
+CREATE TABLE vodi (
+    skupina  REFERENCES skupina (skupina_id) 
+             UNIQUE,
+    trener   REFERENCES trener (trener_id) 
+);
+
+-- Table: skupina
+CREATE TABLE skupina (
+    skupina_id        INTEGER PRIMARY KEY,
+    skupina_ime       TEXT,
+    stevilo_treningov INTEGER,
+    trener            INTEGER REFERENCES trener (trener_id) 
+);
+
+-- Table: pripada
+CREATE TABLE pripada (
+    otrok   INTEGER REFERENCES otrok (otrok_id),
+    skupina INTEGER REFERENCES skupina (skupina_id),
+    PRIMARY KEY (
+        otrok,
+        skupina
+    )
+);
+
+-- Table: za
+CREATE TABLE za (
+    racun INTEGER REFERENCES racun (racun_id) 
+                  UNIQUE,
+    izlet INTEGER REFERENCES izlet (izlet_id) 
+);
 
 COMMIT TRANSACTION;
-PRAGMA foreign_keys = on;
+
+
+
+
+
+
+
+
+
+
+
+
+
