@@ -5,19 +5,19 @@ BEGIN TRANSACTION;
 
 -- Table: otrok
 CREATE TABLE otrok (
-    otrok_id      INTEGER PRIMARY KEY AUTOINCREMENT,
-    otrok_ime     TEXT,
-    otrok_priimek TEXT,
-    datum_rojstva DATE,
-    leto_vpisa    DATE
+    id         INTEGER PRIMARY KEY AUTOINCREMENT,
+    ime        TEXT,
+    priimek    TEXT,
+    rojstva    DATE,
+    leto_vpisa DATE
 );
 
 
 -- Table: skrbnik
 CREATE TABLE skrbnik (
-    dobiva_maile TEXT,
-    otrok        INTEGER REFERENCES otrok (otrok_id),
-    stars        INTEGER REFERENCES stars (stars_id),
+    dobiva_maile BOOLEAN,
+    otrok        INTEGER REFERENCES otrok (id),
+    stars        INTEGER REFERENCES stars (id),
     PRIMARY KEY (
         otrok,
         stars
@@ -25,45 +25,41 @@ CREATE TABLE skrbnik (
 );
 
 
+
 -- Table: stars
 CREATE TABLE stars (
-    stars_id      INTEGER PRIMARY KEY,
-    stars_ime     TEXT,
-    stars_priimek TEXT,
-    stars_mail    TEXT,
-    stars_naslov  TEXT,
-    stars_telefon TEXT
+    id      INTEGER PRIMARY KEY,
+    ime     TEXT,
+    priimek TEXT,
+    mail    TEXT,
+    naslov  TEXT,
+    telefon TEXT
 );
 
    
 
 -- Table: racun
 CREATE TABLE racun (
-    racun_id      INTEGER PRIMARY KEY
+    id            INTEGER PRIMARY KEY
                           NOT NULL,
-    otrok         INTEGER REFERENCES otrok (otrok_id),
-    racun_datum   DATE    NOT NULL,
+    otrok         INTEGER REFERENCES otrok (id),
+    datum         DATE    NOT NULL,
     datum_placila DATE,
     znesek        DECIMAL,
     UNIQUE (
         otrok,
-        racun_datum
+        datum
     )
 );
 
---Table: vadnina
-CREATE TABLE vadnina (
-    racun INTEGER REFERENCES racun (racun_id) 
-                  UNIQUE,
-    otrok INTEGER REFERENCES otrok (otrok_id) 
-);
+
 
 --Table: je_splezal
 CREATE TABLE je_splezal (
     nacin                  TEXT,
     datum_preplezane_smeri DATE,
-    otrok                  INTEGER REFERENCES otrok (otrok_id),
-    smer                   INTEGER REFERENCES smer (smer_id),
+    otrok                  INTEGER REFERENCES otrok (id),
+    smer                   INTEGER REFERENCES smer (id),
     PRIMARY KEY (
         otrok,
         smer
@@ -73,101 +69,77 @@ CREATE TABLE je_splezal (
 
 -- Table: smer
 CREATE TABLE smer (
-    smer_id    INTEGER PRIMARY KEY,
-    smer_ime   TEXT,
-    tezavnost  TEXT    REFERENCES plezalisce (plezalisce_id),
-    plezalisce INTEGER REFERENCES plezalisce (plezalisce_id) 
+    id         INTEGER PRIMARY KEY,
+    ime        TEXT,
+    plezalisce INTEGER REFERENCES plezalisce (id) 
 );
 
-
---Table: se nahaja
-CREATE TABLE se_nahaja (
-    smer       INTEGER REFERENCES smer (smer_id) 
-                       UNIQUE,
-    plezalisce INTEGER REFERENCES plezalisce (plezalisce_id) 
-);
 
 
 -- Table: plezalisce
 CREATE TABLE plezalisce (
-    plezalisce_id  INTEGER PRIMARY KEY,
-    plezalisce_ime TEXT
+    id  INTEGER PRIMARY KEY,
+    ime TEXT
 );
 
 
---Table: kam
-CREATE TABLE kam (
-    plezalisce INTEGER REFERENCES plezalisce (plezalisce_id),
-    izlet      INTEGER REFERENCES izlet (izlet_id),
-    PRIMARY KEY (
-        plezalisce,
-        izlet
-    )
-);
 
 
 -- Table: izlet
 CREATE TABLE izlet (
-    izlet_id    INTEGER PRIMARY KEY,
-    izlet_datum DATE,
-    plezalisce  INTEGER,
+    id            INTEGER PRIMARY KEY,
+    datum         DATE,
+    plezališče_id INTEGER REFERENCES plezalisce (id),
     FOREIGN KEY (
-        plezalisce
+        plezališče_id
     )
     REFERENCES plezalisce (id) 
 );
 
+
+
 -- Table: trener
 CREATE TABLE trener (
-    trener_id      INTEGER PRIMARY KEY,
-    trener_ime     TEXT,
-    trener_priimek TEXT,
-    trener_mail    TEXT,
-    trener_naslov  TEXT,
-    trener_telefon TEXT
+    id      INTEGER PRIMARY KEY,
+    ime     TEXT,
+    priimek TEXT,
+    mail    TEXT,
+    naslov  TEXT,
+    telefon TEXT
 );
 
--- Table: vodi
-CREATE TABLE vodi (
-    skupina  REFERENCES skupina (skupina_id) 
-             UNIQUE,
-    trener   REFERENCES trener (trener_id) 
-);
+
 
 -- Table: skupina
 CREATE TABLE skupina (
-    skupina_id        INTEGER PRIMARY KEY,
-    skupina_ime       TEXT,
+    id                INTEGER PRIMARY KEY,
+    ime               TEXT,
     stevilo_treningov INTEGER,
-    trener            INTEGER REFERENCES trener (trener_id) 
+    trener            INTEGER REFERENCES trener (id) 
 );
+
+
 
 -- Table: pripada
 CREATE TABLE pripada (
-    otrok   INTEGER REFERENCES otrok (otrok_id),
-    skupina INTEGER REFERENCES skupina (skupina_id),
+    otrok   INTEGER REFERENCES otrok (id),
+    skupina INTEGER REFERENCES skupina (id),
     PRIMARY KEY (
         otrok,
         skupina
     )
 );
 
+
 -- Table: za
 CREATE TABLE za (
-    racun INTEGER REFERENCES racun (racun_id) 
+    racun INTEGER REFERENCES racun (id) 
                   UNIQUE,
-    izlet INTEGER REFERENCES izlet (izlet_id) 
+    izlet INTEGER REFERENCES izlet (id) 
 );
 
+
 COMMIT TRANSACTION;
-
-
-
-
-
-
-
-
 
 
 
