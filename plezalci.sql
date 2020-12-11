@@ -40,17 +40,18 @@ CREATE TABLE stars (
 
 -- Table: racun
 CREATE TABLE racun (
-    id            INTEGER PRIMARY KEY
-                          NOT NULL,
-    otrok         INTEGER REFERENCES otrok (id),
-    datum         DATE    NOT NULL,
-    datum_placila DATE,
-    znesek        DECIMAL,
+    id      INTEGER PRIMARY KEY
+                    NOT NULL,
+    otrok   INTEGER REFERENCES otrok (id),
+    datum   DATE    NOT NULL,
+    placano BOOLEAN,
+    znesek  DECIMAL,
     UNIQUE (
         otrok,
         datum
     )
 );
+
 
 
 
@@ -67,13 +68,14 @@ CREATE TABLE je_splezal (
 );
 
 
+
 -- Table: smer
 CREATE TABLE smer (
     id         INTEGER PRIMARY KEY,
     ime        TEXT,
-    plezalisce INTEGER REFERENCES plezalisce (id) 
+    plezalisce INTEGER REFERENCES plezalisce (id),
+    tezavnost  TEXT
 );
-
 
 
 -- Table: plezalisce
@@ -83,19 +85,13 @@ CREATE TABLE plezalisce (
 );
 
 
-
-
 -- Table: izlet
 CREATE TABLE izlet (
-    id            INTEGER PRIMARY KEY,
-    datum         DATE,
-    plezališče_id INTEGER REFERENCES plezalisce (id),
-    FOREIGN KEY (
-        plezališče_id
-    )
-    REFERENCES plezalisce (id) 
+    id         INTEGER PRIMARY KEY,
+    datum      DATE,
+    plezalisce INTEGER REFERENCES plezalisce (id),
+    ime        TEXT
 );
-
 
 
 -- Table: trener
@@ -109,39 +105,20 @@ CREATE TABLE trener (
 );
 
 
-
 -- Table: skupina
 CREATE TABLE skupina (
-    id                INTEGER PRIMARY KEY,
+    id                INTEGER PRIMARY KEY AUTOINCREMENT,
     ime               TEXT,
     stevilo_treningov INTEGER,
     trener            INTEGER REFERENCES trener (id) 
 );
 
 
-
 -- Table: pripada
 CREATE TABLE pripada (
     otrok   INTEGER REFERENCES otrok (id),
-    skupina INTEGER REFERENCES skupina (id),
-    PRIMARY KEY (
-        otrok,
-        skupina
-    )
-);
-
-
--- Table: za
-CREATE TABLE za (
-    racun INTEGER REFERENCES racun (id) 
-                  UNIQUE,
-    izlet INTEGER REFERENCES izlet (id) 
+    skupina INTEGER REFERENCES skupina (id) 
 );
 
 
 COMMIT TRANSACTION;
-
-
-
-
-
