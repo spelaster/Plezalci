@@ -8,7 +8,7 @@ CREATE TABLE otrok (
     id         INTEGER PRIMARY KEY AUTOINCREMENT,
     ime        TEXT,
     priimek    TEXT,
-    rojstva    DATE,
+    datum_rojstva    DATE,
     leto_vpisa DATE
 );
 
