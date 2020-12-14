@@ -1,2120 +1,4804 @@
- [
+{
+    "izlet": [
         {
-            "otrok_id": "1",
-            "otrok_ime": "Kristin",
-            "otrok_priimek": "Corbin",
-            "datum_rojstva": "9/16/06",
-            "leto_vpisa": "2015",
-            "stars_id": "101",
-            "stars_ime": "Maggie",
-            "stars_priimek": "Corbin",
-            "stars_mail": "runte.stephania@yahoo.com",
-            "stars_naslov": "Ol�evek 75, 4205 Preddvor",
-            "stars_telefon": "00386-405-559-562",
-            "dobiva_maile": "Da",
-            "skupina_id": "401",
-            "skupina_ime": "Son�ki",
-            "stevilo_treningov": "1",
-            "racun_id": "301",
-            "racun_datum": "6/26/20",
-            "datum_placila": "6/28/20",
-            "znesek": "30",
-            "trener_id": "201",
-            "trener_ime": "�pela",
-            "trener_priimek": "Keene",
-            "trener_mail": "dwindler@gmail.com",
-            "trener_naslov": "Golnik 177, 4204 Golnik",
-            "trener_telefon": "00386-715-552-96",
-            "izlet_id": "501",
-            "izlet_datum": "4/10/18",
-            "plezalisce_id": "701",
-            "plezalisce_ime": "Pe�",
-            "smer_id": "601",
-            "smer_ime": "Pehta",
+            "id": 509,
+            "datum": "6/6/19",
+            "plezalisce": 707,
+            "ime": "Celodnevni izlet na Primorsko"
+        },
+        {
+            "id": 508,
+            "datum": "10/7/19",
+            "plezalisce": 709,
+            "ime": "Plezalni tabor v Bohinju"
+        },
+        {
+            "id": 507,
+            "datum": "5/24/20",
+            "plezalisce": 708,
+            "ime": "Popoldanski izlet v Kamnitnik"
+        },
+        {
+            "id": 506,
+            "datum": "6/7/20",
+            "plezalisce": 706,
+            "ime": "Plezalni tabor v Bohinju"
+        },
+        {
+            "id": 505,
+            "datum": "10/15/19",
+            "plezalisce": 705,
+            "ime": "Celodnevni izlet na Primorsko"
+        },
+        {
+            "id": 504,
+            "datum": "7/9/19",
+            "plezalisce": 704,
+            "ime": "Vikend izlet v Kotečnik"
+        },
+        {
+            "id": 503,
+            "datum": "7/7/19",
+            "plezalisce": 703,
+            "ime": "Plezalni tabor v Bohinju"
+        },
+        {
+            "id": 502,
+            "datum": "8/7/19",
+            "plezalisce": 702,
+            "ime": "Plezalni tabor v Bohinju"
+        },
+        {
+            "id": 501,
+            "datum": "4/10/18",
+            "plezalisce": 701,
+            "ime": "Popoldanski izlet v Preddvor"
+        }
+    ],
+    "je_splezal": [
+        {
             "nacin": "na pogled",
-            "datum_preplezane_smeri": "1/29/14"
+            "datum preplezane smeri": "7/7/19",
+            "otrok": 30,
+            "smer": 605
         },
         {
-            "otrok_id": "2",
-            "otrok_ime": "Jeramy",
-            "otrok_priimek": "Huggins",
-            "datum_rojstva": "1/2/07",
-            "leto_vpisa": "2012",
-            "stars_id": "102",
-            "stars_ime": "Grace",
-            "stars_priimek": "Huggins",
-            "stars_mail": "oeffertz@collins.com",
-            "stars_naslov": "Kidri�eva 61, 4000 Kranj",
-            "stars_telefon": "00386-315-555-2077",
-            "dobiva_maile": "Da",
-            "skupina_id": "402",
-            "skupina_ime": "Mravljice",
-            "stevilo_treningov": "1",
-            "racun_id": "302",
-            "racun_datum": "6/26/20",
-            "datum_placila": "6/30/20",
-            "znesek": "30",
-            "trener_id": "202",
-            "trener_ime": "Tja�a",
-            "trener_priimek": "Baldwin",
-            "trener_mail": "rutherford.enola@hotmail.com",
-            "trener_naslov": "Jezerska cesta 2, Kranj",
-            "trener_telefon": "00386-495-550-1347",
-            "izlet_id": "502",
-            "izlet_datum": "5/25/19",
-            "plezalisce_id": "702",
-            "plezalisce_ime": "Bohinjka Bela",
-            "smer_id": "602",
-            "smer_ime": "Kekec",
             "nacin": "na Flash",
-            "datum_preplezane_smeri": "6/22/15"
+            "datum preplezane smeri": "7/7/19",
+            "otrok": 31,
+            "smer": 606
         },
         {
-            "otrok_id": "3",
-            "otrok_ime": "Marquita",
-            "otrok_priimek": "Hatch",
-            "datum_rojstva": "1/24/07",
-            "leto_vpisa": "2020",
-            "stars_id": "103",
-            "stars_ime": "Cornelia ",
-            "stars_priimek": "Hatch",
-            "stars_mail": "dlangosh@spinka.com",
-            "stars_naslov": "Predoslje 197, 4000 Kranj",
-            "stars_telefon": "00386-205-558-461",
-            "dobiva_maile": "Ne",
-            "skupina_id": "403",
-            "skupina_ime": "Opice",
-            "stevilo_treningov": "2",
-            "racun_id": "303",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/4/20",
-            "znesek": "25",
-            "trener_id": "203",
-            "trener_ime": "Tja�a",
-            "trener_priimek": "Schmidt",
-            "trener_mail": "fbruen@yahoo.com",
-            "trener_naslov": "Jezerska c. 93/D, 4000 Kranj",
-            "trener_telefon": "00386-705-557-41",
-            "izlet_id": "503",
-            "izlet_datum": "7/2/19",
-            "plezalisce_id": "703",
-            "plezalisce_ime": "Belleuve",
-            "smer_id": "603",
-            "smer_ime": "Vabe�e globine",
-            "nacin": "z rde�o piko",
-            "datum_preplezane_smeri": "4/16/16"
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "7/7/19",
+            "otrok": 32,
+            "smer": 607
         },
         {
-            "otrok_id": "4",
-            "otrok_ime": "Nicola",
-            "otrok_priimek": "Lanier",
-            "datum_rojstva": "5/24/08",
-            "leto_vpisa": "2019",
-            "stars_id": "104",
-            "stars_ime": "Lindsey ",
-            "stars_priimek": "Lanier",
-            "stars_mail": "lowe.vivianne@yahoo.com",
-            "stars_naslov": "Na Vidmu 11, 4000 Kranj",
-            "stars_telefon": "00386-315-555-75",
-            "dobiva_maile": "Da",
-            "skupina_id": "404",
-            "skupina_ime": "Alpake",
-            "stevilo_treningov": "1",
-            "racun_id": "304",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/6/20",
-            "znesek": "25",
-            "trener_id": "204",
-            "trener_ime": "Eva",
-            "trener_priimek": "Robinson",
-            "trener_mail": "frederique.blick@hotmail.com",
-            "trener_naslov": "Jezerska cesta 93B, 4000 Kranj",
-            "trener_telefon": "00386-315-553-5467",
-            "izlet_id": "504",
-            "izlet_datum": "7/9/19",
-            "plezalisce_id": "704",
-            "plezalisce_ime": "Kote�nik",
-            "smer_id": "604",
-            "smer_ime": "Gad",
             "nacin": "top rope",
-            "datum_preplezane_smeri": "5/15/16"
+            "datum preplezane smeri": "7/7/19",
+            "otrok": 33,
+            "smer": 608
         },
         {
-            "otrok_id": "5",
-            "otrok_ime": "Tijuana",
-            "otrok_priimek": "Livingston",
+            "nacin": "na pogled",
+            "datum preplezane smeri": "7/7/19",
+            "otrok": 34,
+            "smer": 637
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/7/19",
+            "otrok": 35,
+            "smer": 638
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "7/7/19",
+            "otrok": 36,
+            "smer": 639
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/7/19",
+            "otrok": 37,
+            "smer": 640
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "7/7/19",
+            "otrok": 38,
+            "smer": 641
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/7/19",
+            "otrok": 39,
+            "smer": 608
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/7/19",
+            "otrok": 40,
+            "smer": 637
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 41,
+            "smer": 628
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 42,
+            "smer": 629
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 13,
+            "smer": 630
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 5,
+            "smer": 631
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 55,
+            "smer": 632
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 22,
+            "smer": 633
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 19,
+            "smer": 634
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 20,
+            "smer": 635
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 21,
+            "smer": 636
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 22,
+            "smer": 628
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 23,
+            "smer": 629
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 24,
+            "smer": 630
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 25,
+            "smer": 631
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 26,
+            "smer": 632
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 27,
+            "smer": 633
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 28,
+            "smer": 634
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 29,
+            "smer": 635
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "8/7/19",
+            "otrok": 44,
+            "smer": 636
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 50,
+            "smer": 660
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 51,
+            "smer": 661
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 52,
+            "smer": 662
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 53,
+            "smer": 663
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 54,
+            "smer": 664
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 55,
+            "smer": 665
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 56,
+            "smer": 666
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 57,
+            "smer": 667
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 58,
+            "smer": 668
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 59,
+            "smer": 669
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 60,
+            "smer": 670
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 61,
+            "smer": 660
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 62,
+            "smer": 661
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 63,
+            "smer": 662
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 64,
+            "smer": 663
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 65,
+            "smer": 664
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 66,
+            "smer": 665
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 67,
+            "smer": 666
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 68,
+            "smer": 667
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 69,
+            "smer": 668
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 70,
+            "smer": 669
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "6/7/20",
+            "otrok": 71,
+            "smer": 670
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "10/7/19",
+            "otrok": 72,
+            "smer": 678
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "10/7/19",
+            "otrok": 73,
+            "smer": 679
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "10/7/19",
+            "otrok": 74,
+            "smer": 680
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "10/7/19",
+            "otrok": 75,
+            "smer": 681
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "10/7/19",
+            "otrok": 76,
+            "smer": 678
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "10/7/19",
+            "otrok": 77,
+            "smer": 679
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "10/7/19",
+            "otrok": 78,
+            "smer": 680
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "10/7/19",
+            "otrok": 79,
+            "smer": 681
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/6/19",
+            "otrok": 80,
+            "smer": 671
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/6/19",
+            "otrok": 81,
+            "smer": 672
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/6/19",
+            "otrok": 82,
+            "smer": 673
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/6/19",
+            "otrok": 83,
+            "smer": 674
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "6/6/19",
+            "otrok": 84,
+            "smer": 671
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/6/19",
+            "otrok": 85,
+            "smer": 672
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "6/6/19",
+            "otrok": 86,
+            "smer": 673
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/6/19",
+            "otrok": 87,
+            "smer": 674
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/6/19",
+            "otrok": 88,
+            "smer": 671
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/6/19",
+            "otrok": 89,
+            "smer": 672
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "6/6/19",
+            "otrok": 90,
+            "smer": 673
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "6/6/19",
+            "otrok": 1,
+            "smer": 674
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "6/6/19",
+            "otrok": 2,
+            "smer": 674
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "6/6/19",
+            "otrok": 3,
+            "smer": 674
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "5/24/20",
+            "otrok": 4,
+            "smer": 675
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "5/24/20",
+            "otrok": 5,
+            "smer": 676
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "5/24/20",
+            "otrok": 6,
+            "smer": 677
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "5/24/20",
+            "otrok": 7,
+            "smer": 675
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "5/24/20",
+            "otrok": 8,
+            "smer": 676
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "5/24/20",
+            "otrok": 9,
+            "smer": 677
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "5/24/20",
+            "otrok": 10,
+            "smer": 677
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "5/24/20",
+            "otrok": 11,
+            "smer": 676
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "10/15/19",
+            "otrok": 12,
+            "smer": 655
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "10/15/19",
+            "otrok": 13,
+            "smer": 656
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "10/15/19",
+            "otrok": 14,
+            "smer": 657
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "10/15/19",
+            "otrok": 15,
+            "smer": 658
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "10/15/19",
+            "otrok": 16,
+            "smer": 659
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "10/15/19",
+            "otrok": 17,
+            "smer": 655
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "10/15/19",
+            "otrok": 18,
+            "smer": 656
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "10/15/19",
+            "otrok": 19,
+            "smer": 657
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "10/15/19",
+            "otrok": 20,
+            "smer": 658
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 22,
+            "smer": 642
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 23,
+            "smer": 643
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 24,
+            "smer": 644
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 25,
+            "smer": 645
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 26,
+            "smer": 646
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 27,
+            "smer": 647
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 28,
+            "smer": 648
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 29,
+            "smer": 649
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 30,
+            "smer": 650
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 31,
+            "smer": 651
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 32,
+            "smer": 652
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 33,
+            "smer": 653
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 34,
+            "smer": 654
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 35,
+            "smer": 642
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 36,
+            "smer": 643
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 37,
+            "smer": 644
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 38,
+            "smer": 645
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 39,
+            "smer": 646
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 40,
+            "smer": 647
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 41,
+            "smer": 648
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 42,
+            "smer": 649
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 43,
+            "smer": 650
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 44,
+            "smer": 651
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 45,
+            "smer": 652
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 46,
+            "smer": 653
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 47,
+            "smer": 654
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 48,
+            "smer": 642
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 49,
+            "smer": 643
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 50,
+            "smer": 644
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 51,
+            "smer": 645
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 52,
+            "smer": 646
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "7/9/19",
+            "otrok": 53,
+            "smer": 647
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 29,
+            "smer": 601
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 30,
+            "smer": 602
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 31,
+            "smer": 611
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 32,
+            "smer": 612
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 33,
+            "smer": 619
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 34,
+            "smer": 622
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 35,
+            "smer": 623
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 36,
+            "smer": 624
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 37,
+            "smer": 625
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 38,
+            "smer": 626
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 39,
+            "smer": 627
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 40,
+            "smer": 601
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 41,
+            "smer": 602
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 42,
+            "smer": 611
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 43,
+            "smer": 612
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 44,
+            "smer": 619
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 45,
+            "smer": 622
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 46,
+            "smer": 623
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 47,
+            "smer": 624
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 48,
+            "smer": 625
+        },
+        {
+            "nacin": "na pogled",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 49,
+            "smer": 626
+        },
+        {
+            "nacin": "na Flash",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 50,
+            "smer": 627
+        },
+        {
+            "nacin": "z rdečo piko",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 51,
+            "smer": 625
+        },
+        {
+            "nacin": "top rope",
+            "datum preplezane smeri": "4/10/18",
+            "otrok": 52,
+            "smer": 626
+        }
+    ],
+    "otrok": [
+        {
+            "id": 1,
+            "ime": "Kristin",
+            "priimek": "Corbin",
+            "datum_rojstva": "9/16/06",
+            "leto_vpisa": 2015
+        },
+        {
+            "id": 2,
+            "ime": "Jeramy",
+            "priimek": "Huggins",
+            "datum_rojstva": "1/2/07",
+            "leto_vpisa": 2012
+        },
+        {
+            "id": 3,
+            "ime": "Marquita",
+            "priimek": "Hatch",
+            "datum_rojstva": "1/24/07",
+            "leto_vpisa": 2020
+        },
+        {
+            "id": 4,
+            "ime": "Nicola",
+            "priimek": "Lanier",
+            "datum_rojstva": "5/24/08",
+            "leto_vpisa": 2019
+        },
+        {
+            "id": 5,
+            "ime": "Tijuana",
+            "priimek": "Livingston",
             "datum_rojstva": "7/12/08",
-            "leto_vpisa": "2014",
-            "stars_id": "105",
-            "stars_ime": "Maryann ",
-            "stars_priimek": "Livingston",
-            "stars_mail": "jparker@swaniawski.com",
-            "stars_naslov": "Trstenik 12, 4204 Golnik",
-            "stars_telefon": "00386-405-558-4109",
-            "dobiva_maile": "Da",
-            "skupina_id": "405",
-            "skupina_ime": "�pelini",
-            "stevilo_treningov": "3",
-            "racun_id": "305",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/7/20",
-            "znesek": "45",
-            "trener_id": "205",
-            "trener_ime": "Ne�a",
-            "trener_priimek": "Hays",
-            "trener_mail": "kattie.beier@hotmail.com",
-            "trener_naslov": "Srednja vas pri �en�urju 202, 4208 �en�ur",
-            "trener_telefon": "00386-305-559-63",
-            "izlet_id": "505",
-            "izlet_datum": "10/15/19",
-            "plezalisce_id": "705",
-            "plezalisce_ime": "�rni Kal",
-            "smer_id": "605",
-            "smer_ime": "Turni smuk",
-            "datum_preplezane_smeri": "7/17/16"
+            "leto_vpisa": 2014
         },
         {
-            "otrok_id": "6",
-            "otrok_ime": "Marylynn",
-            "otrok_priimek": "Snider",
+            "id": 6,
+            "ime": "Marylynn",
+            "priimek": "Snider",
             "datum_rojstva": "10/23/08",
-            "leto_vpisa": "2016",
-            "stars_id": "106",
-            "stars_ime": "Jason ",
-            "stars_priimek": "Snider",
-            "stars_mail": "elda.farrell@yahoo.com",
-            "stars_naslov": "Belska cesta 26, 4205 Preddvor",
-            "stars_telefon": "00386-405-553-2578",
-            "dobiva_maile": "Da",
-            "skupina_id": "406",
-            "skupina_ime": "Veverice",
-            "stevilo_treningov": "2",
-            "racun_id": "306",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/8/20",
-            "znesek": "45",
-            "trener_id": "206",
-            "trener_ime": "Teja",
-            "trener_priimek": "Galindo",
-            "trener_mail": "murl.murray@gmail.com",
-            "trener_naslov": "Hotema�e 116, 4205 Preddvor",
-            "trener_telefon": "00386-415-552-51",
-            "izlet_id": "506",
-            "izlet_datum": "2/15/20",
-            "plezalisce_id": "706",
-            "plezalisce_ime": "Vipava",
-            "smer_id": "606",
-            "smer_ime": "AS",
-            "datum_preplezane_smeri": "8/19/16"
+            "leto_vpisa": 2016
         },
         {
-            "otrok_id": "7",
-            "otrok_ime": "Jesusa",
-            "otrok_priimek": "Morrison",
+            "id": 7,
+            "ime": "Jesusa",
+            "priimek": "Morrison",
             "datum_rojstva": "6/3/09",
-            "leto_vpisa": "2017",
-            "stars_id": "107",
-            "stars_ime": "Charles ",
-            "stars_priimek": "Morrison",
-            "stars_mail": "alvera59@little.com",
-            "stars_naslov": "Velesovo 58a, 4207 Cerklje",
-            "stars_telefon": "00386-305-551-8879",
-            "dobiva_maile": "Ne",
-            "skupina_id": "407",
-            "skupina_ime": "Klovni",
-            "stevilo_treningov": "1",
-            "racun_id": "307",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/9/20",
-            "znesek": "40",
-            "trener_id": "207",
-            "trener_ime": "Meta",
-            "trener_priimek": "Koehler",
-            "trener_mail": "vthompson@cummerata.com",
-            "trener_naslov": "Jezerska cesta 118, 4000 Kranj",
-            "trener_telefon": "00386-405-556-688",
-            "izlet_id": "507",
-            "izlet_datum": "3/24/20",
-            "plezalisce_id": "707",
-            "plezalisce_ime": "Kamnitnik",
-            "smer_id": "607",
-            "smer_ime": "�rni gaber",
-            "datum_preplezane_smeri": "12/4/16"
+            "leto_vpisa": 2017
         },
         {
-            "otrok_id": "8",
-            "otrok_ime": "Alfred",
-            "otrok_priimek": "Mcgrath",
+            "id": 8,
+            "ime": "Alfred",
+            "priimek": "Mcgrath",
             "datum_rojstva": "4/22/11",
-            "leto_vpisa": "2020",
-            "stars_id": "108",
-            "stars_ime": "Marcy ",
-            "stars_priimek": "Mcgrath",
-            "stars_mail": "cgrimes@frami.net",
-            "stars_naslov": "Dol�anova pot 1, 4000 kranj",
-            "stars_telefon": "00386-645-552-31",
-            "dobiva_maile": "Ne",
-            "skupina_id": "408",
-            "skupina_ime": "Tejini",
-            "stevilo_treningov": "2",
-            "racun_id": "308",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/10/20",
-            "znesek": "50",
-            "trener_id": "208",
-            "trener_ime": "Gal",
-            "trener_priimek": "Flowers",
-            "trener_mail": "doyle47@hotmail.com",
-            "trener_naslov": "�upan�i�eva ulica 3, 4000 Kranj",
-            "trener_telefon": "00386-605-557-287",
-            "izlet_id": "508",
-            "izlet_datum": "7/5/20",
-            "plezalisce_id": "708",
-            "plezalisce_ime": "Preddvor",
-            "smer_id": "608",
-            "smer_ime": "Slovenska vojska",
-            "datum_preplezane_smeri": "12/6/16"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "9",
-            "otrok_ime": "Onie",
-            "otrok_priimek": "Rodriquez",
+            "id": 9,
+            "ime": "Onie",
+            "priimek": "Rodriquez",
             "datum_rojstva": "7/7/11",
-            "leto_vpisa": "2019",
-            "stars_id": "109",
-            "stars_ime": "Freida ",
-            "stars_priimek": "Rodriquez",
-            "stars_mail": "branson67@gmail.com",
-            "stars_naslov": "Kebetova ul. 18",
-            "stars_telefon": "00386-205-553-258",
-            "dobiva_maile": "Ne",
-            "skupina_id": "409",
-            "skupina_ime": "Mi�ice",
-            "stevilo_treningov": "3",
-            "racun_id": "309",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/17/20",
-            "znesek": "50",
-            "trener_id": "209",
-            "trener_ime": "Dominik",
-            "trener_priimek": "Adams",
-            "trener_mail": "ehaag@nicolas.org",
-            "trener_naslov": "Stru�evo 3d, 4000 Kranj",
-            "trener_telefon": "00386-615-558-361",
-            "plezalisce_id": "709",
-            "plezalisce_ime": "Nomenj",
-            "smer_id": "609",
-            "smer_ime": "Raz",
-            "datum_preplezane_smeri": "12/21/16"
+            "leto_vpisa": 2019
         },
         {
-            "otrok_id": "10",
-            "otrok_ime": "Raul",
-            "otrok_priimek": "Blue",
+            "id": 10,
+            "ime": "Raul",
+            "priimek": "Blue",
             "datum_rojstva": "7/30/11",
-            "leto_vpisa": "2020",
-            "stars_id": "110",
-            "stars_ime": "Estella ",
-            "stars_priimek": "Blue",
-            "stars_mail": "rosamond86@jerde.com",
-            "stars_naslov": "Cesta Kokr�kega odreda 30, Kranj",
-            "stars_telefon": "00386-215-550-64",
-            "dobiva_maile": "Da",
-            "skupina_id": "410",
-            "skupina_ime": "Ne�ine punce",
-            "stevilo_treningov": "2",
-            "racun_id": "310",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/18/20",
-            "znesek": "45",
-            "trener_id": "210",
-            "trener_ime": "Teja",
-            "trener_priimek": "Farrell",
-            "trener_mail": "marilyne29@yahoo.com",
-            "trener_naslov": "Cesta Jaka Plati�e 9, 4000 Kranj",
-            "trener_telefon": "00386-645-559-34",
-            "smer_id": "610",
-            "smer_ime": "Siva po�",
-            "datum_preplezane_smeri": "2/13/17"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "11",
-            "otrok_ime": "Clemencia",
-            "otrok_priimek": "Curran",
+            "id": 11,
+            "ime": "Clemencia",
+            "priimek": "Curran",
             "datum_rojstva": "2/25/12",
-            "leto_vpisa": "2020",
-            "stars_id": "111",
-            "stars_ime": "Imelda ",
-            "stars_priimek": "Curran",
-            "stars_mail": "mschneider@batz.info",
-            "stars_naslov": "Mo�e 40, 1216 Smlednik",
-            "stars_telefon": "00386-605-552-3744",
-            "dobiva_maile": "Da",
-            "skupina_id": "411",
-            "skupina_ime": "Fonovi",
-            "stevilo_treningov": "2",
-            "racun_id": "311",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/19/20",
-            "znesek": "45",
-            "trener_id": "211",
-            "trener_ime": "Ma�a",
-            "trener_priimek": "Beaver",
-            "trener_mail": "greenholt.michaela@hotmail.com",
-            "trener_naslov": "Pot na Jo�ta 59,Stra�i��e",
-            "trener_telefon": "00386-705-550-9872",
-            "smer_id": "611",
-            "smer_ime": "Binetova",
-            "datum_preplezane_smeri": "2/16/17"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "12",
-            "otrok_ime": "Ahmed",
-            "otrok_priimek": "Wesley",
+            "id": 12,
+            "ime": "Ahmed",
+            "priimek": "Wesley",
             "datum_rojstva": "6/21/12",
-            "leto_vpisa": "2017",
-            "stars_id": "112",
-            "stars_ime": "Lonny ",
-            "stars_priimek": "Wesley",
-            "stars_mail": "sage33@gmail.com",
-            "stars_naslov": "Pe�nica 17, 4201 Zgornja Besnica",
-            "stars_telefon": "00386-215-554-61",
-            "dobiva_maile": "Da",
-            "skupina_id": "412",
-            "skupina_ime": "Medvedki",
-            "stevilo_treningov": "1",
-            "racun_id": "312",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "45",
-            "trener_id": "212",
-            "trener_ime": "Mia",
-            "trener_priimek": "Duke",
-            "trener_mail": "cronin.dejon@hotmail.com",
-            "trener_naslov": "Pot na Jo�ta 59,Stra�i��e",
-            "trener_telefon": "00386-645-553-499",
-            "smer_id": "612",
-            "smer_ime": "Juretova",
-            "datum_preplezane_smeri": "6/30/17"
+            "leto_vpisa": 2017
         },
         {
-            "otrok_id": "13",
-            "otrok_ime": "Ria",
-            "otrok_priimek": "Frazier",
+            "id": 13,
+            "ime": "Ria",
+            "priimek": "Frazier",
             "datum_rojstva": "6/8/11",
-            "leto_vpisa": "2018",
-            "stars_id": "113",
-            "stars_ime": "Amalia ",
-            "stars_priimek": "Frazier",
-            "stars_mail": "hilda.fahey@yahoo.com",
-            "stars_naslov": "Ul. Angelce Hlebce 1a, 4000 Kranj",
-            "stars_telefon": "00386-215-554-80",
-            "dobiva_maile": "Da",
-            "skupina_id": "413",
-            "skupina_ime": "Evini",
-            "stevilo_treningov": "2",
-            "racun_id": "313",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/27/20",
-            "znesek": "45",
-            "trener_id": "213",
-            "trener_ime": "Tonja",
-            "trener_priimek": "Zavala",
-            "trener_mail": "esta.watsica@sawayn.com",
-            "trener_naslov": "Hotema�e 120, 4205 Preddvor",
-            "trener_telefon": "00386-415-559-387",
-            "smer_id": "613",
-            "smer_ime": "Mravljica",
-            "datum_preplezane_smeri": "10/14/17"
+            "leto_vpisa": 2018
         },
         {
-            "otrok_id": "14",
-            "otrok_ime": "Eve",
-            "otrok_priimek": "Hedrick",
+            "id": 14,
+            "ime": "Eve",
+            "priimek": "Hedrick",
             "datum_rojstva": "10/8/14",
-            "leto_vpisa": "2020",
-            "stars_id": "114",
-            "stars_ime": "Beverley ",
-            "stars_priimek": "Hedrick",
-            "stars_mail": "bernard.leuschke@gmail.com",
-            "stars_naslov": "Drol�evo naselje 3, 4000 Kranj",
-            "stars_telefon": "00386-415-551-636",
-            "dobiva_maile": "Da",
-            "skupina_id": "414",
-            "skupina_ime": "�alce",
-            "stevilo_treningov": "1",
-            "racun_id": "314",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/29/20",
-            "znesek": "45",
-            "trener_id": "214",
-            "trener_ime": "Brina",
-            "trener_priimek": "Heller",
-            "trener_mail": "schamberger.moises@botsford.net",
-            "trener_naslov": "Hotema�e 120, 4205 Preddvor",
-            "trener_telefon": "00386-715-553-60",
-            "smer_id": "614",
-            "smer_ime": "Beli cvet",
-            "datum_preplezane_smeri": "11/1/17"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "15",
-            "otrok_ime": "Matthew",
-            "otrok_priimek": "Myers",
+            "id": 15,
+            "ime": "Matthew",
+            "priimek": "Myers",
             "datum_rojstva": "1/7/13",
-            "leto_vpisa": "2019",
-            "stars_id": "115",
-            "stars_ime": "Renaldo",
-            "stars_priimek": "Myers",
-            "stars_mail": "eliseo.windler@yahoo.com",
-            "stars_naslov": "Sor�ka ulica 8, 4000 Kranj",
-            "stars_telefon": "00386-605-555-61",
-            "dobiva_maile": "Ne",
-            "skupina_id": "415",
-            "skupina_ime": "Svizci",
-            "stevilo_treningov": "1",
-            "racun_id": "315",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "30",
-            "smer_id": "615",
-            "smer_ime": "Sirove luknje",
-            "datum_preplezane_smeri": "1/21/18"
+            "leto_vpisa": 2019
         },
         {
-            "otrok_id": "16",
-            "otrok_ime": "Rea",
-            "otrok_priimek": "Winkler",
+            "id": 16,
+            "ime": "Rea",
+            "priimek": "Winkler",
             "datum_rojstva": "3/7/96",
-            "leto_vpisa": "2018",
-            "stars_id": "116",
-            "stars_ime": "Dora ",
-            "stars_priimek": "Winkler",
-            "stars_mail": "hand.addison@littel.com",
-            "stars_naslov": "Breg ob Savi 15a, 4211 Mav�i�e",
-            "stars_telefon": "00386-615-558-7",
-            "dobiva_maile": "Ne",
-            "skupina_id": "416",
-            "skupina_ime": "Krtki",
-            "stevilo_treningov": "2",
-            "racun_id": "316",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/2/20",
-            "znesek": "25",
-            "smer_id": "616",
-            "smer_ime": "Ementalec",
-            "datum_preplezane_smeri": "4/10/18"
+            "leto_vpisa": 2018
         },
         {
-            "otrok_id": "17",
-            "otrok_ime": "Daphne",
-            "otrok_priimek": "Mohr",
+            "id": 17,
+            "ime": "Daphne",
+            "priimek": "Mohr",
             "datum_rojstva": "6/23/96",
-            "leto_vpisa": "2014",
-            "stars_id": "117",
-            "stars_ime": "Carl ",
-            "stars_priimek": "Mohr",
-            "stars_mail": "gutkowski.agustina@yahoo.com",
-            "stars_naslov": "Ulica Lojzata Horvata 9, 4000 Kranj",
-            "stars_telefon": "00386-715-553-3190",
-            "dobiva_maile": "Da",
-            "skupina_id": "417",
-            "skupina_ime": "Miini",
-            "stevilo_treningov": "2",
-            "racun_id": "317",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/3/20",
-            "znesek": "25",
-            "smer_id": "617",
-            "smer_ime": "Fizika",
-            "datum_preplezane_smeri": "4/17/18"
+            "leto_vpisa": 2014
         },
         {
-            "otrok_id": "18",
-            "otrok_ime": "Gianna",
-            "otrok_priimek": "Pettit",
+            "id": 18,
+            "ime": "Gianna",
+            "priimek": "Pettit",
             "datum_rojstva": "8/21/96",
-            "leto_vpisa": "2019",
-            "stars_id": "118",
-            "stars_ime": "Dallas ",
-            "stars_priimek": "Pettit",
-            "stars_mail": "earl27@gleason.org",
-            "stars_naslov": "Luznarjeva 15, 4000 Kranj",
-            "stars_telefon": "00386-705-557-35",
-            "dobiva_maile": "Da",
-            "skupina_id": "418",
-            "skupina_ime": "Bolder�ki",
-            "stevilo_treningov": "1",
-            "racun_id": "318",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/4/20",
-            "znesek": "40",
-            "smer_id": "618",
-            "smer_ime": "Sivi steber",
-            "datum_preplezane_smeri": "10/24/18"
+            "leto_vpisa": 2019
         },
         {
-            "otrok_id": "19",
-            "otrok_ime": "Ruthe",
-            "otrok_priimek": "Charles",
+            "id": 19,
+            "ime": "Ruthe",
+            "priimek": "Charles",
             "datum_rojstva": "10/18/96",
-            "leto_vpisa": "2019",
-            "stars_id": "119",
-            "stars_ime": "Efrain ",
-            "stars_priimek": "Charles",
-            "stars_mail": "gpredovic@yahoo.com",
-            "stars_naslov": "Trnovlje 50, 4207 Cerklje",
-            "stars_telefon": "00386-215-553-91",
-            "dobiva_maile": "Da",
-            "racun_id": "319",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "50",
-            "smer_id": "619",
-            "smer_ime": "Plava",
-            "datum_preplezane_smeri": "11/8/18"
+            "leto_vpisa": 2019
         },
         {
-            "otrok_id": "20",
-            "otrok_ime": "Irvin",
-            "otrok_priimek": "Keene",
+            "id": 20,
+            "ime": "Irvin",
+            "priimek": "Keene",
             "datum_rojstva": "4/19/97",
-            "leto_vpisa": "2015",
-            "stars_id": "120",
-            "stars_ime": "Helga ",
-            "stars_priimek": "Keene",
-            "stars_mail": "mernser@gmail.com",
-            "stars_naslov": "Britof, 4000 Kranj",
-            "stars_telefon": "00386-315-558-751",
-            "dobiva_maile": "Da",
-            "racun_id": "320",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/6/20",
-            "znesek": "45",
-            "smer_id": "620",
-            "smer_ime": "Sova",
-            "datum_preplezane_smeri": "11/16/18"
+            "leto_vpisa": 2015
         },
         {
-            "otrok_id": "21",
-            "otrok_ime": "Leanora",
-            "otrok_priimek": "Baldwin",
+            "id": 21,
+            "ime": "Leanora",
+            "priimek": "Baldwin",
             "datum_rojstva": "11/22/97",
-            "leto_vpisa": "2019",
-            "stars_id": "121",
-            "stars_ime": "Bernadette",
-            "stars_priimek": "Baldwin",
-            "stars_mail": "providenci.terry@gleichner.com",
-            "stars_naslov": "Breg ob Savi 103, 4211 Mav�i�e",
-            "stars_telefon": "00386-305-554-327",
-            "dobiva_maile": "Da",
-            "racun_id": "321",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/9/20",
-            "znesek": "45",
-            "smer_id": "621",
-            "smer_ime": "Mamut",
-            "datum_preplezane_smeri": "11/21/18"
+            "leto_vpisa": 2019
         },
         {
-            "otrok_id": "22",
-            "otrok_ime": "Walker",
-            "otrok_priimek": "Schmidt",
+            "id": 22,
+            "ime": "Walker",
+            "priimek": "Schmidt",
             "datum_rojstva": "12/23/99",
-            "leto_vpisa": "2015",
-            "stars_id": "122",
-            "stars_ime": "Francis ",
-            "stars_priimek": "Schmidt",
-            "stars_mail": "lew92@strosin.com",
-            "stars_naslov": "Cesta na Hudo 2, 4000 Kranj",
-            "stars_telefon": "00386-315-554-6114",
-            "dobiva_maile": "Da",
-            "racun_id": "322",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/12/20",
-            "znesek": "50",
-            "datum_preplezane_smeri": "5/4/19"
+            "leto_vpisa": 2015
         },
         {
-            "otrok_id": "23",
-            "otrok_ime": "Cassidy",
-            "otrok_priimek": "Robinson",
+            "id": 23,
+            "ime": "Cassidy",
+            "priimek": "Robinson",
             "datum_rojstva": "7/21/00",
-            "leto_vpisa": "2018",
-            "stars_id": "123",
-            "stars_ime": "Larry ",
-            "stars_priimek": "Robinson",
-            "stars_mail": "rohan.marshall@feeney.com",
-            "stars_naslov": "Preba�evo 12, 4000 Kranj",
-            "stars_telefon": "00386-305-558-89",
-            "dobiva_maile": "Da",
-            "racun_id": "323",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/14/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "1/9/20"
+            "leto_vpisa": 2018
         },
         {
-            "otrok_id": "24",
-            "otrok_ime": "Katherine",
-            "otrok_priimek": "Hays",
+            "id": 24,
+            "ime": "Katherine",
+            "priimek": "Hays",
             "datum_rojstva": "12/11/01",
-            "leto_vpisa": "2016",
-            "stars_id": "124",
-            "stars_ime": "Seth ",
-            "stars_priimek": "Hays",
-            "stars_mail": "harvey.christop@kutch.com",
-            "stars_naslov": "4204 Golnik, Golnik 10d",
-            "stars_telefon": "00386-645-556-9",
-            "dobiva_maile": "Da",
-            "racun_id": "324",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "30",
-            "datum_preplezane_smeri": "1/16/20"
+            "leto_vpisa": 2016
         },
         {
-            "otrok_id": "25",
-            "otrok_ime": "Abbie",
-            "otrok_priimek": "Galindo",
+            "id": 25,
+            "ime": "Abbie",
+            "priimek": "Galindo",
             "datum_rojstva": "1/23/03",
-            "leto_vpisa": "2014",
-            "stars_id": "125",
-            "stars_ime": "Cassidy",
-            "stars_priimek": "Galindo",
-            "stars_mail": "cade12@yahoo.com",
-            "stars_naslov": "Gasilska ulica 7, 4000 Kranj",
-            "stars_telefon": "00386-405-559-56",
-            "dobiva_maile": "Da",
-            "racun_id": "325",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/17/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "8/3/20"
+            "leto_vpisa": 2014
         },
         {
-            "otrok_id": "26",
-            "otrok_ime": "Erlene",
-            "otrok_priimek": "Koehler",
+            "id": 26,
+            "ime": "Erlene",
+            "priimek": "Koehler",
             "datum_rojstva": "3/21/03",
-            "leto_vpisa": "2013",
-            "stars_id": "126",
-            "stars_ime": "Collin ",
-            "stars_priimek": "Koehler",
-            "stars_mail": "marvin.bauch@hotmail.com",
-            "stars_naslov": "Golnik 85, 4204 Golnik",
-            "stars_telefon": "00386-515-553-11",
-            "dobiva_maile": "Da",
-            "racun_id": "326",
-            "racun_datum": "6/26/20",
-            "datum_placila": "6/26/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "4/27/14"
+            "leto_vpisa": 2013
         },
         {
-            "otrok_id": "27",
-            "otrok_ime": "Shela",
-            "otrok_priimek": "Flowers",
+            "id": 27,
+            "ime": "Shela",
+            "priimek": "Flowers",
             "datum_rojstva": "9/30/03",
-            "leto_vpisa": "2020",
-            "stars_id": "127",
-            "stars_ime": "Delia ",
-            "stars_priimek": "Flowers",
-            "stars_mail": "xkuvalis@hotmail.com",
-            "stars_naslov": "Kuratova 4, 4000 Kranj",
-            "stars_telefon": "00386-215-551-98",
-            "dobiva_maile": "Ne",
-            "racun_id": "327",
-            "racun_datum": "6/26/20",
-            "datum_placila": "6/27/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "8/21/14"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "28",
-            "otrok_ime": "Annabell",
-            "otrok_priimek": "Keys",
+            "id": 28,
+            "ime": "Annabell",
+            "priimek": "Keys",
             "datum_rojstva": "2/18/04",
-            "leto_vpisa": "2016",
-            "stars_id": "128",
-            "stars_ime": "Lenore ",
-            "stars_priimek": "Keys",
-            "stars_mail": "corkery.eliza@gmail.com",
-            "stars_naslov": "Smedni�la cesta 55, 4000 Kranj",
-            "stars_telefon": "00386-215-554-9731",
-            "dobiva_maile": "Ne",
-            "racun_id": "328",
-            "racun_datum": "6/26/20",
-            "datum_placila": "6/28/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "8/23/14"
+            "leto_vpisa": 2016
         },
         {
-            "otrok_id": "29",
-            "otrok_ime": "Earleen",
-            "otrok_priimek": "Bergeron",
+            "id": 29,
+            "ime": "Earleen",
+            "priimek": "Bergeron",
             "datum_rojstva": "5/8/04",
-            "leto_vpisa": "2013",
-            "stars_id": "129",
-            "stars_ime": "Andrea ",
-            "stars_priimek": "Bergeron",
-            "stars_mail": "lindgren.rafael@hotmail.com",
-            "stars_naslov": "Nova vas 16, 4201 Zg. Besnica",
-            "stars_telefon": "00386-605-553-486",
-            "dobiva_maile": "Da",
-            "racun_id": "329",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/1/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "3/27/15"
+            "leto_vpisa": 2013
         },
         {
-            "otrok_id": "30",
-            "otrok_ime": "Eloise",
-            "otrok_priimek": "Holland",
+            "id": 30,
+            "ime": "Eloise",
+            "priimek": "Holland",
             "datum_rojstva": "3/5/05",
-            "leto_vpisa": "2019",
-            "stars_id": "130",
-            "stars_ime": "Dina",
-            "stars_priimek": "Holland",
-            "stars_mail": "kbode@glover.biz",
-            "stars_naslov": "Okornova ulica 14, 4000 Kranj",
-            "stars_telefon": "00386-215-559-8476",
-            "dobiva_maile": "Da",
-            "racun_id": "330",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/4/20",
-            "znesek": "40",
-            "datum_preplezane_smeri": "9/20/15"
+            "leto_vpisa": 2019
         },
         {
-            "otrok_id": "31",
-            "otrok_ime": "Robt",
-            "otrok_priimek": "Ritchie",
+            "id": 31,
+            "ime": "Robt",
+            "priimek": "Ritchie",
             "datum_rojstva": "3/13/05",
-            "leto_vpisa": "2014",
-            "stars_id": "131",
-            "stars_ime": "Paul ",
-            "stars_priimek": "Ritchie",
-            "stars_mail": "paxton78@schmitt.com",
-            "stars_naslov": "Mandelj�eva pot 12, 4000 Kranj",
-            "stars_telefon": "00386-505-555-3725",
-            "dobiva_maile": "Da",
-            "racun_id": "331",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "30",
-            "datum_preplezane_smeri": "11/30/15"
+            "leto_vpisa": 2014
         },
         {
-            "otrok_id": "32",
-            "otrok_ime": "Dorcas",
-            "otrok_priimek": "Franks",
+            "id": 32,
+            "ime": "Dorcas",
+            "priimek": "Franks",
             "datum_rojstva": "3/19/05",
-            "leto_vpisa": "2016",
-            "stars_id": "132",
-            "stars_ime": "Ashley ",
-            "stars_priimek": "Franks",
-            "stars_mail": "arne52@runolfsson.com",
-            "stars_naslov": "Luznarjeva ulica 12, 4000 Kranj",
-            "stars_telefon": "00386-315-554-851",
-            "dobiva_maile": "Da",
-            "racun_id": "332",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "40",
-            "datum_preplezane_smeri": "12/28/15"
+            "leto_vpisa": 2016
         },
         {
-            "otrok_id": "33",
-            "otrok_ime": "Bianca",
-            "otrok_priimek": "Maher",
+            "id": 33,
+            "ime": "Bianca",
+            "priimek": "Maher",
             "datum_rojstva": "8/17/05",
-            "leto_vpisa": "2020",
-            "stars_id": "133",
-            "stars_ime": "Penny ",
-            "stars_priimek": "Maher",
-            "stars_mail": "mallory.kunde@dooley.net",
-            "stars_naslov": "Zoisova ulica 17, 4000 Kranj",
-            "stars_telefon": "00386-615-559-23",
-            "dobiva_maile": "Da",
-            "racun_id": "333",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/13/20",
-            "znesek": "25",
-            "datum_preplezane_smeri": "3/28/16"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "34",
-            "otrok_ime": "Sung",
-            "otrok_priimek": "Langston",
+            "id": 34,
+            "ime": "Sung",
+            "priimek": "Langston",
             "datum_rojstva": "4/3/08",
-            "leto_vpisa": "2014",
-            "stars_id": "134",
-            "stars_ime": "Osvaldo ",
-            "stars_priimek": "Langston",
-            "stars_mail": "nathanael22@hotmail.com",
-            "stars_naslov": "Srednja vas pri �en�urju 4, 4208 �en�ur",
-            "stars_telefon": "00386-315-553-5601",
-            "dobiva_maile": "Da",
-            "racun_id": "334",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/14/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "6/26/16"
+            "leto_vpisa": 2014
         },
         {
-            "otrok_id": "35",
-            "otrok_ime": "Ena",
-            "otrok_priimek": "Mccoy",
+            "id": 35,
+            "ime": "Ena",
+            "priimek": "Mccoy",
             "datum_rojstva": "4/8/10",
-            "leto_vpisa": "2018",
-            "stars_id": "135",
-            "stars_ime": "Kip ",
-            "stars_priimek": "Mccoy",
-            "stars_mail": "maxwell02@hamill.com",
-            "stars_naslov": "�pikova 3, 4000 Kranj",
-            "stars_telefon": "00386-645-551-8754",
-            "dobiva_maile": "Da",
-            "racun_id": "335",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/16/20",
-            "znesek": "25",
-            "datum_preplezane_smeri": "9/24/16"
+            "leto_vpisa": 2018
         },
         {
-            "otrok_id": "36",
-            "otrok_ime": "Sana",
-            "otrok_priimek": "Meade",
+            "id": 36,
+            "ime": "Sana",
+            "priimek": "Meade",
             "datum_rojstva": "5/19/10",
-            "leto_vpisa": "2019",
-            "stars_id": "136",
-            "stars_ime": "Brandie ",
-            "stars_priimek": "Meade",
-            "stars_mail": "melvin.wunsch@moore.org",
-            "stars_naslov": "�tefetova ulica 33, 4208 �en�ur",
-            "stars_telefon": "00386-645-550-63",
-            "dobiva_maile": "Da",
-            "racun_id": "336",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "30",
-            "datum_preplezane_smeri": "5/8/17"
+            "leto_vpisa": 2019
         },
         {
-            "otrok_id": "37",
-            "otrok_ime": "Bridgett",
-            "otrok_priimek": "David",
+            "id": 37,
+            "ime": "Bridgett",
+            "priimek": "David",
             "datum_rojstva": "6/27/10",
-            "leto_vpisa": "2016",
-            "stars_id": "137",
-            "stars_ime": "Roxanne ",
-            "stars_priimek": "David",
-            "stars_mail": "nhessel@prosacco.com",
-            "stars_naslov": "Spodnje Gameljne 9c, 1211 Ljubljana-�martno",
-            "stars_telefon": "00386-705-558-14",
-            "dobiva_maile": "Ne",
-            "racun_id": "337",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "30",
-            "datum_preplezane_smeri": "5/27/17"
+            "leto_vpisa": 2016
         },
         {
-            "otrok_id": "38",
-            "otrok_ime": "Fermina",
-            "otrok_priimek": "Trejo",
+            "id": 38,
+            "ime": "Fermina",
+            "priimek": "Trejo",
             "datum_rojstva": "9/11/10",
-            "leto_vpisa": "2019",
-            "stars_id": "138",
-            "stars_ime": "Max ",
-            "stars_priimek": "Trejo",
-            "stars_mail": "kovacek.mathew@hotmail.com",
-            "stars_naslov": "Srednja vas pri �en�urju 72, 4208 �en�ur",
-            "stars_telefon": "00386-405-555-64",
-            "dobiva_maile": "Da",
-            "racun_id": "338",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "45",
-            "datum_preplezane_smeri": "6/1/17"
+            "leto_vpisa": 2019
         },
         {
-            "otrok_id": "39",
-            "otrok_ime": "Milan",
-            "otrok_priimek": "Cornell",
+            "id": 39,
+            "ime": "Milan",
+            "priimek": "Cornell",
             "datum_rojstva": "3/26/12",
-            "leto_vpisa": "2017",
-            "stars_id": "139",
-            "stars_ime": "Evan ",
-            "stars_priimek": "Cornell",
-            "stars_mail": "thomas.lehner@yahoo.com",
-            "stars_naslov": "Preloge 16, 1000 Ljubljana",
-            "stars_telefon": "00386-205-552-123",
-            "dobiva_maile": "Ne",
-            "racun_id": "339",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/27/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "10/30/17"
+            "leto_vpisa": 2017
         },
         {
-            "otrok_id": "40",
-            "otrok_ime": "Jay",
-            "otrok_priimek": "Willis",
+            "id": 40,
+            "ime": "Jay",
+            "priimek": "Willis",
             "datum_rojstva": "9/21/13",
-            "leto_vpisa": "2019",
-            "stars_id": "140",
-            "stars_ime": "Jodie ",
-            "stars_priimek": "Willis",
-            "stars_mail": "bo.cremin@pacocha.info",
-            "stars_naslov": "Preloge 16, 1000 Ljubljana",
-            "stars_telefon": "00386-705-556-18",
-            "dobiva_maile": "Da",
-            "racun_id": "340",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/29/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "4/14/18"
+            "leto_vpisa": 2019
         },
         {
-            "otrok_id": "41",
-            "otrok_ime": "Joye",
-            "otrok_priimek": "Darling",
+            "id": 41,
+            "ime": "Joye",
+            "priimek": "Darling",
             "datum_rojstva": "12/13/13",
-            "leto_vpisa": "2020",
-            "stars_id": "141",
-            "stars_ime": "Dale ",
-            "stars_priimek": "Darling",
-            "stars_mail": "nicholaus.gulgowski@gmail.com",
-            "stars_naslov": "Detelova ulica 16, 4000 Kranj",
-            "stars_telefon": "00386-205-554-3810",
-            "dobiva_maile": "Da",
-            "racun_id": "341",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/30/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "5/31/18"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "42",
-            "otrok_ime": "Johnie",
-            "otrok_priimek": "Goss",
+            "id": 42,
+            "ime": "Johnie",
+            "priimek": "Goss",
             "datum_rojstva": "2/11/04",
-            "leto_vpisa": "2014",
-            "stars_id": "142",
-            "stars_ime": "Maher",
-            "stars_priimek": "Goss",
-            "stars_mail": "waelchi.raymundo@hotmail.com",
-            "stars_naslov": "Britof 95, 4000 Kranj",
-            "stars_telefon": "00386-515-558-503",
-            "dobiva_maile": "Da",
-            "racun_id": "342",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/1/20",
-            "znesek": "50",
-            "datum_preplezane_smeri": "9/8/18"
+            "leto_vpisa": 2014
         },
         {
-            "otrok_id": "43",
-            "otrok_ime": "Latricia",
-            "otrok_priimek": "Chu",
+            "id": 43,
+            "ime": "Latricia",
+            "priimek": "Chu",
             "datum_rojstva": "9/17/01",
-            "leto_vpisa": "2018",
-            "stars_id": "143",
-            "stars_ime": "Walker",
-            "stars_priimek": "Chu",
-            "stars_mail": "cmiller@gusikowski.com",
-            "stars_naslov": "�adovlje pri Tr�i�u 7/a, 4290 Tr�i�",
-            "stars_telefon": "00386-405-557-3471",
-            "dobiva_maile": "Da",
-            "racun_id": "343",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/5/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "10/23/18"
+            "leto_vpisa": 2018
         },
         {
-            "otrok_id": "44",
-            "otrok_ime": "Donny",
-            "otrok_priimek": "Battle",
+            "id": 44,
+            "ime": "Donny",
+            "priimek": "Battle",
             "datum_rojstva": "9/15/02",
-            "leto_vpisa": "2017",
-            "stars_id": "144",
-            "stars_ime": "Cassidy",
-            "stars_priimek": "Battle",
-            "stars_mail": "lakin.arnold@wiza.com",
-            "stars_naslov": "Trstenik 75, 4204 Golnik",
-            "stars_telefon": "00386-205-556-48",
-            "dobiva_maile": "Da",
-            "racun_id": "344",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/6/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "11/18/18"
+            "leto_vpisa": 2017
         },
         {
-            "otrok_id": "45",
-            "otrok_ime": "Joan",
-            "otrok_priimek": "Looney",
+            "id": 45,
+            "ime": "Joan",
+            "priimek": "Looney",
             "datum_rojstva": "12/14/02",
-            "leto_vpisa": "2017",
-            "stars_id": "145",
-            "stars_ime": "Katherine",
-            "stars_priimek": "Looney",
-            "stars_mail": "heller.dax@tillman.info",
-            "stars_naslov": "Preba�evo 58b, 4000 Kranj",
-            "stars_telefon": "00386-645-551-376",
-            "dobiva_maile": "Da",
-            "racun_id": "345",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/11/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "11/24/18"
+            "leto_vpisa": 2017
         },
         {
-            "otrok_id": "46",
-            "otrok_ime": "Torie",
-            "otrok_priimek": "Norris",
+            "id": 46,
+            "ime": "Torie",
+            "priimek": "Norris",
             "datum_rojstva": "3/5/03",
-            "leto_vpisa": "2016",
-            "stars_id": "146",
-            "stars_ime": "Abbie",
-            "stars_priimek": "Norris",
-            "stars_mail": "pagac.leonora@abshire.com",
-            "stars_naslov": "Sajov�evo naselje 4, 4208 �en�ur",
-            "stars_telefon": "00386-215-552-4812",
-            "dobiva_maile": "Da",
-            "racun_id": "346",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/14/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "12/14/18"
+            "leto_vpisa": 2016
         },
         {
-            "otrok_id": "47",
-            "otrok_ime": "Noe",
-            "otrok_priimek": "Holden",
+            "id": 47,
+            "ime": "Noe",
+            "priimek": "Holden",
             "datum_rojstva": "7/24/03",
-            "leto_vpisa": "2015",
-            "stars_id": "147",
-            "stars_ime": "Erlene",
-            "stars_priimek": "Holden",
-            "stars_mail": "rosie.kshlerin@yahoo.com",
-            "stars_naslov": "Kebetova ul. 18",
-            "stars_telefon": "00386-305-554-57",
-            "dobiva_maile": "Ne",
-            "racun_id": "347",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "30",
-            "datum_preplezane_smeri": "4/3/19"
+            "leto_vpisa": 2015
         },
         {
-            "otrok_id": "48",
-            "otrok_ime": "Lennie",
-            "otrok_priimek": "Chin",
+            "id": 48,
+            "ime": "Lennie",
+            "priimek": "Chin",
             "datum_rojstva": "8/20/03",
-            "leto_vpisa": "2020",
-            "stars_id": "148",
-            "stars_ime": "Shela",
-            "stars_priimek": "Chin",
-            "stars_mail": "clair55@hotmail.com",
-            "stars_naslov": "Trubarjev trg 10, 4000 Kranj",
-            "stars_telefon": "00386-705-550-751",
-            "dobiva_maile": "Da",
-            "racun_id": "348",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/18/20",
-            "znesek": "25",
-            "datum_preplezane_smeri": "7/28/19"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "49",
-            "otrok_ime": "Ela",
-            "otrok_priimek": "Hoskins",
+            "id": 49,
+            "ime": "Ela",
+            "priimek": "Hoskins",
             "datum_rojstva": "11/26/04",
-            "leto_vpisa": "2015",
-            "stars_id": "149",
-            "stars_ime": "Bernadette",
-            "stars_priimek": "Hoskins",
-            "stars_mail": "heber73@hotmail.com",
-            "stars_naslov": "Ulica Vide �inkov�eve 2, Kranj",
-            "stars_telefon": "00386-315-559-551",
-            "dobiva_maile": "Da",
-            "racun_id": "349",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/19/20",
-            "znesek": "25",
-            "datum_preplezane_smeri": "3/28/20"
+            "leto_vpisa": 2015
         },
         {
-            "otrok_id": "50",
-            "otrok_ime": "Jesenia",
-            "otrok_priimek": "Weir",
+            "id": 50,
+            "ime": "Jesenia",
+            "priimek": "Weir",
             "datum_rojstva": "12/20/04",
-            "leto_vpisa": "2014",
-            "stars_id": "150",
-            "stars_ime": "Francis ",
-            "stars_priimek": "Weir",
-            "stars_mail": "ebins@yahoo.com",
-            "stars_naslov": "Smledni�ka cesta 1, 4000 Kranj",
-            "stars_telefon": "00386-615-553-8992",
-            "dobiva_maile": "Da",
-            "racun_id": "350",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/20/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "8/1/20"
+            "leto_vpisa": 2014
         },
         {
-            "otrok_id": "51",
-            "otrok_ime": "Juliette",
-            "otrok_priimek": "Mcnamara",
+            "id": 51,
+            "ime": "Juliette",
+            "priimek": "Mcnamara",
             "datum_rojstva": "1/25/06",
-            "leto_vpisa": "2014",
-            "stars_id": "151",
-            "stars_ime": "Larry ",
-            "stars_priimek": "Mcnamara",
-            "stars_mail": "murray.alek@yahoo.com",
-            "stars_naslov": "�lebe 22a, 1215 Medvode",
-            "stars_telefon": "00386-415-554-26",
-            "dobiva_maile": "Da",
-            "racun_id": "351",
-            "racun_datum": "6/26/20",
-            "datum_placila": "6/26/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "11/30/14"
+            "leto_vpisa": 2014
         },
         {
-            "otrok_id": "52",
-            "otrok_ime": "Lee",
-            "otrok_priimek": "Bingham",
+            "id": 52,
+            "ime": "Lee",
+            "priimek": "Bingham",
             "datum_rojstva": "2/17/06",
-            "leto_vpisa": "2013",
-            "stars_id": "152",
-            "stars_ime": "Seth ",
-            "stars_priimek": "Bingham",
-            "stars_mail": "willms.baron@gmail.com",
-            "stars_naslov": "�lebe 2.e, 1215 Medvode",
-            "stars_telefon": "00386-705-555-56",
-            "dobiva_maile": "Da",
-            "racun_id": "352",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/2/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "6/3/15"
+            "leto_vpisa": 2013
         },
         {
-            "otrok_id": "53",
-            "otrok_ime": "Reyna",
-            "otrok_priimek": "Goss",
+            "id": 53,
+            "ime": "Reyna",
+            "priimek": "Goss",
             "datum_rojstva": "8/27/06",
-            "leto_vpisa": "2018",
-            "stars_id": "153",
-            "stars_ime": "Cassidy",
-            "stars_priimek": "Goss",
-            "stars_mail": "pohara@yahoo.com",
-            "stars_naslov": "Janka Puclja 3, 4000 Kranj",
-            "stars_telefon": "00386-705-557-176",
-            "dobiva_maile": "Da",
-            "racun_id": "353",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/3/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "9/28/15"
+            "leto_vpisa": 2018
         },
         {
-            "otrok_id": "54",
-            "otrok_ime": "Olinda",
-            "otrok_priimek": "Chatman",
+            "id": 54,
+            "ime": "Olinda",
+            "priimek": "Chatman",
             "datum_rojstva": "8/26/07",
-            "leto_vpisa": "2012",
-            "stars_id": "154",
-            "stars_ime": "Collin ",
-            "stars_priimek": "Chatman",
-            "stars_mail": "jedidiah.hegmann@johnston.info",
-            "stars_naslov": "Maistrov trg 11, 4000 Kranj",
-            "stars_telefon": "00386-315-553-48",
-            "dobiva_maile": "Da",
-            "racun_id": "354",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/4/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "10/2/15"
+            "leto_vpisa": 2012
         },
         {
-            "otrok_id": "55",
-            "otrok_ime": "Lavern",
-            "otrok_priimek": "Culver",
+            "id": 55,
+            "ime": "Lavern",
+            "priimek": "Culver",
             "datum_rojstva": "1/5/08",
-            "leto_vpisa": "2018",
-            "stars_id": "155",
-            "stars_ime": "Delia ",
-            "stars_priimek": "Culver",
-            "stars_mail": "josiane.kirlin@yahoo.com",
-            "stars_naslov": "�entur�ka Gora 12, 4207 Cerklje",
-            "stars_telefon": "00386-205-559-75",
-            "dobiva_maile": "Da",
-            "racun_id": "355",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/6/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "5/31/16"
+            "leto_vpisa": 2018
         },
         {
-            "otrok_id": "56",
-            "otrok_ime": "Gwen",
-            "otrok_priimek": "Grady",
+            "id": 56,
+            "ime": "Gwen",
+            "priimek": "Grady",
             "datum_rojstva": "2/23/08",
-            "leto_vpisa": "2020",
-            "stars_id": "156",
-            "stars_ime": "Lenore ",
-            "stars_priimek": "Grady",
-            "stars_mail": "senger.nicolette@yahoo.com",
-            "stars_naslov": "Trg Rivoli 3, 4000 Kranj",
-            "stars_telefon": "00386-715-552-2461",
-            "dobiva_maile": "Da",
-            "racun_id": "356",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/8/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "6/13/16"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "57",
-            "otrok_ime": "Claudie",
-            "otrok_priimek": "Metz",
+            "id": 57,
+            "ime": "Claudie",
+            "priimek": "Metz",
             "datum_rojstva": "3/10/09",
-            "leto_vpisa": "2013",
-            "stars_id": "157",
-            "stars_ime": "Andrea ",
-            "stars_priimek": "Metz",
-            "stars_mail": "chelsey94@gmail.com",
-            "stars_naslov": "Jelen�eva ulica 21, 4000 Kranj",
-            "stars_telefon": "00386-615-558-715",
-            "dobiva_maile": "Da",
-            "racun_id": "357",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/9/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "6/26/16"
+            "leto_vpisa": 2013
         },
         {
-            "otrok_id": "58",
-            "otrok_ime": "Verena",
-            "otrok_priimek": "Hinkle",
+            "id": 58,
+            "ime": "Verena",
+            "priimek": "Hinkle",
             "datum_rojstva": "3/15/09",
-            "leto_vpisa": "2017",
-            "stars_id": "158",
-            "stars_ime": "Waylon ",
-            "stars_priimek": "Hinkle",
-            "stars_mail": "nannie.kunde@leannon.info",
-            "stars_naslov": "Ro�na 9, 4000 Kranj",
-            "stars_telefon": "00386-205-550-76",
-            "dobiva_maile": "Ne",
-            "racun_id": "358",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/12/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "9/26/16"
+            "leto_vpisa": 2017
         },
         {
-            "otrok_id": "59",
-            "otrok_ime": "Emile",
-            "otrok_priimek": "Dunbar",
+            "id": 59,
+            "ime": "Emile",
+            "priimek": "Dunbar",
             "datum_rojstva": "5/23/09",
-            "leto_vpisa": "2016",
-            "stars_id": "159",
-            "stars_ime": "Dusty ",
-            "stars_priimek": "Dunbar",
-            "stars_mail": "malvina.harvey@yahoo.com",
-            "stars_naslov": "Janka Puclja 1, 4000 Kranj",
-            "stars_telefon": "00386-405-550-4",
-            "dobiva_maile": "Da",
-            "racun_id": "359",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/13/20",
-            "znesek": "40",
-            "datum_preplezane_smeri": "2/3/17"
+            "leto_vpisa": 2016
         },
         {
-            "otrok_id": "60",
-            "otrok_ime": "Madge",
-            "otrok_priimek": "Frost",
+            "id": 60,
+            "ime": "Madge",
+            "priimek": "Frost",
             "datum_rojstva": "11/5/09",
-            "leto_vpisa": "2014",
-            "stars_id": "160",
-            "stars_ime": "Erlene",
-            "stars_priimek": "Frost",
-            "stars_mail": "imacejkovic@lakin.net",
-            "stars_naslov": "Kebetova 1, 4000 Kranj",
-            "stars_telefon": "00386-615-551-49",
-            "dobiva_maile": "Ne",
-            "racun_id": "360",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/19/20",
-            "znesek": "25",
-            "datum_preplezane_smeri": "2/9/17"
+            "leto_vpisa": 2014
         },
         {
-            "otrok_id": "61",
-            "otrok_ime": "Nubia",
-            "otrok_priimek": "Bartley",
+            "id": 61,
+            "ime": "Nubia",
+            "priimek": "Bartley",
             "datum_rojstva": "4/10/10",
-            "leto_vpisa": "2016",
-            "stars_id": "161",
-            "stars_ime": "Shela",
-            "stars_priimek": "Bartley",
-            "stars_mail": "mokuneva@gmail.com",
-            "stars_naslov": "Predoslje 187, 4000 Kranj",
-            "stars_telefon": "00386-205-555-186",
-            "dobiva_maile": "Ne",
-            "racun_id": "361",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/21/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "5/3/17"
+            "leto_vpisa": 2016
         },
         {
-            "otrok_id": "62",
-            "otrok_ime": "Alvera",
-            "otrok_priimek": "Murillo",
+            "id": 62,
+            "ime": "Alvera",
+            "priimek": "Murillo",
             "datum_rojstva": "10/6/10",
-            "leto_vpisa": "2019",
-            "stars_id": "162",
-            "stars_ime": "Annabell",
-            "stars_priimek": "Murillo",
-            "stars_mail": "kaylin.roob@ward.com",
-            "stars_naslov": "Francarija 21, 4205 Preddvor",
-            "stars_telefon": "00386-305-559-50",
-            "dobiva_maile": "Da",
-            "racun_id": "362",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/22/20",
-            "znesek": "25",
-            "datum_preplezane_smeri": "7/27/17"
+            "leto_vpisa": 2019
         },
         {
-            "otrok_id": "63",
-            "otrok_ime": "Cyndy",
-            "otrok_priimek": "Lunsford",
+            "id": 63,
+            "ime": "Cyndy",
+            "priimek": "Lunsford",
             "datum_rojstva": "3/25/11",
-            "leto_vpisa": "2019",
-            "stars_id": "163",
-            "stars_ime": "Earleen",
-            "stars_priimek": "Lunsford",
-            "stars_mail": "zoila81@kemmer.com",
-            "stars_naslov": "Kebetova 1, 4000 Kranj",
-            "stars_telefon": "00386-605-559-286",
-            "dobiva_maile": "Ne",
-            "racun_id": "363",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "30",
-            "datum_preplezane_smeri": "11/28/17"
+            "leto_vpisa": 2019
         },
         {
-            "otrok_id": "64",
-            "otrok_ime": "Vanna",
-            "otrok_priimek": "Gary",
+            "id": 64,
+            "ime": "Vanna",
+            "priimek": "Gary",
             "datum_rojstva": "8/19/12",
-            "leto_vpisa": "2015",
-            "stars_id": "164",
-            "stars_ime": "Eloise",
-            "stars_priimek": "Gary",
-            "stars_mail": "ruecker.harvey@bartoletti.net",
-            "stars_naslov": "Predoslje 187, 4000 Kranj",
-            "stars_telefon": "00386-615-551-832",
-            "dobiva_maile": "Ne",
-            "racun_id": "364",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/24/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "12/20/17"
+            "leto_vpisa": 2015
         },
         {
-            "otrok_id": "65",
-            "otrok_ime": "Liz",
-            "otrok_priimek": "Stern",
+            "id": 65,
+            "ime": "Liz",
+            "priimek": "Stern",
             "datum_rojstva": "2/12/14",
-            "leto_vpisa": "2012",
-            "stars_id": "165",
-            "stars_ime": "Robt",
-            "stars_priimek": "Stern",
-            "stars_mail": "myah.hill@yahoo.com",
-            "stars_naslov": "Francarija 21, 4205 Preddvor",
-            "stars_telefon": "00386-705-552-556",
-            "dobiva_maile": "Ne",
-            "racun_id": "365",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/26/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "7/14/18"
+            "leto_vpisa": 2012
         },
         {
-            "otrok_id": "66",
-            "otrok_ime": "Janyce",
-            "otrok_priimek": "Hooper",
+            "id": 66,
+            "ime": "Janyce",
+            "priimek": "Hooper",
             "datum_rojstva": "3/11/14",
-            "leto_vpisa": "2013",
-            "stars_id": "166",
-            "stars_ime": "Dorcas",
-            "stars_priimek": "Hooper",
-            "stars_mail": "bradford.veum@yahoo.com",
-            "stars_naslov": "Golnik 177, 4204 Golnik",
-            "stars_telefon": "00386-215-556-8",
-            "dobiva_maile": "Da",
-            "racun_id": "366",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "40",
-            "datum_preplezane_smeri": "7/23/18"
+            "leto_vpisa": 2013
         },
         {
-            "otrok_id": "67",
-            "otrok_ime": "Roxana",
-            "otrok_priimek": "Vargas",
+            "id": 67,
+            "ime": "Roxana",
+            "priimek": "Vargas",
             "datum_rojstva": "5/8/14",
-            "leto_vpisa": "2017",
-            "stars_id": "167",
-            "stars_ime": "Bianca",
-            "stars_priimek": "Vargas",
-            "stars_mail": "wweissnat@prohaska.com",
-            "stars_naslov": "Pre�ka cesta 13, 1215 Medvode",
-            "stars_telefon": "00386-605-555-7939",
-            "dobiva_maile": "Da",
-            "racun_id": "367",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/29/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "11/17/18"
+            "leto_vpisa": 2017
         },
         {
-            "otrok_id": "68",
-            "otrok_ime": "Coretta",
-            "otrok_priimek": "Bain",
+            "id": 68,
+            "ime": "Coretta",
+            "priimek": "Bain",
             "datum_rojstva": "9/12/12",
-            "leto_vpisa": "2015",
-            "stars_id": "168",
-            "stars_ime": "Sung",
-            "stars_priimek": "Bain",
-            "stars_mail": "willms.hattie@wilderman.info",
-            "stars_naslov": "Visoko 103a, 4212 Visoko",
-            "stars_telefon": "00386-615-559-37",
-            "dobiva_maile": "Da",
-            "racun_id": "368",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "45",
-            "datum_preplezane_smeri": "12/18/18"
+            "leto_vpisa": 2015
         },
         {
-            "otrok_id": "69",
-            "otrok_ime": "Princess",
-            "otrok_priimek": "Alvarez",
+            "id": 69,
+            "ime": "Princess",
+            "priimek": "Alvarez",
             "datum_rojstva": "12/21/12",
-            "leto_vpisa": "2020",
-            "stars_id": "169",
-            "stars_ime": "Ena",
-            "stars_priimek": "Alvarez",
-            "stars_mail": "hackett.elmo@gmail.com",
-            "stars_naslov": "Visoko 7, 4212 Visoko",
-            "stars_telefon": "00386-315-553-8523",
-            "dobiva_maile": "Ne",
-            "racun_id": "369",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/31/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "1/24/19"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "70",
-            "otrok_ime": "Forest",
-            "otrok_priimek": "Staton",
+            "id": 70,
+            "ime": "Forest",
+            "priimek": "Staton",
             "datum_rojstva": "3/29/02",
-            "leto_vpisa": "2018",
-            "stars_id": "170",
-            "stars_ime": "Sana",
-            "stars_priimek": "Staton",
-            "stars_mail": "oswift@satterfield.com",
-            "stars_naslov": "Podbrezje 216a, 4202 Naklo",
-            "stars_telefon": "00386-705-555-702",
-            "dobiva_maile": "Ne",
-            "racun_id": "370",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/4/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "2/11/19"
+            "leto_vpisa": 2018
         },
         {
-            "otrok_id": "71",
-            "otrok_ime": "Eloisa",
-            "otrok_priimek": "Wolf",
+            "id": 71,
+            "ime": "Eloisa",
+            "priimek": "Wolf",
             "datum_rojstva": "5/6/02",
-            "leto_vpisa": "2016",
-            "stars_id": "171",
-            "stars_ime": "Arden ",
-            "stars_priimek": "Wolf",
-            "stars_mail": "mavis06@pfeffer.com",
-            "stars_naslov": "Preba�evo 10e, 4000 Kranj",
-            "stars_telefon": "00386-615-559-6154",
-            "dobiva_maile": "Da",
-            "racun_id": "371",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/6/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "9/13/19"
+            "leto_vpisa": 2016
         },
         {
-            "otrok_id": "72",
-            "otrok_ime": "Carisa",
-            "otrok_priimek": "Morton",
+            "id": 72,
+            "ime": "Carisa",
+            "priimek": "Morton",
             "datum_rojstva": "12/30/02",
-            "leto_vpisa": "2020",
-            "stars_id": "172",
-            "stars_ime": "Leonard",
-            "stars_priimek": "Morton",
-            "stars_mail": "rgreen@fay.org",
-            "stars_naslov": "Drago�ajna 28a, Medvode",
-            "stars_telefon": "00386-205-558-4597",
-            "dobiva_maile": "Da",
-            "racun_id": "372",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/8/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "9/20/19"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "73",
-            "otrok_ime": "Blondell",
-            "otrok_priimek": "Lawson",
+            "id": 73,
+            "ime": "Blondell",
+            "priimek": "Lawson",
             "datum_rojstva": "5/9/03",
-            "leto_vpisa": "2012",
-            "stars_id": "173",
-            "stars_ime": "Seth ",
-            "stars_priimek": "Lawson",
-            "stars_mail": "colby15@hotmail.com",
-            "stars_naslov": "Pipanova cesta 10, 4208 �en�ur",
-            "stars_telefon": "00386-645-554-7",
-            "dobiva_maile": "Da",
-            "racun_id": "373",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/13/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "3/24/20"
+            "leto_vpisa": 2012
         },
         {
-            "otrok_id": "74",
-            "otrok_ime": "Crista",
-            "otrok_priimek": "Tackett",
+            "id": 74,
+            "ime": "Crista",
+            "priimek": "Tackett",
             "datum_rojstva": "9/7/03",
-            "leto_vpisa": "2013",
-            "stars_id": "174",
-            "stars_ime": "Michale ",
-            "stars_priimek": "Tackett",
-            "stars_mail": "ernser.cassidy@erdman.com",
-            "stars_naslov": "Gori�e 9a, 4204 Golnik",
-            "stars_telefon": "00386-305-551-62",
-            "dobiva_maile": "Ne",
-            "racun_id": "374",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "45",
-            "datum_preplezane_smeri": "6/25/20"
+            "leto_vpisa": 2013
         },
         {
-            "otrok_id": "75",
-            "otrok_ime": "Cole",
-            "otrok_priimek": "Tuttle",
+            "id": 75,
+            "ime": "Cole",
+            "priimek": "Tuttle",
             "datum_rojstva": "12/31/03",
-            "leto_vpisa": "2017",
-            "stars_id": "175",
-            "stars_ime": "Ervin ",
-            "stars_priimek": "Tuttle",
-            "stars_mail": "tdonnelly@gmail.com",
-            "stars_naslov": "P�eni�na Polica 16, 4207 Cerklje na Gorenjskem",
-            "stars_telefon": "00386-705-550-665",
-            "dobiva_maile": "Ne",
-            "racun_id": "375",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "30",
-            "datum_preplezane_smeri": "7/17/20"
+            "leto_vpisa": 2017
         },
         {
-            "otrok_id": "76",
-            "otrok_ime": "Allene",
-            "otrok_priimek": "Dubois",
+            "id": 76,
+            "ime": "Allene",
+            "priimek": "Dubois",
             "datum_rojstva": "3/25/04",
-            "leto_vpisa": "2017",
-            "stars_id": "176",
-            "stars_ime": "Henry",
-            "stars_priimek": "Dubois",
-            "stars_mail": "btromp@gibson.biz",
-            "stars_naslov": "Pristava 5a, 1234 Menge�",
-            "stars_telefon": "00386-505-554-58",
-            "dobiva_maile": "Da",
-            "racun_id": "376",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "30",
-            "datum_preplezane_smeri": "4/1/14"
+            "leto_vpisa": 2017
         },
         {
-            "otrok_id": "77",
-            "otrok_ime": "Iona",
-            "otrok_priimek": "Connelly",
+            "id": 77,
+            "ime": "Iona",
+            "priimek": "Connelly",
             "datum_rojstva": "7/11/04",
-            "leto_vpisa": "2018",
-            "stars_id": "177",
-            "stars_ime": "Angelo",
-            "stars_priimek": "Connelly",
-            "stars_mail": "hills.camren@rempel.com",
-            "stars_naslov": "Pot pod Gradi��em 3, 4202 Naklo",
-            "stars_telefon": "00386-215-554-2729",
-            "dobiva_maile": "Ne",
-            "racun_id": "377",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/2/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "8/16/14"
+            "leto_vpisa": 2018
         },
         {
-            "otrok_id": "78",
-            "otrok_ime": "Idell",
-            "otrok_priimek": "Matthews",
+            "id": 78,
+            "ime": "Idell",
+            "priimek": "Matthews",
             "datum_rojstva": "10/17/04",
-            "leto_vpisa": "2020",
-            "stars_id": "178",
-            "stars_ime": "Marco",
-            "stars_priimek": "Matthews",
-            "stars_mail": "zetta.lueilwitz@eichmann.net",
-            "stars_naslov": "Zgornje Bitnje 193, 4209 �abnica",
-            "stars_telefon": "00386-315-553-13",
-            "dobiva_maile": "Ne",
-            "racun_id": "378",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/5/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "9/1/14"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "79",
-            "otrok_ime": "Evelyn",
-            "otrok_priimek": "Mejia",
+            "id": 79,
+            "ime": "Evelyn",
+            "priimek": "Mejia",
             "datum_rojstva": "2/20/05",
-            "leto_vpisa": "2017",
-            "stars_id": "179",
-            "stars_ime": "Bernice",
-            "stars_priimek": "Mejia",
-            "stars_mail": "altenwerth.andy@hotmail.com",
-            "stars_naslov": "Rupa 51, 4000 Kranj",
-            "stars_telefon": "00386-605-554-47",
-            "dobiva_maile": "Da",
-            "racun_id": "379",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/6/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "9/4/14"
+            "leto_vpisa": 2017
         },
         {
-            "otrok_id": "80",
-            "otrok_ime": "Avril",
-            "otrok_priimek": "Hurd",
+            "id": 80,
+            "ime": "Avril",
+            "priimek": "Hurd",
             "datum_rojstva": "5/3/05",
-            "leto_vpisa": "2012",
-            "stars_id": "180",
-            "stars_ime": "Rolf ",
-            "stars_priimek": "Hurd",
-            "stars_mail": "ratke.michael@hotmail.com",
-            "stars_naslov": "Britof 202, 4000 Kranj",
-            "stars_telefon": "00386-215-552-6490",
-            "dobiva_maile": "Ne",
-            "racun_id": "380",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/8/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "9/19/14"
+            "leto_vpisa": 2012
         },
         {
-            "otrok_id": "81",
-            "otrok_ime": "Brigida",
-            "otrok_priimek": "Ward",
+            "id": 81,
+            "ime": "Brigida",
+            "priimek": "Ward",
             "datum_rojstva": "11/24/05",
-            "leto_vpisa": "2014",
-            "stars_id": "181",
-            "stars_ime": "Bennett",
-            "stars_priimek": "Ward",
-            "stars_mail": "clakin@yahoo.com",
-            "stars_naslov": "Brebovnica 10b, 4224 Gorena vas",
-            "stars_telefon": "00386-315-551-78",
-            "dobiva_maile": "Ne",
-            "racun_id": "381",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/9/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "2/17/15"
+            "leto_vpisa": 2014
         },
         {
-            "otrok_id": "82",
-            "otrok_ime": "Brock",
-            "otrok_priimek": "Leon",
+            "id": 82,
+            "ime": "Brock",
+            "priimek": "Leon",
             "datum_rojstva": "2/16/06",
-            "leto_vpisa": "2019",
-            "stars_id": "182",
-            "stars_ime": "Brian",
-            "stars_priimek": "Leon",
-            "stars_mail": "vilma64@yahoo.com",
-            "stars_naslov": "Dra�go�e 41, 4228 �elezniki",
-            "stars_telefon": "00386-215-550-28",
-            "dobiva_maile": "Ne",
-            "racun_id": "382",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/12/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "3/8/15"
+            "leto_vpisa": 2019
         },
         {
-            "otrok_id": "83",
-            "otrok_ime": "Anh",
-            "otrok_priimek": "Peck",
+            "id": 83,
+            "ime": "Anh",
+            "priimek": "Peck",
             "datum_rojstva": "8/3/06",
-            "leto_vpisa": "2014",
-            "stars_id": "183",
-            "stars_ime": "Monique",
-            "stars_priimek": "Peck",
-            "stars_mail": "kankunding@yahoo.com",
-            "stars_naslov": "Ulica Juleta Gabrov�ka 20, 4000 Kranj",
-            "stars_telefon": "00386-705-551-4384",
-            "dobiva_maile": "Da",
-            "racun_id": "383",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/18/20",
-            "znesek": "25",
-            "datum_preplezane_smeri": "3/21/15"
+            "leto_vpisa": 2014
         },
         {
-            "otrok_id": "84",
-            "otrok_ime": "Kyoko",
-            "otrok_priimek": "Daugherty",
+            "id": 84,
+            "ime": "Kyoko",
+            "priimek": "Daugherty",
             "datum_rojstva": "9/21/06",
-            "leto_vpisa": "2020",
-            "stars_id": "184",
-            "stars_ime": "Marcel ",
-            "stars_priimek": "Daugherty",
-            "stars_mail": "ykeebler@johns.com",
-            "stars_naslov": "�upan�i�eva ulica 3, 4000 Kranj",
-            "stars_telefon": "00386-405-557-9565",
-            "dobiva_maile": "Da",
-            "racun_id": "384",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/20/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "4/28/15"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "85",
-            "otrok_ime": "Cathleen",
-            "otrok_priimek": "Gomes",
+            "id": 85,
+            "ime": "Cathleen",
+            "priimek": "Gomes",
             "datum_rojstva": "10/3/06",
-            "leto_vpisa": "2020",
-            "stars_id": "185",
-            "stars_ime": "Madge",
-            "stars_priimek": "Gomes",
-            "stars_mail": "donny.bosco@kling.info",
-            "stars_naslov": "Dvorje 77a, 4207 Cerklje na Gorenjskem",
-            "stars_telefon": "00386-605-550-1170",
-            "dobiva_maile": "Da",
-            "racun_id": "385",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "30",
-            "datum_preplezane_smeri": "6/30/15"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "86",
-            "otrok_ime": "Tasia",
-            "otrok_priimek": "Nichols",
+            "id": 86,
+            "ime": "Tasia",
+            "priimek": "Nichols",
             "datum_rojstva": "1/19/07",
-            "leto_vpisa": "2020",
-            "stars_id": "186",
-            "stars_ime": "Nubia",
-            "stars_priimek": "Nichols",
-            "stars_mail": "kraig.howell@yahoo.com",
-            "stars_naslov": "�ir�e 42, 4000 Kranj",
-            "stars_telefon": "00386-715-558-78",
-            "dobiva_maile": "Da",
-            "racun_id": "386",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "45",
-            "datum_preplezane_smeri": "9/23/15"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "87",
-            "otrok_ime": "Elvera",
-            "otrok_priimek": "Adams",
+            "id": 87,
+            "ime": "Elvera",
+            "priimek": "Adams",
             "datum_rojstva": "7/24/08",
-            "leto_vpisa": "2019",
-            "stars_id": "187",
-            "stars_ime": "Alvera",
-            "stars_priimek": "Adams",
-            "stars_mail": "hagenes.jaunita@gmail.com",
-            "stars_naslov": "�ir�e 42, 4000 Kranj",
-            "stars_telefon": "00386-705-556-5119",
-            "dobiva_maile": "Da",
-            "racun_id": "387",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/25/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "10/13/15"
+            "leto_vpisa": 2019
         },
         {
-            "otrok_id": "88",
-            "otrok_ime": "Sueann",
-            "otrok_priimek": "Farrell",
+            "id": 88,
+            "ime": "Sueann",
+            "priimek": "Farrell",
             "datum_rojstva": "9/17/08",
-            "leto_vpisa": "2012",
-            "stars_id": "188",
-            "stars_ime": "Cyndy",
-            "stars_priimek": "Farrell",
-            "stars_mail": "dovie.roberts@pagac.com",
-            "stars_naslov": "Mlakarjeva 18, 4000 Kranj",
-            "stars_telefon": "00386-305-554-962",
-            "dobiva_maile": "Da",
-            "racun_id": "388",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/27/20",
-            "znesek": "25",
-            "datum_preplezane_smeri": "7/2/16"
+            "leto_vpisa": 2012
         },
         {
-            "otrok_id": "89",
-            "otrok_ime": "Lilly",
-            "otrok_priimek": "Beaver",
+            "id": 89,
+            "ime": "Lilly",
+            "priimek": "Beaver",
             "datum_rojstva": "5/9/09",
-            "leto_vpisa": "2016",
-            "stars_id": "189",
-            "stars_ime": "Vanna",
-            "stars_priimek": "Beaver",
-            "stars_mail": "benedict.rosenbaum@mosciski.com",
-            "stars_naslov": "Cesta Kokr�kega odreda 22a, 4000 Kranj",
-            "stars_telefon": "00386-315-554-5304",
-            "dobiva_maile": "Da",
-            "racun_id": "389",
-            "racun_datum": "6/26/20",
-            "datum_placila": "None",
-            "znesek": "45",
-            "datum_preplezane_smeri": "8/15/16"
+            "leto_vpisa": 2016
         },
         {
-            "otrok_id": "90",
-            "otrok_ime": "Janay",
-            "otrok_priimek": "Duke",
+            "id": 90,
+            "ime": "Janay",
+            "priimek": "Duke",
             "datum_rojstva": "5/12/10",
-            "leto_vpisa": "2014",
-            "stars_id": "190",
-            "stars_ime": "Liz",
-            "stars_priimek": "Duke",
-            "stars_mail": "karson.langosh@gmail.com",
-            "stars_naslov": "Trojarjeva 21, 4000 Kranj",
-            "stars_telefon": "00386-615-558-83",
-            "dobiva_maile": "Da",
-            "racun_id": "390",
-            "racun_datum": "6/26/20",
-            "datum_placila": "7/30/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "6/27/17"
+            "leto_vpisa": 2014
         },
         {
-            "otrok_id": "91",
-            "otrok_ime": "Windy",
-            "otrok_priimek": "Zavala",
+            "id": 91,
+            "ime": "Windy",
+            "priimek": "Zavala",
             "datum_rojstva": "11/10/10",
-            "leto_vpisa": "2015",
-            "stars_id": "191",
-            "stars_ime": "Idell",
-            "stars_priimek": "Zavala",
-            "stars_mail": "olindgren@bernhard.net",
-            "stars_naslov": "Nazorjeva ulica 2, 4000 Kranj",
-            "stars_telefon": "00386-305-555-40",
-            "dobiva_maile": "Da",
-            "racun_id": "391",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/3/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "9/5/17"
+            "leto_vpisa": 2015
         },
         {
-            "otrok_id": "92",
-            "otrok_ime": "Tonita",
-            "otrok_priimek": "Heller",
+            "id": 92,
+            "ime": "Tonita",
+            "priimek": "Heller",
             "datum_rojstva": "5/13/12",
-            "leto_vpisa": "2020",
-            "stars_id": "192",
-            "stars_ime": "Evelyn",
-            "stars_priimek": "Heller",
-            "stars_mail": "gbogisich@kuphal.com",
-            "stars_naslov": "Begunjska ulica 14, 4000 Kranj",
-            "stars_telefon": "00386-515-554-648",
-            "dobiva_maile": "Da",
-            "racun_id": "392",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/4/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "10/21/17"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "93",
-            "otrok_ime": "Carter",
-            "otrok_priimek": "Richards",
+            "id": 93,
+            "ime": "Carter",
+            "priimek": "Richards",
             "datum_rojstva": "8/21/12",
-            "leto_vpisa": "2012",
-            "stars_id": "193",
-            "stars_ime": "Avril",
-            "stars_priimek": "Richards",
-            "stars_mail": "tkautzer@rogahn.net",
-            "stars_naslov": "Britof 254, 4000 Kranj",
-            "stars_telefon": "00386-315-550-172",
-            "dobiva_maile": "Ne",
-            "racun_id": "393",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/5/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "11/8/17"
+            "leto_vpisa": 2012
         },
         {
-            "otrok_id": "94",
-            "otrok_ime": "Winston",
-            "otrok_priimek": "Maher",
+            "id": 94,
+            "ime": "Winston",
+            "priimek": "Maher",
             "datum_rojstva": "7/22/14",
-            "leto_vpisa": "2014",
-            "stars_id": "194",
-            "stars_ime": "Brigida",
-            "stars_priimek": "Maher",
-            "stars_mail": "torey.medhurst@yahoo.com",
-            "stars_naslov": "Partizanska ul. 31, 4208 �en�ur",
-            "stars_telefon": "00386-605-555-591",
-            "dobiva_maile": "Da",
-            "racun_id": "394",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/7/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "11/20/17"
+            "leto_vpisa": 2014
         },
         {
-            "otrok_id": "95",
-            "otrok_ime": "Jaimie",
-            "otrok_priimek": "Frost",
+            "id": 95,
+            "ime": "Jaimie",
+            "priimek": "Frost",
             "datum_rojstva": "1/15/15",
-            "leto_vpisa": "2015",
-            "stars_id": "195",
-            "stars_ime": "Brock",
-            "stars_priimek": "Frost",
-            "stars_mail": "marks.lysanne@harber.com",
-            "stars_naslov": "Trojarjeva 21, 4000 Kranj",
-            "stars_telefon": "00386-715-554-75",
-            "dobiva_maile": "Da",
-            "racun_id": "395",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/8/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "5/25/18"
+            "leto_vpisa": 2015
         },
         {
-            "otrok_id": "96",
-            "otrok_ime": "Tambra",
-            "otrok_priimek": "Khan",
+            "id": 96,
+            "ime": "Tambra",
+            "priimek": "Khan",
             "datum_rojstva": "2/16/06",
-            "leto_vpisa": "2013",
-            "stars_id": "196",
-            "stars_ime": "Anh",
-            "stars_priimek": "Khan",
-            "stars_mail": "vernie57@kshlerin.com",
-            "stars_naslov": "Kro�na pot 65,4208 Voglje",
-            "stars_telefon": "00386-715-557-6570",
-            "dobiva_maile": "Da",
-            "racun_id": "396",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/9/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "12/9/18"
+            "leto_vpisa": 2013
         },
         {
-            "otrok_id": "97",
-            "otrok_ime": "Sherryl",
-            "otrok_priimek": "Phelps",
+            "id": 97,
+            "ime": "Sherryl",
+            "priimek": "Phelps",
             "datum_rojstva": "10/17/04",
-            "leto_vpisa": "2015",
-            "stars_id": "197",
-            "stars_ime": "Kyoko",
-            "stars_priimek": "Phelps",
-            "stars_mail": "jerrold.stokes@hotmail.com",
-            "stars_naslov": "Britof 95, 4000 Kranj",
-            "stars_telefon": "00386-405-552-16",
-            "dobiva_maile": "Da",
-            "racun_id": "397",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/12/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "4/24/19"
+            "leto_vpisa": 2015
         },
         {
-            "otrok_id": "98",
-            "otrok_ime": "Megan",
-            "otrok_priimek": "Meeks",
+            "id": 98,
+            "ime": "Megan",
+            "priimek": "Meeks",
             "datum_rojstva": "2/20/05",
-            "leto_vpisa": "2020",
-            "stars_id": "198",
-            "stars_ime": "Cathleen",
-            "stars_priimek": "Meeks",
-            "stars_mail": "sporer.ari@gmail.com",
-            "stars_naslov": "Stara cesta 18, 4000 Kranj",
-            "stars_telefon": "00386-205-553-12",
-            "dobiva_maile": "Da",
-            "racun_id": "398",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/15/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "6/14/19"
+            "leto_vpisa": 2020
         },
         {
-            "otrok_id": "99",
-            "otrok_ime": "Demetrius",
-            "otrok_priimek": "Lyons",
+            "id": 99,
+            "ime": "Demetrius",
+            "priimek": "Lyons",
             "datum_rojstva": "5/3/05",
-            "leto_vpisa": "2016",
-            "stars_id": "199",
-            "stars_ime": "Tasia",
-            "stars_priimek": "Lyons",
-            "stars_mail": "jacobson.annabell@wisoky.com",
-            "stars_naslov": "Podbrezje 216a, 4202 Naklo",
-            "stars_telefon": "00386-215-558-82",
-            "dobiva_maile": "Da",
-            "racun_id": "399",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/17/20",
-            "znesek": "45",
-            "datum_preplezane_smeri": "8/16/19"
+            "leto_vpisa": 2016
         },
         {
-            "otrok_id": "100",
-            "otrok_ime": "Prince",
-            "otrok_priimek": "Charlote",
+            "id": 100,
+            "ime": "Prince",
+            "priimek": "Charlote",
             "datum_rojstva": "11/24/05",
-            "leto_vpisa": "2015",
-            "stars_id": "200",
-            "stars_ime": "Kristi ",
-            "stars_priimek": "Charlote",
-            "stars_mail": "shaniya04@harber.net",
-            "stars_naslov": "Stru�evo 5a, 4000 Kranj",
-            "stars_telefon": "00386-515-557-31",
-            "dobiva_maile": "Da",
-            "racun_id": "400",
-            "racun_datum": "6/26/20",
-            "datum_placila": "8/20/20",
-            "znesek": "30",
-            "datum_preplezane_smeri": "4/7/20"
+            "leto_vpisa": 2015
+        }
+    ],
+    "plezalisce": [
+        {
+            "id": 701,
+            "ime": "Preddvor"
+        },
+        {
+            "id": 702,
+            "ime": "Bohinjska Bela"
+        },
+        {
+            "id": 703,
+            "ime": "Peč"
+        },
+        {
+            "id": 704,
+            "ime": "Kotečnik"
+        },
+        {
+            "id": 705,
+            "ime": "Vipava"
+        },
+        {
+            "id": 706,
+            "ime": "Belleuve"
+        },
+        {
+            "id": 707,
+            "ime": "Črni Kal"
+        },
+        {
+            "id": 708,
+            "ime": "Kamnitnik"
+        },
+        {
+            "id": 709,
+            "ime": "Nomenj"
+        }
+    ],
+    "pripada": [
+        {
+            "otrok": 1,
+            "skupina": 401
+        },
+        {
+            "otrok": 2,
+            "skupina": 401
+        },
+        {
+            "otrok": 3,
+            "skupina": 401
+        },
+        {
+            "otrok": 4,
+            "skupina": 401
+        },
+        {
+            "otrok": 5,
+            "skupina": 401
+        },
+        {
+            "otrok": 6,
+            "skupina": 402
+        },
+        {
+            "otrok": 7,
+            "skupina": 402
+        },
+        {
+            "otrok": 8,
+            "skupina": 402
+        },
+        {
+            "otrok": 9,
+            "skupina": 402
+        },
+        {
+            "otrok": 10,
+            "skupina": 402
+        },
+        {
+            "otrok": 11,
+            "skupina": 402
+        },
+        {
+            "otrok": 12,
+            "skupina": 402
+        },
+        {
+            "otrok": 13,
+            "skupina": 402
+        },
+        {
+            "otrok": 14,
+            "skupina": 403
+        },
+        {
+            "otrok": 15,
+            "skupina": 403
+        },
+        {
+            "otrok": 16,
+            "skupina": 403
+        },
+        {
+            "otrok": 17,
+            "skupina": 403
+        },
+        {
+            "otrok": 18,
+            "skupina": 403
+        },
+        {
+            "otrok": 19,
+            "skupina": 404
+        },
+        {
+            "otrok": 20,
+            "skupina": 404
+        },
+        {
+            "otrok": 21,
+            "skupina": 404
+        },
+        {
+            "otrok": 22,
+            "skupina": 404
+        },
+        {
+            "otrok": 23,
+            "skupina": 404
+        },
+        {
+            "otrok": 24,
+            "skupina": 404
+        },
+        {
+            "otrok": 25,
+            "skupina": 405
+        },
+        {
+            "otrok": 26,
+            "skupina": 405
+        },
+        {
+            "otrok": 27,
+            "skupina": 405
+        },
+        {
+            "otrok": 28,
+            "skupina": 405
+        },
+        {
+            "otrok": 29,
+            "skupina": 405
+        },
+        {
+            "otrok": 30,
+            "skupina": 405
+        },
+        {
+            "otrok": 31,
+            "skupina": 406
+        },
+        {
+            "otrok": 32,
+            "skupina": 406
+        },
+        {
+            "otrok": 33,
+            "skupina": 406
+        },
+        {
+            "otrok": 34,
+            "skupina": 406
+        },
+        {
+            "otrok": 35,
+            "skupina": 406
+        },
+        {
+            "otrok": 36,
+            "skupina": 406
+        },
+        {
+            "otrok": 37,
+            "skupina": 407
+        },
+        {
+            "otrok": 38,
+            "skupina": 407
+        },
+        {
+            "otrok": 39,
+            "skupina": 407
+        },
+        {
+            "otrok": 40,
+            "skupina": 407
+        },
+        {
+            "otrok": 41,
+            "skupina": 407
+        },
+        {
+            "otrok": 42,
+            "skupina": 408
+        },
+        {
+            "otrok": 43,
+            "skupina": 408
+        },
+        {
+            "otrok": 44,
+            "skupina": 408
+        },
+        {
+            "otrok": 45,
+            "skupina": 408
+        },
+        {
+            "otrok": 46,
+            "skupina": 408
+        },
+        {
+            "otrok": 47,
+            "skupina": 408
+        },
+        {
+            "otrok": 48,
+            "skupina": 409
+        },
+        {
+            "otrok": 49,
+            "skupina": 409
+        },
+        {
+            "otrok": 50,
+            "skupina": 409
+        },
+        {
+            "otrok": 51,
+            "skupina": 409
+        },
+        {
+            "otrok": 52,
+            "skupina": 409
+        },
+        {
+            "otrok": 53,
+            "skupina": 409
+        },
+        {
+            "otrok": 54,
+            "skupina": 410
+        },
+        {
+            "otrok": 55,
+            "skupina": 410
+        },
+        {
+            "otrok": 56,
+            "skupina": 410
+        },
+        {
+            "otrok": 57,
+            "skupina": 410
+        },
+        {
+            "otrok": 58,
+            "skupina": 410
+        },
+        {
+            "otrok": 59,
+            "skupina": 411
+        },
+        {
+            "otrok": 60,
+            "skupina": 411
+        },
+        {
+            "otrok": 61,
+            "skupina": 411
+        },
+        {
+            "otrok": 62,
+            "skupina": 411
+        },
+        {
+            "otrok": 63,
+            "skupina": 411
+        },
+        {
+            "otrok": 64,
+            "skupina": 411
+        },
+        {
+            "otrok": 65,
+            "skupina": 412
+        },
+        {
+            "otrok": 66,
+            "skupina": 412
+        },
+        {
+            "otrok": 67,
+            "skupina": 412
+        },
+        {
+            "otrok": 68,
+            "skupina": 412
+        },
+        {
+            "otrok": 69,
+            "skupina": 412
+        },
+        {
+            "otrok": 70,
+            "skupina": 413
+        },
+        {
+            "otrok": 71,
+            "skupina": 413
+        },
+        {
+            "otrok": 72,
+            "skupina": 413
+        },
+        {
+            "otrok": 73,
+            "skupina": 413
+        },
+        {
+            "otrok": 74,
+            "skupina": 413
+        },
+        {
+            "otrok": 75,
+            "skupina": 414
+        },
+        {
+            "otrok": 76,
+            "skupina": 414
+        },
+        {
+            "otrok": 77,
+            "skupina": 414
+        },
+        {
+            "otrok": 78,
+            "skupina": 414
+        },
+        {
+            "otrok": 79,
+            "skupina": 415
+        },
+        {
+            "otrok": 80,
+            "skupina": 415
+        },
+        {
+            "otrok": 81,
+            "skupina": 415
+        },
+        {
+            "otrok": 82,
+            "skupina": 415
+        },
+        {
+            "otrok": 83,
+            "skupina": 415
+        },
+        {
+            "otrok": 84,
+            "skupina": 415
+        },
+        {
+            "otrok": 85,
+            "skupina": 416
+        },
+        {
+            "otrok": 86,
+            "skupina": 416
+        },
+        {
+            "otrok": 87,
+            "skupina": 416
+        },
+        {
+            "otrok": 88,
+            "skupina": 416
+        },
+        {
+            "otrok": 89,
+            "skupina": 416
+        },
+        {
+            "otrok": 90,
+            "skupina": 417
+        },
+        {
+            "otrok": 91,
+            "skupina": 417
+        },
+        {
+            "otrok": 92,
+            "skupina": 417
+        },
+        {
+            "otrok": 93,
+            "skupina": 417
+        },
+        {
+            "otrok": 94,
+            "skupina": 417
+        },
+        {
+            "otrok": 95,
+            "skupina": 417
+        },
+        {
+            "otrok": 96,
+            "skupina": 418
+        },
+        {
+            "otrok": 97,
+            "skupina": 418
+        },
+        {
+            "otrok": 98,
+            "skupina": 418
+        },
+        {
+            "otrok": 99,
+            "skupina": 418
+        },
+        {
+            "otrok": 100,
+            "skupina": 418
+        }
+    ],
+    "racun": [
+        {
+            "id": 301,
+            "otrok": 1,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 302,
+            "otrok": 2,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 303,
+            "otrok": 3,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 25
+        },
+        {
+            "id": 304,
+            "otrok": 4,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 25
+        },
+        {
+            "id": 305,
+            "otrok": 5,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 306,
+            "otrok": 6,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 307,
+            "otrok": 7,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 40
+        },
+        {
+            "id": 308,
+            "otrok": 8,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 50
+        },
+        {
+            "id": 309,
+            "otrok": 9,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 50
+        },
+        {
+            "id": 310,
+            "otrok": 10,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 311,
+            "otrok": 11,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 312,
+            "otrok": 12,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 313,
+            "otrok": 13,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 314,
+            "otrok": 14,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 315,
+            "otrok": 15,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 316,
+            "otrok": 16,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 25
+        },
+        {
+            "id": 317,
+            "otrok": 17,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 25
+        },
+        {
+            "id": 318,
+            "otrok": 18,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 40
+        },
+        {
+            "id": 319,
+            "otrok": 19,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 50
+        },
+        {
+            "id": 320,
+            "otrok": 20,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 321,
+            "otrok": 21,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 322,
+            "otrok": 22,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 50
+        },
+        {
+            "id": 323,
+            "otrok": 23,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 324,
+            "otrok": 24,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 325,
+            "otrok": 25,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 326,
+            "otrok": 26,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 327,
+            "otrok": 27,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 328,
+            "otrok": 28,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 329,
+            "otrok": 29,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 330,
+            "otrok": 30,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 40
+        },
+        {
+            "id": 331,
+            "otrok": 31,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 332,
+            "otrok": 32,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 40
+        },
+        {
+            "id": 333,
+            "otrok": 33,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 25
+        },
+        {
+            "id": 334,
+            "otrok": 34,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 335,
+            "otrok": 35,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 25
+        },
+        {
+            "id": 336,
+            "otrok": 36,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 337,
+            "otrok": 37,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 338,
+            "otrok": 38,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 339,
+            "otrok": 39,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 340,
+            "otrok": 40,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 341,
+            "otrok": 41,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 342,
+            "otrok": 42,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 50
+        },
+        {
+            "id": 343,
+            "otrok": 43,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 344,
+            "otrok": 44,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 345,
+            "otrok": 45,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 346,
+            "otrok": 46,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 347,
+            "otrok": 47,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 348,
+            "otrok": 48,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 25
+        },
+        {
+            "id": 349,
+            "otrok": 49,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 25
+        },
+        {
+            "id": 350,
+            "otrok": 50,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 351,
+            "otrok": 51,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 352,
+            "otrok": 52,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 353,
+            "otrok": 53,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 354,
+            "otrok": 54,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 355,
+            "otrok": 55,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 356,
+            "otrok": 56,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 357,
+            "otrok": 57,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 358,
+            "otrok": 58,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 359,
+            "otrok": 59,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 40
+        },
+        {
+            "id": 360,
+            "otrok": 60,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 25
+        },
+        {
+            "id": 361,
+            "otrok": 61,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 362,
+            "otrok": 62,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 25
+        },
+        {
+            "id": 363,
+            "otrok": 63,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 364,
+            "otrok": 64,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 365,
+            "otrok": 65,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 366,
+            "otrok": 66,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 40
+        },
+        {
+            "id": 367,
+            "otrok": 67,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 368,
+            "otrok": 68,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 369,
+            "otrok": 69,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 370,
+            "otrok": 70,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 371,
+            "otrok": 71,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 372,
+            "otrok": 72,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 373,
+            "otrok": 73,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 374,
+            "otrok": 74,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 375,
+            "otrok": 75,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 376,
+            "otrok": 76,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 377,
+            "otrok": 77,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 378,
+            "otrok": 78,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 379,
+            "otrok": 79,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 380,
+            "otrok": 80,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 381,
+            "otrok": 81,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 382,
+            "otrok": 82,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 383,
+            "otrok": 83,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 25
+        },
+        {
+            "id": 384,
+            "otrok": 84,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 385,
+            "otrok": 85,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 386,
+            "otrok": 86,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 387,
+            "otrok": 87,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 388,
+            "otrok": 88,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 25
+        },
+        {
+            "id": 389,
+            "otrok": 89,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 390,
+            "otrok": 90,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 391,
+            "otrok": 91,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 392,
+            "otrok": 92,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 393,
+            "otrok": 93,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 394,
+            "otrok": 94,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 395,
+            "otrok": 95,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 396,
+            "otrok": 96,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 397,
+            "otrok": 97,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        },
+        {
+            "id": 398,
+            "otrok": 98,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 399,
+            "otrok": 99,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 45
+        },
+        {
+            "id": 400,
+            "otrok": 100,
+            "datum": "6/26/20",
+            "placano": true,
+            "znesek": 30
+        }
+    ],
+    "skrbnik": [
+        {
+            "dobiva_maile": true,
+            "otrok": 1,
+            "stars": 101
+        },
+        {
+            "dobiva_maile": false,
+            "otrok": 2,
+            "stars": 102
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 3,
+            "stars": 103
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 4,
+            "stars": 104
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 5,
+            "stars": 105
+        },
+        {
+            "dobiva_maile": false,
+            "otrok": 6,
+            "stars": 106
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 7,
+            "stars": 107
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 8,
+            "stars": 108
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 9,
+            "stars": 109
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 10,
+            "stars": 110
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 11,
+            "stars": 111
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 12,
+            "stars": 112
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 13,
+            "stars": 113
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 14,
+            "stars": 114
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 15,
+            "stars": 115
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 16,
+            "stars": 116
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 17,
+            "stars": 117
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 18,
+            "stars": 118
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 19,
+            "stars": 119
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 20,
+            "stars": 120
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 21,
+            "stars": 121
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 22,
+            "stars": 122
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 23,
+            "stars": 123
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 24,
+            "stars": 124
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 25,
+            "stars": 125
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 26,
+            "stars": 126
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 27,
+            "stars": 127
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 28,
+            "stars": 128
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 29,
+            "stars": 129
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 30,
+            "stars": 130
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 31,
+            "stars": 131
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 32,
+            "stars": 132
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 33,
+            "stars": 133
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 34,
+            "stars": 134
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 35,
+            "stars": 135
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 36,
+            "stars": 136
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 37,
+            "stars": 137
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 38,
+            "stars": 138
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 39,
+            "stars": 139
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 40,
+            "stars": 140
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 41,
+            "stars": 141
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 42,
+            "stars": 142
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 43,
+            "stars": 143
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 44,
+            "stars": 144
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 45,
+            "stars": 145
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 46,
+            "stars": 146
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 47,
+            "stars": 147
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 48,
+            "stars": 148
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 49,
+            "stars": 149
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 50,
+            "stars": 150
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 51,
+            "stars": 151
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 52,
+            "stars": 152
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 53,
+            "stars": 153
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 54,
+            "stars": 154
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 55,
+            "stars": 155
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 56,
+            "stars": 156
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 57,
+            "stars": 157
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 58,
+            "stars": 158
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 59,
+            "stars": 159
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 60,
+            "stars": 160
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 61,
+            "stars": 161
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 62,
+            "stars": 162
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 63,
+            "stars": 163
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 64,
+            "stars": 164
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 65,
+            "stars": 165
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 66,
+            "stars": 166
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 67,
+            "stars": 167
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 68,
+            "stars": 168
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 69,
+            "stars": 169
+        },
+        {
+            "dobiva_maile": false,
+            "otrok": 70,
+            "stars": 170
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 71,
+            "stars": 171
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 72,
+            "stars": 172
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 73,
+            "stars": 173
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 74,
+            "stars": 174
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 75,
+            "stars": 175
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 76,
+            "stars": 176
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 77,
+            "stars": 177
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 78,
+            "stars": 178
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 79,
+            "stars": 179
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 80,
+            "stars": 180
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 81,
+            "stars": 181
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 82,
+            "stars": 182
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 83,
+            "stars": 183
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 84,
+            "stars": 184
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 85,
+            "stars": 185
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 86,
+            "stars": 186
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 87,
+            "stars": 187
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 88,
+            "stars": 188
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 89,
+            "stars": 189
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 90,
+            "stars": 190
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 91,
+            "stars": 191
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 92,
+            "stars": 192
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 93,
+            "stars": 193
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 94,
+            "stars": 194
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 95,
+            "stars": 195
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 96,
+            "stars": 196
+        },
+        {
+            "dobiva_maile": false,
+            "otrok": 97,
+            "stars": 197
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 98,
+            "stars": 198
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 99,
+            "stars": 199
+        },
+        {
+            "dobiva_maile": true,
+            "otrok": 100,
+            "stars": 200
+        }
+    ],
+    "skupina": [
+        {
+            "id": 401,
+            "ime": "Sončki",
+            "stevilo_treningov": 1,
+            "trener": 201
+        },
+        {
+            "id": 405,
+            "ime": "Špelini",
+            "stevilo_treningov": 3,
+            "trener": 201
+        },
+        {
+            "id": 402,
+            "ime": "Starci",
+            "stevilo_treningov": 3,
+            "trener": 202
+        },
+        {
+            "id": 403,
+            "ime": "Opice",
+            "stevilo_treningov": 2,
+            "trener": 203
+        },
+        {
+            "id": 413,
+            "ime": "Evini",
+            "stevilo_treningov": 2,
+            "trener": 204
+        },
+        {
+            "id": 415,
+            "ime": "Svizci",
+            "stevilo_treningov": 2,
+            "trener": 204
+        },
+        {
+            "id": 410,
+            "ime": "Nežine punce",
+            "stevilo_treningov": 2,
+            "trener": 205
+        },
+        {
+            "id": 416,
+            "ime": "Tavelki",
+            "stevilo_treningov": 2,
+            "trener": 205
+        },
+        {
+            "id": 406,
+            "ime": "Veverice",
+            "stevilo_treningov": 1,
+            "trener": 206
+        },
+        {
+            "id": 408,
+            "ime": "Tejini",
+            "stevilo_treningov": 1,
+            "trener": 210
+        },
+        {
+            "id": 407,
+            "ime": "Klovni",
+            "stevilo_treningov": 1,
+            "trener": 207
+        },
+        {
+            "id": 404,
+            "ime": "Alpake",
+            "stevilo_treningov": 1,
+            "trener": 208
+        },
+        {
+            "id": 411,
+            "ime": "Fonovi",
+            "stevilo_treningov": 2,
+            "trener": 209
+        },
+        {
+            "id": 409,
+            "ime": "Mišice",
+            "stevilo_treningov": 1,
+            "trener": 210
+        },
+        {
+            "id": 412,
+            "ime": "Medvedki",
+            "stevilo_treningov": 1,
+            "trener": 211
+        },
+        {
+            "id": 417,
+            "ime": "Miini",
+            "stevilo_treningov": 2,
+            "trener": 212
+        },
+        {
+            "id": 418,
+            "ime": "Bolderčki",
+            "stevilo_treningov": 1,
+            "trener": 213
+        },
+        {
+            "id": 414,
+            "ime": "Šalce",
+            "stevilo_treningov": 1,
+            "trener": 214
+        }
+    ],
+    "smer": [
+        {
+            "id": 601,
+            "ime": "Pehta",
+            "plezalisce": 701,
+            "tezavnost": "5b+"
+        },
+        {
+            "id": 602,
+            "ime": "Srečno Kekec",
+            "plezalisce": 701,
+            "tezavnost": "6b+"
+        },
+        {
+            "id": 611,
+            "ime": "Binetova",
+            "plezalisce": 701,
+            "tezavnost": "6a+"
+        },
+        {
+            "id": 612,
+            "ime": "Juretova",
+            "plezalisce": 701,
+            "tezavnost": "6b+"
+        },
+        {
+            "id": 619,
+            "ime": "Plava",
+            "plezalisce": 701,
+            "tezavnost": "6b"
+        },
+        {
+            "id": 622,
+            "ime": "Taščica",
+            "plezalisce": 701,
+            "tezavnost": "5c"
+        },
+        {
+            "id": 623,
+            "ime": "Sonček je",
+            "plezalisce": 701,
+            "tezavnost": "4a"
+        },
+        {
+            "id": 624,
+            "ime": "Martinova gos",
+            "plezalisce": 701,
+            "tezavnost": "4b"
+        },
+        {
+            "id": 625,
+            "ime": "Ta bela",
+            "plezalisce": 701,
+            "tezavnost": "6a+"
+        },
+        {
+            "id": 626,
+            "ime": "Zelena",
+            "plezalisce": 701,
+            "tezavnost": "5a+"
+        },
+        {
+            "id": 627,
+            "ime": "Tinkara",
+            "plezalisce": 701,
+            "tezavnost": "4b+"
+        },
+        {
+            "id": 628,
+            "ime": "Raz",
+            "plezalisce": 702,
+            "tezavnost": "4c"
+        },
+        {
+            "id": 629,
+            "ime": "Zmešana soseda",
+            "plezalisce": 702,
+            "tezavnost": "5c"
+        },
+        {
+            "id": 630,
+            "ime": "Kača plaziritka",
+            "plezalisce": 702,
+            "tezavnost": "5b"
+        },
+        {
+            "id": 631,
+            "ime": "Tic",
+            "plezalisce": 702,
+            "tezavnost": "3"
+        },
+        {
+            "id": 632,
+            "ime": "Toe",
+            "plezalisce": 702,
+            "tezavnost": "3"
+        },
+        {
+            "id": 633,
+            "ime": "Tuc",
+            "plezalisce": 702,
+            "tezavnost": "3"
+        },
+        {
+            "id": 634,
+            "ime": "Tac",
+            "plezalisce": 702,
+            "tezavnost": "4b"
+        },
+        {
+            "id": 635,
+            "ime": "Strup za gamse",
+            "plezalisce": 702,
+            "tezavnost": "4b"
+        },
+        {
+            "id": 636,
+            "ime": "Bohomurček",
+            "plezalisce": 702,
+            "tezavnost": "5a+"
+        },
+        {
+            "id": 605,
+            "ime": "Turni smuk Rodica",
+            "plezalisce": 703,
+            "tezavnost": "5b"
+        },
+        {
+            "id": 606,
+            "ime": "AS Stara Fužina",
+            "plezalisce": 703,
+            "tezavnost": "5c"
+        },
+        {
+            "id": 607,
+            "ime": "Črni gaber",
+            "plezalisce": 703,
+            "tezavnost": "6a+"
+        },
+        {
+            "id": 608,
+            "ime": "Vojska SLO (do vrha)",
+            "plezalisce": 703,
+            "tezavnost": "6a"
+        },
+        {
+            "id": 637,
+            "ime": "Modras",
+            "plezalisce": 703,
+            "tezavnost": "5a+"
+        },
+        {
+            "id": 638,
+            "ime": "Gad",
+            "plezalisce": 703,
+            "tezavnost": "6a+"
+        },
+        {
+            "id": 639,
+            "ime": "Vojska SLO (pol)",
+            "plezalisce": 703,
+            "tezavnost": "4c"
+        },
+        {
+            "id": 640,
+            "ime": "Baby",
+            "plezalisce": 703,
+            "tezavnost": "4a"
+        },
+        {
+            "id": 641,
+            "ime": "Lady",
+            "plezalisce": 703,
+            "tezavnost": "4a"
+        },
+        {
+            "id": 603,
+            "ime": "Vabeča globina",
+            "plezalisce": 704,
+            "tezavnost": "6c+"
+        },
+        {
+            "id": 604,
+            "ime": "Trim",
+            "plezalisce": 704,
+            "tezavnost": "5a+"
+        },
+        {
+            "id": 609,
+            "ime": "Ježek teka teka",
+            "plezalisce": 704,
+            "tezavnost": "6a"
+        },
+        {
+            "id": 610,
+            "ime": "Siva poč",
+            "plezalisce": 704,
+            "tezavnost": "5c"
+        },
+        {
+            "id": 613,
+            "ime": "Mravlja",
+            "plezalisce": 704,
+            "tezavnost": "6b"
+        },
+        {
+            "id": 614,
+            "ime": "Beli cvet",
+            "plezalisce": 704,
+            "tezavnost": "6a"
+        },
+        {
+            "id": 615,
+            "ime": "Sirove luknje",
+            "plezalisce": 704,
+            "tezavnost": "5b+"
+        },
+        {
+            "id": 616,
+            "ime": "Ementalec",
+            "plezalisce": 704,
+            "tezavnost": "5a"
+        },
+        {
+            "id": 617,
+            "ime": "Čista fizika",
+            "plezalisce": 704,
+            "tezavnost": "7a+"
+        },
+        {
+            "id": 618,
+            "ime": "Sivi steber",
+            "plezalisce": 704,
+            "tezavnost": "6c"
+        },
+        {
+            "id": 620,
+            "ime": "Avrikelj",
+            "plezalisce": 704,
+            "tezavnost": "6b"
+        },
+        {
+            "id": 621,
+            "ime": "Mamut",
+            "plezalisce": 704,
+            "tezavnost": "6b"
+        },
+        {
+            "id": 642,
+            "ime": "Litle big wall",
+            "plezalisce": 704,
+            "tezavnost": "5c+"
+        },
+        {
+            "id": 643,
+            "ime": "Lepota ni naklučje",
+            "plezalisce": 704,
+            "tezavnost": "6a"
+        },
+        {
+            "id": 644,
+            "ime": "Črne Luknje",
+            "plezalisce": 704,
+            "tezavnost": "5b+"
+        },
+        {
+            "id": 645,
+            "ime": "Črnka",
+            "plezalisce": 704,
+            "tezavnost": "5c+"
+        },
+        {
+            "id": 646,
+            "ime": "Gosenica",
+            "plezalisce": 704,
+            "tezavnost": "6a"
+        },
+        {
+            "id": 647,
+            "ime": "Cekinček",
+            "plezalisce": 704,
+            "tezavnost": "6a"
+        },
+        {
+            "id": 648,
+            "ime": "Encijan",
+            "plezalisce": 704,
+            "tezavnost": "6c"
+        },
+        {
+            "id": 649,
+            "ime": "Veselica",
+            "plezalisce": 704,
+            "tezavnost": "6a+"
+        },
+        {
+            "id": 650,
+            "ime": "Svišč",
+            "plezalisce": 704,
+            "tezavnost": "5c"
+        },
+        {
+            "id": 651,
+            "ime": "Lepotička",
+            "plezalisce": 704,
+            "tezavnost": "5b+"
+        },
+        {
+            "id": 652,
+            "ime": "Mihatova",
+            "plezalisce": 704,
+            "tezavnost": "5c"
+        },
+        {
+            "id": 653,
+            "ime": "Dvojčici",
+            "plezalisce": 704,
+            "tezavnost": "6a+"
+        },
+        {
+            "id": 654,
+            "ime": "Polnoletna",
+            "plezalisce": 704,
+            "tezavnost": "5c"
+        },
+        {
+            "id": 655,
+            "ime": "Martin Krpan",
+            "plezalisce": 705,
+            "tezavnost": "5c"
+        },
+        {
+            "id": 656,
+            "ime": "Škorpion",
+            "plezalisce": 705,
+            "tezavnost": "4c"
+        },
+        {
+            "id": 657,
+            "ime": "Pajek",
+            "plezalisce": 705,
+            "tezavnost": "4c"
+        },
+        {
+            "id": 658,
+            "ime": "Črna Liza",
+            "plezalisce": 705,
+            "tezavnost": "6b"
+        },
+        {
+            "id": 659,
+            "ime": "Easy",
+            "plezalisce": 705,
+            "tezavnost": "3"
+        },
+        {
+            "id": 660,
+            "ime": "Luska",
+            "plezalisce": 706,
+            "tezavnost": "5a"
+        },
+        {
+            "id": 661,
+            "ime": "Zajček",
+            "plezalisce": 706,
+            "tezavnost": "3"
+        },
+        {
+            "id": 662,
+            "ime": "Veverica",
+            "plezalisce": 706,
+            "tezavnost": "4b+"
+        },
+        {
+            "id": 663,
+            "ime": "Špela",
+            "plezalisce": 706,
+            "tezavnost": "4a"
+        },
+        {
+            "id": 664,
+            "ime": "Dim",
+            "plezalisce": 706,
+            "tezavnost": "5c"
+        },
+        {
+            "id": 665,
+            "ime": "Raz Belevija",
+            "plezalisce": 706,
+            "tezavnost": "4a"
+        },
+        {
+            "id": 666,
+            "ime": "Je treba delat ",
+            "plezalisce": 706,
+            "tezavnost": "5c+"
+        },
+        {
+            "id": 667,
+            "ime": "Še je upanje",
+            "plezalisce": 706,
+            "tezavnost": "6b+"
+        },
+        {
+            "id": 668,
+            "ime": "Urškina",
+            "plezalisce": 706,
+            "tezavnost": "4c+"
+        },
+        {
+            "id": 669,
+            "ime": "Ježek",
+            "plezalisce": 706,
+            "tezavnost": "3"
+        },
+        {
+            "id": 670,
+            "ime": "Razgledna",
+            "plezalisce": 706,
+            "tezavnost": "5a+"
+        },
+        {
+            "id": 671,
+            "ime": "Scooby-doo",
+            "plezalisce": 707,
+            "tezavnost": "4a+"
+        },
+        {
+            "id": 672,
+            "ime": "Mladi upi",
+            "plezalisce": 707,
+            "tezavnost": "3"
+        },
+        {
+            "id": 673,
+            "ime": "Johnny Bravo",
+            "plezalisce": 707,
+            "tezavnost": "4c"
+        },
+        {
+            "id": 674,
+            "ime": "Sreča na vrvici",
+            "plezalisce": 707,
+            "tezavnost": "4b"
+        },
+        {
+            "id": 675,
+            "ime": "Jeba",
+            "plezalisce": 708,
+            "tezavnost": "6a"
+        },
+        {
+            "id": 676,
+            "ime": "Skuta",
+            "plezalisce": 708,
+            "tezavnost": "5c"
+        },
+        {
+            "id": 677,
+            "ime": "Ovčka",
+            "plezalisce": 708,
+            "tezavnost": "4b"
+        },
+        {
+            "id": 682,
+            "ime": "Navihana",
+            "plezalisce": 708,
+            "tezavnost": "7a+"
+        },
+        {
+            "id": 678,
+            "ime": "Luknja",
+            "plezalisce": 709,
+            "tezavnost": "4a"
+        },
+        {
+            "id": 679,
+            "ime": "Bukev",
+            "plezalisce": 709,
+            "tezavnost": "4c+"
+        },
+        {
+            "id": 680,
+            "ime": "Kopriva",
+            "plezalisce": 709,
+            "tezavnost": "5c+"
+        },
+        {
+            "id": 681,
+            "ime": "Australia",
+            "plezalisce": 709,
+            "tezavnost": "4b+"
+        }
+    ],
+    "stars": [
+        {
+            "id": 101,
+            "ime": "Maggie",
+            "priimek": "Corbin",
+            "mail": "runte.stephania@yahoo.com",
+            "naslov": "Olševek 75, 4205 Preddvor",
+            "telefon": "00386-405-559-562"
+        },
+        {
+            "id": 102,
+            "ime": "Grace",
+            "priimek": "Huggins",
+            "mail": "oeffertz@collins.com",
+            "naslov": "Kidričeva 61, 4000 Kranj",
+            "telefon": "00386-315-555-2077"
+        },
+        {
+            "id": 103,
+            "ime": "Cornelia ",
+            "priimek": "Hatch",
+            "mail": "dlangosh@spinka.com",
+            "naslov": "Predoslje 197, 4000 Kranj",
+            "telefon": "00386-205-558-461"
+        },
+        {
+            "id": 104,
+            "ime": "Lindsey ",
+            "priimek": "Lanier",
+            "mail": "lowe.vivianne@yahoo.com",
+            "naslov": "Na Vidmu 11, 4000 Kranj",
+            "telefon": "00386-315-555-75"
+        },
+        {
+            "id": 105,
+            "ime": "Maryann ",
+            "priimek": "Livingston",
+            "mail": "jparker@swaniawski.com",
+            "naslov": "Trstenik 12, 4204 Golnik",
+            "telefon": "00386-405-558-4109"
+        },
+        {
+            "id": 106,
+            "ime": "Jason ",
+            "priimek": "Snider",
+            "mail": "elda.farrell@yahoo.com",
+            "naslov": "Belska cesta 26, 4205 Preddvor",
+            "telefon": "00386-405-553-2578"
+        },
+        {
+            "id": 107,
+            "ime": "Charles ",
+            "priimek": "Morrison",
+            "mail": "alvera59@little.com",
+            "naslov": "Velesovo 58a, 4207 Cerklje",
+            "telefon": "00386-305-551-8879"
+        },
+        {
+            "id": 108,
+            "ime": "Marcy ",
+            "priimek": "Mcgrath",
+            "mail": "cgrimes@frami.net",
+            "naslov": "Dolžanova pot 1, 4000 kranj",
+            "telefon": "00386-645-552-31"
+        },
+        {
+            "id": 109,
+            "ime": "Freida ",
+            "priimek": "Rodriquez",
+            "mail": "branson67@gmail.com",
+            "naslov": "Kebetova ul. 18",
+            "telefon": "00386-205-553-258"
+        },
+        {
+            "id": 110,
+            "ime": "Estella ",
+            "priimek": "Blue",
+            "mail": "rosamond86@jerde.com",
+            "naslov": "Cesta Kokrškega odreda 30, Kranj",
+            "telefon": "00386-215-550-64"
+        },
+        {
+            "id": 111,
+            "ime": "Imelda ",
+            "priimek": "Curran",
+            "mail": "mschneider@batz.info",
+            "naslov": "Moše 40, 1216 Smlednik",
+            "telefon": "00386-605-552-3744"
+        },
+        {
+            "id": 112,
+            "ime": "Lonny ",
+            "priimek": "Wesley",
+            "mail": "sage33@gmail.com",
+            "naslov": "Pešnica 17, 4201 Zgornja Besnica",
+            "telefon": "00386-215-554-61"
+        },
+        {
+            "id": 113,
+            "ime": "Amalia ",
+            "priimek": "Frazier",
+            "mail": "hilda.fahey@yahoo.com",
+            "naslov": "Ul. Angelce Hlebce 1a, 4000 Kranj",
+            "telefon": "00386-215-554-80"
+        },
+        {
+            "id": 114,
+            "ime": "Beverley ",
+            "priimek": "Hedrick",
+            "mail": "bernard.leuschke@gmail.com",
+            "naslov": "Drolčevo naselje 3, 4000 Kranj",
+            "telefon": "00386-415-551-636"
+        },
+        {
+            "id": 115,
+            "ime": "Renaldo",
+            "priimek": "Myers",
+            "mail": "eliseo.windler@yahoo.com",
+            "naslov": "Soška ulica 8, 4000 Kranj",
+            "telefon": "00386-605-555-61"
+        },
+        {
+            "id": 116,
+            "ime": "Dora ",
+            "priimek": "Winkler",
+            "mail": "hand.addison@littel.com",
+            "naslov": "Breg ob Savi 15a, 4211 Mavčiče",
+            "telefon": "00386-615-558-7"
+        },
+        {
+            "id": 117,
+            "ime": "Carl ",
+            "priimek": "Mohr",
+            "mail": "gutkowski.agustina@yahoo.com",
+            "naslov": "Ulica Lojzata Horvata 9, 4000 Kranj",
+            "telefon": "00386-715-553-3190"
+        },
+        {
+            "id": 118,
+            "ime": "Dallas ",
+            "priimek": "Pettit",
+            "mail": "earl27@gleason.org",
+            "naslov": "Luznarjeva 15, 4000 Kranj",
+            "telefon": "00386-705-557-35"
+        },
+        {
+            "id": 119,
+            "ime": "Efrain ",
+            "priimek": "Charles",
+            "mail": "gpredovic@yahoo.com",
+            "naslov": "Trnovlje 50, 4207 Cerklje",
+            "telefon": "00386-215-553-91"
+        },
+        {
+            "id": 120,
+            "ime": "Helga ",
+            "priimek": "Keene",
+            "mail": "mernser@gmail.com",
+            "naslov": "Britof, 4000 Kranj",
+            "telefon": "00386-315-558-751"
+        },
+        {
+            "id": 121,
+            "ime": "Bernadette",
+            "priimek": "Baldwin",
+            "mail": "providenci.terry@gleichner.com",
+            "naslov": "Breg ob Savi 103, 4211 Mavčiče",
+            "telefon": "00386-305-554-327"
+        },
+        {
+            "id": 122,
+            "ime": "Francis ",
+            "priimek": "Schmidt",
+            "mail": "lew92@strosin.com",
+            "naslov": "Cesta na Hudo 2, 4000 Kranj",
+            "telefon": "00386-315-554-6114"
+        },
+        {
+            "id": 123,
+            "ime": "Larry ",
+            "priimek": "Robinson",
+            "mail": "rohan.marshall@feeney.com",
+            "naslov": "Prebačevo 12, 4000 Kranj",
+            "telefon": "00386-305-558-89"
+        },
+        {
+            "id": 124,
+            "ime": "Seth ",
+            "priimek": "Hays",
+            "mail": "harvey.christop@kutch.com",
+            "naslov": "4204 Golnik, Golnik 10d",
+            "telefon": "00386-645-556-9"
+        },
+        {
+            "id": 125,
+            "ime": "Cassidy",
+            "priimek": "Galindo",
+            "mail": "cade12@yahoo.com",
+            "naslov": "Gasilska ulica 7, 4000 Kranj",
+            "telefon": "00386-405-559-56"
+        },
+        {
+            "id": 126,
+            "ime": "Collin ",
+            "priimek": "Koehler",
+            "mail": "marvin.bauch@hotmail.com",
+            "naslov": "Golnik 85, 4204 Golnik",
+            "telefon": "00386-515-553-11"
+        },
+        {
+            "id": 127,
+            "ime": "Delia ",
+            "priimek": "Flowers",
+            "mail": "xkuvalis@hotmail.com",
+            "naslov": "Kuratova 4, 4000 Kranj",
+            "telefon": "00386-215-551-98"
+        },
+        {
+            "id": 128,
+            "ime": "Lenore ",
+            "priimek": "Keys",
+            "mail": "corkery.eliza@gmail.com",
+            "naslov": "Smednia cesta 55, 4000 Kranj",
+            "telefon": "00386-215-554-9731"
+        },
+        {
+            "id": 129,
+            "ime": "Andrea ",
+            "priimek": "Bergeron",
+            "mail": "lindgren.rafael@hotmail.com",
+            "naslov": "Nova vas 16, 4201 Zg. Besnica",
+            "telefon": "00386-605-553-486"
+        },
+        {
+            "id": 130,
+            "ime": "Dina",
+            "priimek": "Holland",
+            "mail": "kbode@glover.biz",
+            "naslov": "Okornova ulica 14, 4000 Kranj",
+            "telefon": "00386-215-559-8476"
+        },
+        {
+            "id": 131,
+            "ime": "Paul ",
+            "priimek": "Ritchie",
+            "mail": "paxton78@schmitt.com",
+            "naslov": "Mandeljčeva pot 12, 4000 Kranj",
+            "telefon": "00386-505-555-3725"
+        },
+        {
+            "id": 132,
+            "ime": "Ashley ",
+            "priimek": "Franks",
+            "mail": "arne52@runolfsson.com",
+            "naslov": "Luznarjeva ulica 12, 4000 Kranj",
+            "telefon": "00386-315-554-851"
+        },
+        {
+            "id": 133,
+            "ime": "Penny ",
+            "priimek": "Maher",
+            "mail": "mallory.kunde@dooley.net",
+            "naslov": "Zoisova ulica 17, 4000 Kranj",
+            "telefon": "00386-615-559-23"
+        },
+        {
+            "id": 134,
+            "ime": "Osvaldo ",
+            "priimek": "Langston",
+            "mail": "nathanael22@hotmail.com",
+            "naslov": "Srednja vas pri Šenčurju 4, 4208 Šenčur",
+            "telefon": "00386-315-553-5601"
+        },
+        {
+            "id": 135,
+            "ime": "Kip ",
+            "priimek": "Mccoy",
+            "mail": "maxwell02@hamill.com",
+            "naslov": "Špikova 3, 4000 Kranj",
+            "telefon": "00386-645-551-8754"
+        },
+        {
+            "id": 136,
+            "ime": "Brandie ",
+            "priimek": "Meade",
+            "mail": "melvin.wunsch@moore.org",
+            "naslov": "Štefetova ulica 33, 4208 Šenčur",
+            "telefon": "00386-645-550-63"
+        },
+        {
+            "id": 137,
+            "ime": "Roxanne ",
+            "priimek": "David",
+            "mail": "nhessel@prosacco.com",
+            "naslov": "Spodnje Gameljne 9c, 1211 Ljubljana-Šmartno",
+            "telefon": "00386-705-558-14"
+        },
+        {
+            "id": 138,
+            "ime": "Max ",
+            "priimek": "Trejo",
+            "mail": "kovacek.mathew@hotmail.com",
+            "naslov": "Srednja vas pri Šenčurju 72, 4208 Šenčur",
+            "telefon": "00386-405-555-64"
+        },
+        {
+            "id": 139,
+            "ime": "Evan ",
+            "priimek": "Cornell",
+            "mail": "thomas.lehner@yahoo.com",
+            "naslov": "Preloge 16, 1000 Ljubljana",
+            "telefon": "00386-205-552-123"
+        },
+        {
+            "id": 140,
+            "ime": "Jodie ",
+            "priimek": "Willis",
+            "mail": "bo.cremin@pacocha.info",
+            "naslov": "Preloge 16, 1000 Ljubljana",
+            "telefon": "00386-705-556-18"
+        },
+        {
+            "id": 141,
+            "ime": "Dale ",
+            "priimek": "Darling",
+            "mail": "nicholaus.gulgowski@gmail.com",
+            "naslov": "Detelova ulica 16, 4000 Kranj",
+            "telefon": "00386-205-554-3810"
+        },
+        {
+            "id": 142,
+            "ime": "Maher",
+            "priimek": "Goss",
+            "mail": "waelchi.raymundo@hotmail.com",
+            "naslov": "Britof 95, 4000 Kranj",
+            "telefon": "00386-515-558-503"
+        },
+        {
+            "id": 143,
+            "ime": "Walker",
+            "priimek": "Chu",
+            "mail": "cmiller@gusikowski.com",
+            "naslov": "Čadovlje pri Tržiču 7/a, 4290 Tržič",
+            "telefon": "00386-405-557-3471"
+        },
+        {
+            "id": 144,
+            "ime": "Cassidy",
+            "priimek": "Battle",
+            "mail": "lakin.arnold@wiza.com",
+            "naslov": "Trstenik 75, 4204 Golnik",
+            "telefon": "00386-205-556-48"
+        },
+        {
+            "id": 145,
+            "ime": "Katherine",
+            "priimek": "Looney",
+            "mail": "heller.dax@tillman.info",
+            "naslov": "Prebačevo 58b, 4000 Kranj",
+            "telefon": "00386-645-551-376"
+        },
+        {
+            "id": 146,
+            "ime": "Abbie",
+            "priimek": "Norris",
+            "mail": "pagac.leonora@abshire.com",
+            "naslov": "Sajovčevo naselje 4, 4208 Šenčur",
+            "telefon": "00386-215-552-4812"
+        },
+        {
+            "id": 147,
+            "ime": "Erlene",
+            "priimek": "Holden",
+            "mail": "rosie.kshlerin@yahoo.com",
+            "naslov": "Kebetova ul. 18",
+            "telefon": "00386-305-554-57"
+        },
+        {
+            "id": 148,
+            "ime": "Shela",
+            "priimek": "Chin",
+            "mail": "clair55@hotmail.com",
+            "naslov": "Trubarjev trg 10, 4000 Kranj",
+            "telefon": "00386-705-550-751"
+        },
+        {
+            "id": 149,
+            "ime": "Bernadette",
+            "priimek": "Hoskins",
+            "mail": "heber73@hotmail.com",
+            "naslov": "Ulica Vide Šinkovčeve 2, Kranj",
+            "telefon": "00386-315-559-551"
+        },
+        {
+            "id": 150,
+            "ime": "Francis ",
+            "priimek": "Weir",
+            "mail": "ebins@yahoo.com",
+            "naslov": "Smledniška cesta 1, 4000 Kranj",
+            "telefon": "00386-615-553-8992"
+        },
+        {
+            "id": 151,
+            "ime": "Larry ",
+            "priimek": "Mcnamara",
+            "mail": "murray.alek@yahoo.com",
+            "naslov": "Žlebe 22a, 1215 Medvode",
+            "telefon": "00386-415-554-26"
+        },
+        {
+            "id": 152,
+            "ime": "Seth ",
+            "priimek": "Bingham",
+            "mail": "willms.baron@gmail.com",
+            "naslov": "Žlebe 2.e, 1215 Medvode",
+            "telefon": "00386-705-555-56"
+        },
+        {
+            "id": 153,
+            "ime": "Cassidy",
+            "priimek": "Goss",
+            "mail": "pohara@yahoo.com",
+            "naslov": "Janka Puclja 3, 4000 Kranj",
+            "telefon": "00386-705-557-176"
+        },
+        {
+            "id": 154,
+            "ime": "Collin ",
+            "priimek": "Chatman",
+            "mail": "jedidiah.hegmann@johnston.info",
+            "naslov": "Maistrov trg 11, 4000 Kranj",
+            "telefon": "00386-315-553-48"
+        },
+        {
+            "id": 155,
+            "ime": "Delia ",
+            "priimek": "Culver",
+            "mail": "josiane.kirlin@yahoo.com",
+            "naslov": "Šenturška Gora 12, 4207 Cerklje",
+            "telefon": "00386-205-559-75"
+        },
+        {
+            "id": 156,
+            "ime": "Lenore ",
+            "priimek": "Grady",
+            "mail": "senger.nicolette@yahoo.com",
+            "naslov": "Trg Rivoli 3, 4000 Kranj",
+            "telefon": "00386-715-552-2461"
+        },
+        {
+            "id": 157,
+            "ime": "Andrea ",
+            "priimek": "Metz",
+            "mail": "chelsey94@gmail.com",
+            "naslov": "Jelenčeva ulica 21, 4000 Kranj",
+            "telefon": "00386-615-558-715"
+        },
+        {
+            "id": 158,
+            "ime": "Waylon ",
+            "priimek": "Hinkle",
+            "mail": "nannie.kunde@leannon.info",
+            "naslov": "Rožna 9, 4000 Kranj",
+            "telefon": "00386-205-550-76"
+        },
+        {
+            "id": 159,
+            "ime": "Dusty ",
+            "priimek": "Dunbar",
+            "mail": "malvina.harvey@yahoo.com",
+            "naslov": "Janka Puclja 1, 4000 Kranj",
+            "telefon": "00386-405-550-4"
+        },
+        {
+            "id": 160,
+            "ime": "Erlene",
+            "priimek": "Frost",
+            "mail": "imacejkovic@lakin.net",
+            "naslov": "Kebetova 1, 4000 Kranj",
+            "telefon": "00386-615-551-49"
+        },
+        {
+            "id": 161,
+            "ime": "Shela",
+            "priimek": "Bartley",
+            "mail": "mokuneva@gmail.com",
+            "naslov": "Predoslje 187, 4000 Kranj",
+            "telefon": "00386-205-555-186"
+        },
+        {
+            "id": 162,
+            "ime": "Annabell",
+            "priimek": "Murillo",
+            "mail": "kaylin.roob@ward.com",
+            "naslov": "Francarija 21, 4205 Preddvor",
+            "telefon": "00386-305-559-50"
+        },
+        {
+            "id": 163,
+            "ime": "Earleen",
+            "priimek": "Lunsford",
+            "mail": "zoila81@kemmer.com",
+            "naslov": "Kebetova 1, 4000 Kranj",
+            "telefon": "00386-605-559-286"
+        },
+        {
+            "id": 164,
+            "ime": "Eloise",
+            "priimek": "Gary",
+            "mail": "ruecker.harvey@bartoletti.net",
+            "naslov": "Predoslje 187, 4000 Kranj",
+            "telefon": "00386-615-551-832"
+        },
+        {
+            "id": 165,
+            "ime": "Robt",
+            "priimek": "Stern",
+            "mail": "myah.hill@yahoo.com",
+            "naslov": "Francarija 21, 4205 Preddvor",
+            "telefon": "00386-705-552-556"
+        },
+        {
+            "id": 166,
+            "ime": "Dorcas",
+            "priimek": "Hooper",
+            "mail": "bradford.veum@yahoo.com",
+            "naslov": "Golnik 177, 4204 Golnik",
+            "telefon": "00386-215-556-8"
+        },
+        {
+            "id": 167,
+            "ime": "Bianca",
+            "priimek": "Vargas",
+            "mail": "wweissnat@prohaska.com",
+            "naslov": "Preďż˝ka cesta 13, 1215 Medvode",
+            "telefon": "00386-605-555-7939"
+        },
+        {
+            "id": 168,
+            "ime": "Sung",
+            "priimek": "Bain",
+            "mail": "willms.hattie@wilderman.info",
+            "naslov": "Visoko 103a, 4212 Visoko",
+            "telefon": "00386-615-559-37"
+        },
+        {
+            "id": 169,
+            "ime": "Ena",
+            "priimek": "Alvarez",
+            "mail": "hackett.elmo@gmail.com",
+            "naslov": "Visoko 7, 4212 Visoko",
+            "telefon": "00386-315-553-8523"
+        },
+        {
+            "id": 170,
+            "ime": "Sana",
+            "priimek": "Staton",
+            "mail": "oswift@satterfield.com",
+            "naslov": "Podbrezje 216a, 4202 Naklo",
+            "telefon": "00386-705-555-702"
+        },
+        {
+            "id": 171,
+            "ime": "Arden ",
+            "priimek": "Wolf",
+            "mail": "mavis06@pfeffer.com",
+            "naslov": "Prebačevo 10e, 4000 Kranj",
+            "telefon": "00386-615-559-6154"
+        },
+        {
+            "id": 172,
+            "ime": "Leonard",
+            "priimek": "Morton",
+            "mail": "rgreen@fay.org",
+            "naslov": "Dragočajna 28a, Medvode",
+            "telefon": "00386-205-558-4597"
+        },
+        {
+            "id": 173,
+            "ime": "Seth ",
+            "priimek": "Lawson",
+            "mail": "colby15@hotmail.com",
+            "naslov": "Pipanova cesta 10, 4208 Šenčur",
+            "telefon": "00386-645-554-7"
+        },
+        {
+            "id": 174,
+            "ime": "Michale ",
+            "priimek": "Tackett",
+            "mail": "ernser.cassidy@erdman.com",
+            "naslov": "Goriče 9a, 4204 Golnik",
+            "telefon": "00386-305-551-62"
+        },
+        {
+            "id": 175,
+            "ime": "Ervin ",
+            "priimek": "Tuttle",
+            "mail": "tdonnelly@gmail.com",
+            "naslov": "Pšenična Polica 16, 4207 Cerklje na Gorenjskem",
+            "telefon": "00386-705-550-665"
+        },
+        {
+            "id": 176,
+            "ime": "Henry",
+            "priimek": "Dubois",
+            "mail": "btromp@gibson.biz",
+            "naslov": "Pristava 5a, 1234 Mengeš",
+            "telefon": "00386-505-554-58"
+        },
+        {
+            "id": 177,
+            "ime": "Angelo",
+            "priimek": "Connelly",
+            "mail": "hills.camren@rempel.com",
+            "naslov": "Pot pod Gradiščem 3, 4202 Naklo",
+            "telefon": "00386-215-554-2729"
+        },
+        {
+            "id": 178,
+            "ime": "Marco",
+            "priimek": "Matthews",
+            "mail": "zetta.lueilwitz@eichmann.net",
+            "naslov": "Zgornje Bitnje 193, 4209 Žabnica",
+            "telefon": "00386-315-553-13"
+        },
+        {
+            "id": 179,
+            "ime": "Bernice",
+            "priimek": "Mejia",
+            "mail": "altenwerth.andy@hotmail.com",
+            "naslov": "Rupa 51, 4000 Kranj",
+            "telefon": "00386-605-554-47"
+        },
+        {
+            "id": 180,
+            "ime": "Rolf ",
+            "priimek": "Hurd",
+            "mail": "ratke.michael@hotmail.com",
+            "naslov": "Britof 202, 4000 Kranj",
+            "telefon": "00386-215-552-6490"
+        },
+        {
+            "id": 181,
+            "ime": "Bennett",
+            "priimek": "Ward",
+            "mail": "clakin@yahoo.com",
+            "naslov": "Brebovnica 10b, 4224 Gorena vas",
+            "telefon": "00386-315-551-78"
+        },
+        {
+            "id": 182,
+            "ime": "Brian",
+            "priimek": "Leon",
+            "mail": "vilma64@yahoo.com",
+            "naslov": "Dražhoše 41, 4228 Železniki",
+            "telefon": "00386-215-550-28"
+        },
+        {
+            "id": 183,
+            "ime": "Monique",
+            "priimek": "Peck",
+            "mail": "kankunding@yahoo.com",
+            "naslov": "Ulica Juleta Gabrovška 20, 4000 Kranj",
+            "telefon": "00386-705-551-4384"
+        },
+        {
+            "id": 184,
+            "ime": "Marcel ",
+            "priimek": "Daugherty",
+            "mail": "ykeebler@johns.com",
+            "naslov": "Župančičeva ulica 3, 4000 Kranj",
+            "telefon": "00386-405-557-9565"
+        },
+        {
+            "id": 185,
+            "ime": "Madge",
+            "priimek": "Gomes",
+            "mail": "donny.bosco@kling.info",
+            "naslov": "Dvorje 77a, 4207 Cerklje na Gorenjskem",
+            "telefon": "00386-605-550-1170"
+        },
+        {
+            "id": 186,
+            "ime": "Nubia",
+            "priimek": "Nichols",
+            "mail": "kraig.howell@yahoo.com",
+            "naslov": "Čirďče 42, 4000 Kranj",
+            "telefon": "00386-715-558-78"
+        },
+        {
+            "id": 187,
+            "ime": "Alvera",
+            "priimek": "Adams",
+            "mail": "hagenes.jaunita@gmail.com",
+            "naslov": "Čirďče 42, 4000 Kranj",
+            "telefon": "00386-705-556-5119"
+        },
+        {
+            "id": 188,
+            "ime": "Cyndy",
+            "priimek": "Farrell",
+            "mail": "dovie.roberts@pagac.com",
+            "naslov": "Mlakarjeva 18, 4000 Kranj",
+            "telefon": "00386-305-554-962"
+        },
+        {
+            "id": 189,
+            "ime": "Vanna",
+            "priimek": "Beaver",
+            "mail": "benedict.rosenbaum@mosciski.com",
+            "naslov": "Cesta Kokrškega odreda 22a, 4000 Kranj",
+            "telefon": "00386-315-554-5304"
+        },
+        {
+            "id": 190,
+            "ime": "Liz",
+            "priimek": "Duke",
+            "mail": "karson.langosh@gmail.com",
+            "naslov": "Trojarjeva 21, 4000 Kranj",
+            "telefon": "00386-615-558-83"
+        },
+        {
+            "id": 191,
+            "ime": "Idell",
+            "priimek": "Zavala",
+            "mail": "olindgren@bernhard.net",
+            "naslov": "Nazorjeva ulica 2, 4000 Kranj",
+            "telefon": "00386-305-555-40"
+        },
+        {
+            "id": 192,
+            "ime": "Evelyn",
+            "priimek": "Heller",
+            "mail": "gbogisich@kuphal.com",
+            "naslov": "Begunjska ulica 14, 4000 Kranj",
+            "telefon": "00386-515-554-648"
+        },
+        {
+            "id": 193,
+            "ime": "Avril",
+            "priimek": "Richards",
+            "mail": "tkautzer@rogahn.net",
+            "naslov": "Britof 254, 4000 Kranj",
+            "telefon": "00386-315-550-172"
+        },
+        {
+            "id": 194,
+            "ime": "Brigida",
+            "priimek": "Maher",
+            "mail": "torey.medhurst@yahoo.com",
+            "naslov": "Partizanska ul. 31, 4208 Šenčur",
+            "telefon": "00386-605-555-591"
+        },
+        {
+            "id": 195,
+            "ime": "Brock",
+            "priimek": "Frost",
+            "mail": "marks.lysanne@harber.com",
+            "naslov": "Trojarjeva 21, 4000 Kranj",
+            "telefon": "00386-715-554-75"
+        },
+        {
+            "id": 196,
+            "ime": "Anh",
+            "priimek": "Khan",
+            "mail": "vernie57@kshlerin.com",
+            "naslov": "Krožna pot 65,4208 Voglje",
+            "telefon": "00386-715-557-6570"
+        },
+        {
+            "id": 197,
+            "ime": "Kyoko",
+            "priimek": "Phelps",
+            "mail": "jerrold.stokes@hotmail.com",
+            "naslov": "Britof 95, 4000 Kranj",
+            "telefon": "00386-405-552-16"
+        },
+        {
+            "id": 198,
+            "ime": "Cathleen",
+            "priimek": "Meeks",
+            "mail": "sporer.ari@gmail.com",
+            "naslov": "Stara cesta 18, 4000 Kranj",
+            "telefon": "00386-205-553-12"
+        },
+        {
+            "id": 199,
+            "ime": "Tasia",
+            "priimek": "Lyons",
+            "mail": "jacobson.annabell@wisoky.com",
+            "naslov": "Podbrezje 216a, 4202 Naklo",
+            "telefon": "00386-215-558-82"
+        },
+        {
+            "id": 200,
+            "ime": "Kristi ",
+            "priimek": "Charlote",
+            "mail": "shaniya04@harber.net",
+            "naslov": "Struževo 5a, 4000 Kranj",
+            "telefon": "00386-515-557-31"
+        }
+    ],
+    "trener": [
+        {
+            "id": 214,
+            "ime": "Brina",
+            "priimek": "Đerković",
+            "mail": "schamberger.moises@botsford.net",
+            "naslov": "Hotemaže15, 4205 Preddvor",
+            "telefon": "00386-715-553-60"
+        },
+        {
+            "id": 201,
+            "ime": "Špela",
+            "priimek": "Šter",
+            "mail": "dwindler@gmail.com",
+            "naslov": "Golnik 177, 4204 Golnik",
+            "telefon": "00386-715-552-96"
+        },
+        {
+            "id": 203,
+            "ime": "Tjaša",
+            "priimek": "Ažbe",
+            "mail": "fbruen@yahoo.com",
+            "naslov": "Jezerska c. 93/D, 4000 Kranj",
+            "telefon": "00386-705-557-41"
+        },
+        {
+            "id": 211,
+            "ime": "Petra",
+            "priimek": "Remic",
+            "mail": "greenholt.michaela@hotmail.com",
+            "naslov": "Pot na Jošta 59,Stražišče",
+            "telefon": "00386-705-550-9872"
+        },
+        {
+            "id": 210,
+            "ime": "Teja",
+            "priimek": "Čeč",
+            "mail": "marilyne29@yahoo.com",
+            "naslov": "Cesta Jaka Platiše 9, 4000 Kranj",
+            "telefon": "00386-645-559-34"
+        },
+        {
+            "id": 212,
+            "ime": "Mia",
+            "priimek": "Krampl",
+            "mail": "cronin.dejon@hotmail.com",
+            "naslov": "Pot na Jošta 113. Stražišče",
+            "telefon": "00386-645-553-499"
+        },
+        {
+            "id": 209,
+            "ime": "Dominik",
+            "priimek": "Fon",
+            "mail": "ehaag@nicolas.org",
+            "naslov": "Struževo 3d, 4000 Kranj",
+            "telefon": "00386-615-558-361"
+        },
+        {
+            "id": 208,
+            "ime": "Gal",
+            "priimek": "Rihtaršič",
+            "mail": "doyle47@hotmail.com",
+            "naslov": "Župančičeva ulica 3, 4000 Kranj",
+            "telefon": "00386-605-557-287"
+        },
+        {
+            "id": 202,
+            "ime": "Tjaša",
+            "priimek": "Kalan",
+            "mail": "rutherford.enola@hotmail.com",
+            "naslov": "Jezerska cesta 2, Kranj",
+            "telefon": "00386-495-550-1347"
+        },
+        {
+            "id": 213,
+            "ime": "Tonja",
+            "priimek": "Oman Sajovic ",
+            "mail": "esta.watsica@sawayn.com",
+            "naslov": "Hotemaže 120, 4205 Preddvor",
+            "telefon": "00386-415-559-387"
+        },
+        {
+            "id": 206,
+            "ime": "Teja",
+            "priimek": "Škofic",
+            "mail": "murl.murray@gmail.com",
+            "naslov": "Hotemaďż˝e 116, 4205 Preddvor",
+            "telefon": "00386-415-552-51"
+        },
+        {
+            "id": 207,
+            "ime": "Meta",
+            "priimek": "Cerkovnik",
+            "mail": "vthompson@cummerata.com",
+            "naslov": "Jezerska cesta 118, 4000 Kranj",
+            "telefon": "00386-405-556-688"
+        },
+        {
+            "id": 204,
+            "ime": "Eva",
+            "priimek": "Flajnik",
+            "mail": "frederique.blick@hotmail.com",
+            "naslov": "Jezerska cesta 93B, 4000 Kranj",
+            "telefon": "00386-315-553-5467"
+        },
+        {
+            "id": 205,
+            "ime": "Neža",
+            "priimek": "Vombergar",
+            "mail": "kattie.beier@hotmail.com",
+            "naslov": "Srednja vas pri Šenčurju 202, 4208 Šenčur",
+            "telefon": "00386-305-559-63"
         }
     ]
+    
+}
+
