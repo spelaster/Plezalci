@@ -1,6 +1,5 @@
-# Primer repozitorija
 
-Primer za predavanja iz Podatkovnih baz 1
+Projekt pri predmetu Podatkovne baze 1
 
 # ER diagram plezalcev
 
