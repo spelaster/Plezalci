@@ -4,7 +4,7 @@
             "id": 509,
             "datum": "6/6/19",
             "plezalisce": 707,
-            "ime": "Celodnevni izlet na Primorsko"
+            "ime": "Celodnevni plezalni izlet na Primorsko"
         },
         {
             "id": 508,
@@ -16,7 +16,7 @@
             "id": 507,
             "datum": "5/24/20",
             "plezalisce": 708,
-            "ime": "Popoldanski izlet v Kamnitnik"
+            "ime": "Popoldanski plezalni izlet v Kamnitnik"
         },
         {
             "id": 506,
@@ -28,13 +28,13 @@
             "id": 505,
             "datum": "10/15/19",
             "plezalisce": 705,
-            "ime": "Celodnevni izlet na Primorsko"
+            "ime": "Celodnevni plezalni izlet na Primorsko"
         },
         {
             "id": 504,
             "datum": "7/9/19",
             "plezalisce": 704,
-            "ime": "Vikend izlet v Kotečnik"
+            "ime": "Vikend plezalni izlet v Kotečnik"
         },
         {
             "id": 503,
@@ -52,7 +52,7 @@
             "id": 501,
             "datum": "4/10/18",
             "plezalisce": 701,
-            "ime": "Popoldanski izlet v Preddvor"
+            "ime": "Popoldanski plezalni izlet v Preddvor"
         }
     ],
     "je_splezal": [
