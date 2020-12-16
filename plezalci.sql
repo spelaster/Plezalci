@@ -1,7 +1,7 @@
 
 PRAGMA foreign_keys = off;
 BEGIN TRANSACTION;
-
+-- ustvarimo tabele
 
 -- Table: otrok
 CREATE TABLE otrok (
