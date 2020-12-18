@@ -4,7 +4,7 @@
             "id": 509,
             "datum": "6/6/19",
             "plezalisce": 707,
-            "ime": "Celodnevni plezalni izlet na Primorsko"
+            "ime": "Celodnevni izlet na Primorsko"
         },
         {
             "id": 508,
@@ -16,7 +16,7 @@
             "id": 507,
             "datum": "5/24/20",
             "plezalisce": 708,
-            "ime": "Popoldanski plezalni izlet v Kamnitnik"
+            "ime": "Popoldanski izlet v Kamnitnik"
         },
         {
             "id": 506,
@@ -28,13 +28,13 @@
             "id": 505,
             "datum": "10/15/19",
             "plezalisce": 705,
-            "ime": "Celodnevni plezalni izlet na Primorsko"
+            "ime": "Celodnevni izlet na Primorsko"
         },
         {
             "id": 504,
             "datum": "7/9/19",
             "plezalisce": 704,
-            "ime": "Vikend plezalni izlet v Kotečnik"
+            "ime": "Vikend izlet v Kotečnik"
         },
         {
             "id": 503,
@@ -52,883 +52,883 @@
             "id": 501,
             "datum": "4/10/18",
             "plezalisce": 701,
-            "ime": "Popoldanski plezalni izlet v Preddvor"
+            "ime": "Popoldanski izlet v Preddvor"
         }
     ],
     "je_splezal": [
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "7/7/19",
+            "datum_preplezane_smeri": "7/7/19",
             "otrok": 30,
             "smer": 605
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "7/7/19",
+            "datum_preplezane_smeri": "7/7/19",
             "otrok": 31,
             "smer": 606
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "7/7/19",
+            "datum_preplezane_smeri": "7/7/19",
             "otrok": 32,
             "smer": 607
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/7/19",
+            "datum_preplezane_smeri": "7/7/19",
             "otrok": 33,
             "smer": 608
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "7/7/19",
+            "datum_preplezane_smeri": "7/7/19",
             "otrok": 34,
             "smer": 637
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/7/19",
+            "datum_preplezane_smeri": "7/7/19",
             "otrok": 35,
             "smer": 638
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "7/7/19",
+            "datum_preplezane_smeri": "7/7/19",
             "otrok": 36,
             "smer": 639
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/7/19",
+            "datum_preplezane_smeri": "7/7/19",
             "otrok": 37,
             "smer": 640
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "7/7/19",
+            "datum_preplezane_smeri": "7/7/19",
             "otrok": 38,
             "smer": 641
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/7/19",
+            "datum_preplezane_smeri": "7/7/19",
             "otrok": 39,
             "smer": 608
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/7/19",
+            "datum_preplezane_smeri": "7/7/19",
             "otrok": 40,
             "smer": 637
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 41,
             "smer": 628
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 42,
             "smer": 629
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 13,
             "smer": 630
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 5,
             "smer": 631
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 55,
             "smer": 632
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 22,
             "smer": 633
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 19,
             "smer": 634
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 20,
             "smer": 635
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 21,
             "smer": 636
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 22,
             "smer": 628
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 23,
             "smer": 629
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 24,
             "smer": 630
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 25,
             "smer": 631
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 26,
             "smer": 632
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 27,
             "smer": 633
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 28,
             "smer": 634
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 29,
             "smer": 635
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "8/7/19",
+            "datum_preplezane_smeri": "8/7/19",
             "otrok": 44,
             "smer": 636
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 50,
             "smer": 660
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 51,
             "smer": 661
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 52,
             "smer": 662
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 53,
             "smer": 663
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 54,
             "smer": 664
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 55,
             "smer": 665
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 56,
             "smer": 666
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 57,
             "smer": 667
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 58,
             "smer": 668
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 59,
             "smer": 669
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 60,
             "smer": 670
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 61,
             "smer": 660
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 62,
             "smer": 661
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 63,
             "smer": 662
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 64,
             "smer": 663
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 65,
             "smer": 664
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 66,
             "smer": 665
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 67,
             "smer": 666
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 68,
             "smer": 667
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 69,
             "smer": 668
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 70,
             "smer": 669
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "6/7/20",
+            "datum_preplezane_smeri": "6/7/20",
             "otrok": 71,
             "smer": 670
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "10/7/19",
+            "datum_preplezane_smeri": "10/7/19",
             "otrok": 72,
             "smer": 678
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "10/7/19",
+            "datum_preplezane_smeri": "10/7/19",
             "otrok": 73,
             "smer": 679
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "10/7/19",
+            "datum_preplezane_smeri": "10/7/19",
             "otrok": 74,
             "smer": 680
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "10/7/19",
+            "datum_preplezane_smeri": "10/7/19",
             "otrok": 75,
             "smer": 681
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "10/7/19",
+            "datum_preplezane_smeri": "10/7/19",
             "otrok": 76,
             "smer": 678
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "10/7/19",
+            "datum_preplezane_smeri": "10/7/19",
             "otrok": 77,
             "smer": 679
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "10/7/19",
+            "datum_preplezane_smeri": "10/7/19",
             "otrok": 78,
             "smer": 680
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "10/7/19",
+            "datum_preplezane_smeri": "10/7/19",
             "otrok": 79,
             "smer": 681
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/6/19",
+            "datum_preplezane_smeri": "6/6/19",
             "otrok": 80,
             "smer": 671
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/6/19",
+            "datum_preplezane_smeri": "6/6/19",
             "otrok": 81,
             "smer": 672
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/6/19",
+            "datum_preplezane_smeri": "6/6/19",
             "otrok": 82,
             "smer": 673
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/6/19",
+            "datum_preplezane_smeri": "6/6/19",
             "otrok": 83,
             "smer": 674
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "6/6/19",
+            "datum_preplezane_smeri": "6/6/19",
             "otrok": 84,
             "smer": 671
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/6/19",
+            "datum_preplezane_smeri": "6/6/19",
             "otrok": 85,
             "smer": 672
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "6/6/19",
+            "datum_preplezane_smeri": "6/6/19",
             "otrok": 86,
             "smer": 673
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/6/19",
+            "datum_preplezane_smeri": "6/6/19",
             "otrok": 87,
             "smer": 674
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/6/19",
+            "datum_preplezane_smeri": "6/6/19",
             "otrok": 88,
             "smer": 671
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/6/19",
+            "datum_preplezane_smeri": "6/6/19",
             "otrok": 89,
             "smer": 672
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "6/6/19",
+            "datum_preplezane_smeri": "6/6/19",
             "otrok": 90,
             "smer": 673
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "6/6/19",
+            "datum_preplezane_smeri": "6/6/19",
             "otrok": 1,
             "smer": 674
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "6/6/19",
+            "datum_preplezane_smeri": "6/6/19",
             "otrok": 2,
             "smer": 674
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "6/6/19",
+            "datum_preplezane_smeri": "6/6/19",
             "otrok": 3,
             "smer": 674
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "5/24/20",
+            "datum_preplezane_smeri": "5/24/20",
             "otrok": 4,
             "smer": 675
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "5/24/20",
+            "datum_preplezane_smeri": "5/24/20",
             "otrok": 5,
             "smer": 676
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "5/24/20",
+            "datum_preplezane_smeri": "5/24/20",
             "otrok": 6,
             "smer": 677
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "5/24/20",
+            "datum_preplezane_smeri": "5/24/20",
             "otrok": 7,
             "smer": 675
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "5/24/20",
+            "datum_preplezane_smeri": "5/24/20",
             "otrok": 8,
             "smer": 676
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "5/24/20",
+            "datum_preplezane_smeri": "5/24/20",
             "otrok": 9,
             "smer": 677
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "5/24/20",
+            "datum_preplezane_smeri": "5/24/20",
             "otrok": 10,
             "smer": 677
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "5/24/20",
+            "datum_preplezane_smeri": "5/24/20",
             "otrok": 11,
             "smer": 676
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "10/15/19",
+            "datum_preplezane_smeri": "10/15/19",
             "otrok": 12,
             "smer": 655
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "10/15/19",
+            "datum_preplezane_smeri": "10/15/19",
             "otrok": 13,
             "smer": 656
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "10/15/19",
+            "datum_preplezane_smeri": "10/15/19",
             "otrok": 14,
             "smer": 657
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "10/15/19",
+            "datum_preplezane_smeri": "10/15/19",
             "otrok": 15,
             "smer": 658
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "10/15/19",
+            "datum_preplezane_smeri": "10/15/19",
             "otrok": 16,
             "smer": 659
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "10/15/19",
+            "datum_preplezane_smeri": "10/15/19",
             "otrok": 17,
             "smer": 655
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "10/15/19",
+            "datum_preplezane_smeri": "10/15/19",
             "otrok": 18,
             "smer": 656
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "10/15/19",
+            "datum_preplezane_smeri": "10/15/19",
             "otrok": 19,
             "smer": 657
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "10/15/19",
+            "datum_preplezane_smeri": "10/15/19",
             "otrok": 20,
             "smer": 658
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 22,
             "smer": 642
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 23,
             "smer": 643
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 24,
             "smer": 644
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 25,
             "smer": 645
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 26,
             "smer": 646
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 27,
             "smer": 647
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 28,
             "smer": 648
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 29,
             "smer": 649
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 30,
             "smer": 650
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 31,
             "smer": 651
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 32,
             "smer": 652
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 33,
             "smer": 653
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 34,
             "smer": 654
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 35,
             "smer": 642
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 36,
             "smer": 643
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 37,
             "smer": 644
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 38,
             "smer": 645
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 39,
             "smer": 646
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 40,
             "smer": 647
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 41,
             "smer": 648
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 42,
             "smer": 649
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 43,
             "smer": 650
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 44,
             "smer": 651
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 45,
             "smer": 652
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 46,
             "smer": 653
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 47,
             "smer": 654
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 48,
             "smer": 642
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 49,
             "smer": 643
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 50,
             "smer": 644
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 51,
             "smer": 645
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 52,
             "smer": 646
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "7/9/19",
+            "datum_preplezane_smeri": "7/9/19",
             "otrok": 53,
             "smer": 647
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 29,
             "smer": 601
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 30,
             "smer": 602
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 31,
             "smer": 611
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 32,
             "smer": 612
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 33,
             "smer": 619
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 34,
             "smer": 622
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 35,
             "smer": 623
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 36,
             "smer": 624
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 37,
             "smer": 625
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 38,
             "smer": 626
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 39,
             "smer": 627
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 40,
             "smer": 601
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 41,
             "smer": 602
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 42,
             "smer": 611
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 43,
             "smer": 612
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 44,
             "smer": 619
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 45,
             "smer": 622
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 46,
             "smer": 623
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 47,
             "smer": 624
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 48,
             "smer": 625
         },
         {
             "nacin": "na pogled",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 49,
             "smer": 626
         },
         {
             "nacin": "na Flash",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 50,
             "smer": 627
         },
         {
             "nacin": "z rdečo piko",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 51,
             "smer": 625
         },
         {
             "nacin": "top rope",
-            "datum preplezane smeri": "4/10/18",
+            "datum_preplezane_smeri": "4/10/18",
             "otrok": 52,
             "smer": 626
         }
