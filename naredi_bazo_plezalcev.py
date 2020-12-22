@@ -386,7 +386,7 @@ def naredi_bazo_plezalcev(ime_json_datoteke, ime_sqlite_datoteke):
     ustvari_tabele(conn) # potrebuje samo dostop do baze = conn
     napolni_tabele(conn, plezalci) # potrebuje dostop do baze in podatke
 
-naredi_bazo_plezalcev('plezalci_json.json', 'plezalci_novi.sqlite')
+naredi_bazo_plezalcev('plezalci.json', 'plezalci_novi.sqlite')
 
 
 
