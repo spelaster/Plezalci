@@ -3,9 +3,6 @@ import os
 import sqlite3
 
 
-conn = sqlite3.connect('plezalci.db')
-cur = conn.cursor()
-
 
 def ustvari_tabelo_otrok(conn):
     sql = '''
