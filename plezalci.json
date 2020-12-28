@@ -34,7 +34,7 @@
             "id": 504,
             "datum": "7/9/19",
             "plezalisce": 704,
-            "ime": "Vikend izlet v Koteƒçnik"
+            "ime": "Vikend izlet v KoteËnik"
         },
         {
             "id": 503,
@@ -69,7 +69,7 @@
             "smer": 606
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "7/7/19",
             "otrok": 32,
             "smer": 607
@@ -105,7 +105,7 @@
             "smer": 640
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "7/7/19",
             "otrok": 38,
             "smer": 641
@@ -147,7 +147,7 @@
             "smer": 631
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "8/7/19",
             "otrok": 55,
             "smer": 632
@@ -219,7 +219,7 @@
             "smer": 634
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "8/7/19",
             "otrok": 29,
             "smer": 635
@@ -255,7 +255,7 @@
             "smer": 663
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "6/7/20",
             "otrok": 54,
             "smer": 664
@@ -297,7 +297,7 @@
             "smer": 670
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "6/7/20",
             "otrok": 61,
             "smer": 660
@@ -369,7 +369,7 @@
             "smer": 678
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "10/7/19",
             "otrok": 73,
             "smer": 679
@@ -405,7 +405,7 @@
             "smer": 680
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "10/7/19",
             "otrok": 79,
             "smer": 681
@@ -447,7 +447,7 @@
             "smer": 672
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "6/6/19",
             "otrok": 86,
             "smer": 673
@@ -519,7 +519,7 @@
             "smer": 675
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "5/24/20",
             "otrok": 8,
             "smer": 676
@@ -561,7 +561,7 @@
             "smer": 657
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "10/15/19",
             "otrok": 15,
             "smer": 658
@@ -597,7 +597,7 @@
             "smer": 658
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "7/9/19",
             "otrok": 22,
             "smer": 642
@@ -669,7 +669,7 @@
             "smer": 653
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "7/9/19",
             "otrok": 34,
             "smer": 654
@@ -705,7 +705,7 @@
             "smer": 646
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "7/9/19",
             "otrok": 40,
             "smer": 647
@@ -747,7 +747,7 @@
             "smer": 653
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "7/9/19",
             "otrok": 47,
             "smer": 654
@@ -807,7 +807,7 @@
             "smer": 611
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "4/10/18",
             "otrok": 32,
             "smer": 612
@@ -849,7 +849,7 @@
             "smer": 626
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "4/10/18",
             "otrok": 39,
             "smer": 627
@@ -921,7 +921,7 @@
             "smer": 627
         },
         {
-            "nacin": "z rdeƒço piko",
+            "nacin": "z rdeËo piko",
             "datum_preplezane_smeri": "4/10/18",
             "otrok": 51,
             "smer": 625
@@ -1646,11 +1646,11 @@
         },
         {
             "id": 703,
-            "ime": "Peƒç"
+            "ime": "PeË"
         },
         {
             "id": 704,
-            "ime": "Koteƒçnik"
+            "ime": "KoteËnik"
         },
         {
             "id": 705,
@@ -1662,7 +1662,7 @@
         },
         {
             "id": 707,
-            "ime": "ƒårni Kal"
+            "ime": "»rni Kal"
         },
         {
             "id": 708,
@@ -3282,13 +3282,13 @@
     "skupina": [
         {
             "id": 401,
-            "ime": "Sonƒçki",
+            "ime": "SonËki",
             "stevilo_treningov": 1,
             "trener": 201
         },
         {
             "id": 405,
-            "ime": "≈†pelini",
+            "ime": "äpelini",
             "stevilo_treningov": 3,
             "trener": 201
         },
@@ -3318,7 +3318,7 @@
         },
         {
             "id": 410,
-            "ime": "Ne≈æine punce",
+            "ime": "Neûine punce",
             "stevilo_treningov": 2,
             "trener": 205
         },
@@ -3360,7 +3360,7 @@
         },
         {
             "id": 409,
-            "ime": "Mi≈°ice",
+            "ime": "Miöice",
             "stevilo_treningov": 1,
             "trener": 210
         },
@@ -3378,13 +3378,13 @@
         },
         {
             "id": 418,
-            "ime": "Bolderƒçki",
+            "ime": "BolderËki",
             "stevilo_treningov": 1,
             "trener": 213
         },
         {
             "id": 414,
-            "ime": "≈†alce",
+            "ime": "äalce",
             "stevilo_treningov": 1,
             "trener": 214
         }
@@ -3398,7 +3398,7 @@
         },
         {
             "id": 602,
-            "ime": "Sreƒçno Kekec",
+            "ime": "SreËno Kekec",
             "plezalisce": 701,
             "tezavnost": "6b+"
         },
@@ -3422,13 +3422,13 @@
         },
         {
             "id": 622,
-            "ime": "Ta≈°ƒçica",
+            "ime": "TaöËica",
             "plezalisce": 701,
             "tezavnost": "5c"
         },
         {
             "id": 623,
-            "ime": "Sonƒçek je",
+            "ime": "SonËek je",
             "plezalisce": 701,
             "tezavnost": "4a"
         },
@@ -3464,13 +3464,13 @@
         },
         {
             "id": 629,
-            "ime": "Zme≈°ana soseda",
+            "ime": "Zmeöana soseda",
             "plezalisce": 702,
             "tezavnost": "5c"
         },
         {
             "id": 630,
-            "ime": "Kaƒça plaziritka",
+            "ime": "KaËa plaziritka",
             "plezalisce": 702,
             "tezavnost": "5b"
         },
@@ -3506,7 +3506,7 @@
         },
         {
             "id": 636,
-            "ime": "Bohomurƒçek",
+            "ime": "BohomurËek",
             "plezalisce": 702,
             "tezavnost": "5a+"
         },
@@ -3518,13 +3518,13 @@
         },
         {
             "id": 606,
-            "ime": "AS Stara Fu≈æina",
+            "ime": "AS Stara Fuûina",
             "plezalisce": 703,
             "tezavnost": "5c"
         },
         {
             "id": 607,
-            "ime": "ƒårni gaber",
+            "ime": "»rni gaber",
             "plezalisce": 703,
             "tezavnost": "6a+"
         },
@@ -3566,7 +3566,7 @@
         },
         {
             "id": 603,
-            "ime": "Vabeƒça globina",
+            "ime": "VabeËa globina",
             "plezalisce": 704,
             "tezavnost": "6c+"
         },
@@ -3578,13 +3578,13 @@
         },
         {
             "id": 609,
-            "ime": "Je≈æek teka teka",
+            "ime": "Jeûek teka teka",
             "plezalisce": 704,
             "tezavnost": "6a"
         },
         {
             "id": 610,
-            "ime": "Siva poƒç",
+            "ime": "Siva poË",
             "plezalisce": 704,
             "tezavnost": "5c"
         },
@@ -3614,7 +3614,7 @@
         },
         {
             "id": 617,
-            "ime": "ƒåista fizika",
+            "ime": "»ista fizika",
             "plezalisce": 704,
             "tezavnost": "7a+"
         },
@@ -3644,19 +3644,19 @@
         },
         {
             "id": 643,
-            "ime": "Lepota ni nakluƒçje",
+            "ime": "Lepota ni nakluËje",
             "plezalisce": 704,
             "tezavnost": "6a"
         },
         {
             "id": 644,
-            "ime": "ƒårne Luknje",
+            "ime": "»rne Luknje",
             "plezalisce": 704,
             "tezavnost": "5b+"
         },
         {
             "id": 645,
-            "ime": "ƒårnka",
+            "ime": "»rnka",
             "plezalisce": 704,
             "tezavnost": "5c+"
         },
@@ -3668,7 +3668,7 @@
         },
         {
             "id": 647,
-            "ime": "Cekinƒçek",
+            "ime": "CekinËek",
             "plezalisce": 704,
             "tezavnost": "6a"
         },
@@ -3686,13 +3686,13 @@
         },
         {
             "id": 650,
-            "ime": "Svi≈°ƒç",
+            "ime": "SviöË",
             "plezalisce": 704,
             "tezavnost": "5c"
         },
         {
             "id": 651,
-            "ime": "Lepotiƒçka",
+            "ime": "LepotiËka",
             "plezalisce": 704,
             "tezavnost": "5b+"
         },
@@ -3704,7 +3704,7 @@
         },
         {
             "id": 653,
-            "ime": "Dvojƒçici",
+            "ime": "DvojËici",
             "plezalisce": 704,
             "tezavnost": "6a+"
         },
@@ -3722,7 +3722,7 @@
         },
         {
             "id": 656,
-            "ime": "≈†korpion",
+            "ime": "äkorpion",
             "plezalisce": 705,
             "tezavnost": "4c"
         },
@@ -3734,7 +3734,7 @@
         },
         {
             "id": 658,
-            "ime": "ƒårna Liza",
+            "ime": "»rna Liza",
             "plezalisce": 705,
             "tezavnost": "6b"
         },
@@ -3752,7 +3752,7 @@
         },
         {
             "id": 661,
-            "ime": "Zajƒçek",
+            "ime": "ZajËek",
             "plezalisce": 706,
             "tezavnost": "3"
         },
@@ -3764,7 +3764,7 @@
         },
         {
             "id": 663,
-            "ime": "≈†pela",
+            "ime": "äpela",
             "plezalisce": 706,
             "tezavnost": "4a"
         },
@@ -3788,19 +3788,19 @@
         },
         {
             "id": 667,
-            "ime": "≈†e je upanje",
+            "ime": "äe je upanje",
             "plezalisce": 706,
             "tezavnost": "6b+"
         },
         {
             "id": 668,
-            "ime": "Ur≈°kina",
+            "ime": "Urökina",
             "plezalisce": 706,
             "tezavnost": "4c+"
         },
         {
             "id": 669,
-            "ime": "Je≈æek",
+            "ime": "Jeûek",
             "plezalisce": 706,
             "tezavnost": "3"
         },
@@ -3830,7 +3830,7 @@
         },
         {
             "id": 674,
-            "ime": "Sreƒça na vrvici",
+            "ime": "SreËa na vrvici",
             "plezalisce": 707,
             "tezavnost": "4b"
         },
@@ -3848,7 +3848,7 @@
         },
         {
             "id": 677,
-            "ime": "Ovƒçka",
+            "ime": "OvËka",
             "plezalisce": 708,
             "tezavnost": "4b"
         },
@@ -3889,7 +3889,7 @@
             "ime": "Maggie",
             "priimek": "Corbin",
             "mail": "runte.stephania@yahoo.com",
-            "naslov": "Ol≈°evek 75, 4205 Preddvor",
+            "naslov": "Olöevek 75, 4205 Preddvor",
             "telefon": "00386-405-559-562"
         },
         {
@@ -3897,7 +3897,7 @@
             "ime": "Grace",
             "priimek": "Huggins",
             "mail": "oeffertz@collins.com",
-            "naslov": "Kidriƒçeva 61, 4000 Kranj",
+            "naslov": "KidriËeva 61, 4000 Kranj",
             "telefon": "00386-315-555-2077"
         },
         {
@@ -3945,7 +3945,7 @@
             "ime": "Marcy ",
             "priimek": "Mcgrath",
             "mail": "cgrimes@frami.net",
-            "naslov": "Dol≈æanova pot 1, 4000 kranj",
+            "naslov": "Dolûanova pot 1, 4000 kranj",
             "telefon": "00386-645-552-31"
         },
         {
@@ -3961,7 +3961,7 @@
             "ime": "Estella ",
             "priimek": "Blue",
             "mail": "rosamond86@jerde.com",
-            "naslov": "Cesta Kokr≈°kega odreda 30, Kranj",
+            "naslov": "Cesta Kokrökega odreda 30, Kranj",
             "telefon": "00386-215-550-64"
         },
         {
@@ -3969,7 +3969,7 @@
             "ime": "Imelda ",
             "priimek": "Curran",
             "mail": "mschneider@batz.info",
-            "naslov": "Mo≈°e 40, 1216 Smlednik",
+            "naslov": "Moöe 40, 1216 Smlednik",
             "telefon": "00386-605-552-3744"
         },
         {
@@ -3977,7 +3977,7 @@
             "ime": "Lonny ",
             "priimek": "Wesley",
             "mail": "sage33@gmail.com",
-            "naslov": "Pe≈°nica 17, 4201 Zgornja Besnica",
+            "naslov": "Peönica 17, 4201 Zgornja Besnica",
             "telefon": "00386-215-554-61"
         },
         {
@@ -3993,7 +3993,7 @@
             "ime": "Beverley ",
             "priimek": "Hedrick",
             "mail": "bernard.leuschke@gmail.com",
-            "naslov": "Drolƒçevo naselje 3, 4000 Kranj",
+            "naslov": "DrolËevo naselje 3, 4000 Kranj",
             "telefon": "00386-415-551-636"
         },
         {
@@ -4001,7 +4001,7 @@
             "ime": "Renaldo",
             "priimek": "Myers",
             "mail": "eliseo.windler@yahoo.com",
-            "naslov": "So≈°ka ulica 8, 4000 Kranj",
+            "naslov": "Soöka ulica 8, 4000 Kranj",
             "telefon": "00386-605-555-61"
         },
         {
@@ -4009,7 +4009,7 @@
             "ime": "Dora ",
             "priimek": "Winkler",
             "mail": "hand.addison@littel.com",
-            "naslov": "Breg ob Savi 15a, 4211 Mavƒçiƒçe",
+            "naslov": "Breg ob Savi 15a, 4211 MavËiËe",
             "telefon": "00386-615-558-7"
         },
         {
@@ -4049,7 +4049,7 @@
             "ime": "Bernadette",
             "priimek": "Baldwin",
             "mail": "providenci.terry@gleichner.com",
-            "naslov": "Breg ob Savi 103, 4211 Mavƒçiƒçe",
+            "naslov": "Breg ob Savi 103, 4211 MavËiËe",
             "telefon": "00386-305-554-327"
         },
         {
@@ -4065,7 +4065,7 @@
             "ime": "Larry ",
             "priimek": "Robinson",
             "mail": "rohan.marshall@feeney.com",
-            "naslov": "Prebaƒçevo 12, 4000 Kranj",
+            "naslov": "PrebaËevo 12, 4000 Kranj",
             "telefon": "00386-305-558-89"
         },
         {
@@ -4129,7 +4129,7 @@
             "ime": "Paul ",
             "priimek": "Ritchie",
             "mail": "paxton78@schmitt.com",
-            "naslov": "Mandeljƒçeva pot 12, 4000 Kranj",
+            "naslov": "MandeljËeva pot 12, 4000 Kranj",
             "telefon": "00386-505-555-3725"
         },
         {
@@ -4153,7 +4153,7 @@
             "ime": "Osvaldo ",
             "priimek": "Langston",
             "mail": "nathanael22@hotmail.com",
-            "naslov": "Srednja vas pri ≈†enƒçurju 4, 4208 ≈†enƒçur",
+            "naslov": "Srednja vas pri äenËurju 4, 4208 äenËur",
             "telefon": "00386-315-553-5601"
         },
         {
@@ -4161,7 +4161,7 @@
             "ime": "Kip ",
             "priimek": "Mccoy",
             "mail": "maxwell02@hamill.com",
-            "naslov": "≈†pikova 3, 4000 Kranj",
+            "naslov": "äpikova 3, 4000 Kranj",
             "telefon": "00386-645-551-8754"
         },
         {
@@ -4169,7 +4169,7 @@
             "ime": "Brandie ",
             "priimek": "Meade",
             "mail": "melvin.wunsch@moore.org",
-            "naslov": "≈†tefetova ulica 33, 4208 ≈†enƒçur",
+            "naslov": "ätefetova ulica 33, 4208 äenËur",
             "telefon": "00386-645-550-63"
         },
         {
@@ -4177,7 +4177,7 @@
             "ime": "Roxanne ",
             "priimek": "David",
             "mail": "nhessel@prosacco.com",
-            "naslov": "Spodnje Gameljne 9c, 1211 Ljubljana-≈†martno",
+            "naslov": "Spodnje Gameljne 9c, 1211 Ljubljana-ämartno",
             "telefon": "00386-705-558-14"
         },
         {
@@ -4185,7 +4185,7 @@
             "ime": "Max ",
             "priimek": "Trejo",
             "mail": "kovacek.mathew@hotmail.com",
-            "naslov": "Srednja vas pri ≈†enƒçurju 72, 4208 ≈†enƒçur",
+            "naslov": "Srednja vas pri äenËurju 72, 4208 äenËur",
             "telefon": "00386-405-555-64"
         },
         {
@@ -4225,7 +4225,7 @@
             "ime": "Walker",
             "priimek": "Chu",
             "mail": "cmiller@gusikowski.com",
-            "naslov": "ƒåadovlje pri Tr≈æiƒçu 7/a, 4290 Tr≈æiƒç",
+            "naslov": "»adovlje pri TrûiËu 7/a, 4290 TrûiË",
             "telefon": "00386-405-557-3471"
         },
         {
@@ -4241,7 +4241,7 @@
             "ime": "Katherine",
             "priimek": "Looney",
             "mail": "heller.dax@tillman.info",
-            "naslov": "Prebaƒçevo 58b, 4000 Kranj",
+            "naslov": "PrebaËevo 58b, 4000 Kranj",
             "telefon": "00386-645-551-376"
         },
         {
@@ -4249,7 +4249,7 @@
             "ime": "Abbie",
             "priimek": "Norris",
             "mail": "pagac.leonora@abshire.com",
-            "naslov": "Sajovƒçevo naselje 4, 4208 ≈†enƒçur",
+            "naslov": "SajovËevo naselje 4, 4208 äenËur",
             "telefon": "00386-215-552-4812"
         },
         {
@@ -4273,7 +4273,7 @@
             "ime": "Bernadette",
             "priimek": "Hoskins",
             "mail": "heber73@hotmail.com",
-            "naslov": "Ulica Vide ≈†inkovƒçeve 2, Kranj",
+            "naslov": "Ulica Vide äinkovËeve 2, Kranj",
             "telefon": "00386-315-559-551"
         },
         {
@@ -4281,7 +4281,7 @@
             "ime": "Francis ",
             "priimek": "Weir",
             "mail": "ebins@yahoo.com",
-            "naslov": "Smledni≈°ka cesta 1, 4000 Kranj",
+            "naslov": "Smledniöka cesta 1, 4000 Kranj",
             "telefon": "00386-615-553-8992"
         },
         {
@@ -4289,7 +4289,7 @@
             "ime": "Larry ",
             "priimek": "Mcnamara",
             "mail": "murray.alek@yahoo.com",
-            "naslov": "≈Ωlebe 22a, 1215 Medvode",
+            "naslov": "élebe 22a, 1215 Medvode",
             "telefon": "00386-415-554-26"
         },
         {
@@ -4297,7 +4297,7 @@
             "ime": "Seth ",
             "priimek": "Bingham",
             "mail": "willms.baron@gmail.com",
-            "naslov": "≈Ωlebe 2.e, 1215 Medvode",
+            "naslov": "élebe 2.e, 1215 Medvode",
             "telefon": "00386-705-555-56"
         },
         {
@@ -4321,7 +4321,7 @@
             "ime": "Delia ",
             "priimek": "Culver",
             "mail": "josiane.kirlin@yahoo.com",
-            "naslov": "≈†entur≈°ka Gora 12, 4207 Cerklje",
+            "naslov": "äenturöka Gora 12, 4207 Cerklje",
             "telefon": "00386-205-559-75"
         },
         {
@@ -4337,7 +4337,7 @@
             "ime": "Andrea ",
             "priimek": "Metz",
             "mail": "chelsey94@gmail.com",
-            "naslov": "Jelenƒçeva ulica 21, 4000 Kranj",
+            "naslov": "JelenËeva ulica 21, 4000 Kranj",
             "telefon": "00386-615-558-715"
         },
         {
@@ -4345,7 +4345,7 @@
             "ime": "Waylon ",
             "priimek": "Hinkle",
             "mail": "nannie.kunde@leannon.info",
-            "naslov": "Ro≈æna 9, 4000 Kranj",
+            "naslov": "Roûna 9, 4000 Kranj",
             "telefon": "00386-205-550-76"
         },
         {
@@ -4417,7 +4417,7 @@
             "ime": "Bianca",
             "priimek": "Vargas",
             "mail": "wweissnat@prohaska.com",
-            "naslov": "Preƒè≈ºÀùka cesta 13, 1215 Medvode",
+            "naslov": "PreÔøΩka cesta 13, 1215 Medvode",
             "telefon": "00386-605-555-7939"
         },
         {
@@ -4449,7 +4449,7 @@
             "ime": "Arden ",
             "priimek": "Wolf",
             "mail": "mavis06@pfeffer.com",
-            "naslov": "Prebaƒçevo 10e, 4000 Kranj",
+            "naslov": "PrebaËevo 10e, 4000 Kranj",
             "telefon": "00386-615-559-6154"
         },
         {
@@ -4457,7 +4457,7 @@
             "ime": "Leonard",
             "priimek": "Morton",
             "mail": "rgreen@fay.org",
-            "naslov": "Dragoƒçajna 28a, Medvode",
+            "naslov": "DragoËajna 28a, Medvode",
             "telefon": "00386-205-558-4597"
         },
         {
@@ -4465,7 +4465,7 @@
             "ime": "Seth ",
             "priimek": "Lawson",
             "mail": "colby15@hotmail.com",
-            "naslov": "Pipanova cesta 10, 4208 ≈†enƒçur",
+            "naslov": "Pipanova cesta 10, 4208 äenËur",
             "telefon": "00386-645-554-7"
         },
         {
@@ -4473,7 +4473,7 @@
             "ime": "Michale ",
             "priimek": "Tackett",
             "mail": "ernser.cassidy@erdman.com",
-            "naslov": "Goriƒçe 9a, 4204 Golnik",
+            "naslov": "GoriËe 9a, 4204 Golnik",
             "telefon": "00386-305-551-62"
         },
         {
@@ -4481,7 +4481,7 @@
             "ime": "Ervin ",
             "priimek": "Tuttle",
             "mail": "tdonnelly@gmail.com",
-            "naslov": "P≈°eniƒçna Polica 16, 4207 Cerklje na Gorenjskem",
+            "naslov": "PöeniËna Polica 16, 4207 Cerklje na Gorenjskem",
             "telefon": "00386-705-550-665"
         },
         {
@@ -4489,7 +4489,7 @@
             "ime": "Henry",
             "priimek": "Dubois",
             "mail": "btromp@gibson.biz",
-            "naslov": "Pristava 5a, 1234 Menge≈°",
+            "naslov": "Pristava 5a, 1234 Mengeö",
             "telefon": "00386-505-554-58"
         },
         {
@@ -4497,7 +4497,7 @@
             "ime": "Angelo",
             "priimek": "Connelly",
             "mail": "hills.camren@rempel.com",
-            "naslov": "Pot pod Gradi≈°ƒçem 3, 4202 Naklo",
+            "naslov": "Pot pod GradiöËem 3, 4202 Naklo",
             "telefon": "00386-215-554-2729"
         },
         {
@@ -4505,7 +4505,7 @@
             "ime": "Marco",
             "priimek": "Matthews",
             "mail": "zetta.lueilwitz@eichmann.net",
-            "naslov": "Zgornje Bitnje 193, 4209 ≈Ωabnica",
+            "naslov": "Zgornje Bitnje 193, 4209 éabnica",
             "telefon": "00386-315-553-13"
         },
         {
@@ -4537,7 +4537,7 @@
             "ime": "Brian",
             "priimek": "Leon",
             "mail": "vilma64@yahoo.com",
-            "naslov": "Dra≈æho≈°e 41, 4228 ≈Ωelezniki",
+            "naslov": "Draûhoöe 41, 4228 éelezniki",
             "telefon": "00386-215-550-28"
         },
         {
@@ -4545,7 +4545,7 @@
             "ime": "Monique",
             "priimek": "Peck",
             "mail": "kankunding@yahoo.com",
-            "naslov": "Ulica Juleta Gabrov≈°ka 20, 4000 Kranj",
+            "naslov": "Ulica Juleta Gabrovöka 20, 4000 Kranj",
             "telefon": "00386-705-551-4384"
         },
         {
@@ -4553,7 +4553,7 @@
             "ime": "Marcel ",
             "priimek": "Daugherty",
             "mail": "ykeebler@johns.com",
-            "naslov": "≈Ωupanƒçiƒçeva ulica 3, 4000 Kranj",
+            "naslov": "éupanËiËeva ulica 3, 4000 Kranj",
             "telefon": "00386-405-557-9565"
         },
         {
@@ -4569,7 +4569,7 @@
             "ime": "Nubia",
             "priimek": "Nichols",
             "mail": "kraig.howell@yahoo.com",
-            "naslov": "ƒåirƒèƒçe 42, 4000 Kranj",
+            "naslov": "»irÔËe 42, 4000 Kranj",
             "telefon": "00386-715-558-78"
         },
         {
@@ -4577,7 +4577,7 @@
             "ime": "Alvera",
             "priimek": "Adams",
             "mail": "hagenes.jaunita@gmail.com",
-            "naslov": "ƒåirƒèƒçe 42, 4000 Kranj",
+            "naslov": "»irÔËe 42, 4000 Kranj",
             "telefon": "00386-705-556-5119"
         },
         {
@@ -4593,7 +4593,7 @@
             "ime": "Vanna",
             "priimek": "Beaver",
             "mail": "benedict.rosenbaum@mosciski.com",
-            "naslov": "Cesta Kokr≈°kega odreda 22a, 4000 Kranj",
+            "naslov": "Cesta Kokrökega odreda 22a, 4000 Kranj",
             "telefon": "00386-315-554-5304"
         },
         {
@@ -4633,7 +4633,7 @@
             "ime": "Brigida",
             "priimek": "Maher",
             "mail": "torey.medhurst@yahoo.com",
-            "naslov": "Partizanska ul. 31, 4208 ≈†enƒçur",
+            "naslov": "Partizanska ul. 31, 4208 äenËur",
             "telefon": "00386-605-555-591"
         },
         {
@@ -4649,7 +4649,7 @@
             "ime": "Anh",
             "priimek": "Khan",
             "mail": "vernie57@kshlerin.com",
-            "naslov": "Kro≈æna pot 65,4208 Voglje",
+            "naslov": "Kroûna pot 65,4208 Voglje",
             "telefon": "00386-715-557-6570"
         },
         {
@@ -4681,7 +4681,7 @@
             "ime": "Kristi ",
             "priimek": "Charlote",
             "mail": "shaniya04@harber.net",
-            "naslov": "Stru≈æevo 5a, 4000 Kranj",
+            "naslov": "Struûevo 5a, 4000 Kranj",
             "telefon": "00386-515-557-31"
         }
     ],
@@ -4689,23 +4689,23 @@
         {
             "id": 214,
             "ime": "Brina",
-            "priimek": "ƒêerkoviƒá",
+            "priimek": "–erkoviÊ",
             "mail": "schamberger.moises@botsford.net",
-            "naslov": "Hotema≈æe15, 4205 Preddvor",
+            "naslov": "Hotemaûe15, 4205 Preddvor",
             "telefon": "00386-715-553-60"
         },
         {
             "id": 201,
-            "ime": "≈†pela",
-            "priimek": "≈†ter",
+            "ime": "äpela",
+            "priimek": "äter",
             "mail": "dwindler@gmail.com",
             "naslov": "Golnik 177, 4204 Golnik",
             "telefon": "00386-715-552-96"
         },
         {
             "id": 203,
-            "ime": "Tja≈°a",
-            "priimek": "A≈æbe",
+            "ime": "Tjaöa",
+            "priimek": "Aûbe",
             "mail": "fbruen@yahoo.com",
             "naslov": "Jezerska c. 93/D, 4000 Kranj",
             "telefon": "00386-705-557-41"
@@ -4715,15 +4715,15 @@
             "ime": "Petra",
             "priimek": "Remic",
             "mail": "greenholt.michaela@hotmail.com",
-            "naslov": "Pot na Jo≈°ta 59,Stra≈æi≈°ƒçe",
+            "naslov": "Pot na Joöta 59,StraûiöËe",
             "telefon": "00386-705-550-9872"
         },
         {
             "id": 210,
             "ime": "Teja",
-            "priimek": "ƒåeƒç",
+            "priimek": "»eË",
             "mail": "marilyne29@yahoo.com",
-            "naslov": "Cesta Jaka Plati≈°e 9, 4000 Kranj",
+            "naslov": "Cesta Jaka Platiöe 9, 4000 Kranj",
             "telefon": "00386-645-559-34"
         },
         {
@@ -4731,7 +4731,7 @@
             "ime": "Mia",
             "priimek": "Krampl",
             "mail": "cronin.dejon@hotmail.com",
-            "naslov": "Pot na Jo≈°ta 113. Stra≈æi≈°ƒçe",
+            "naslov": "Pot na Joöta 113. StraûiöËe",
             "telefon": "00386-645-553-499"
         },
         {
@@ -4739,20 +4739,20 @@
             "ime": "Dominik",
             "priimek": "Fon",
             "mail": "ehaag@nicolas.org",
-            "naslov": "Stru≈æevo 3d, 4000 Kranj",
+            "naslov": "Struûevo 3d, 4000 Kranj",
             "telefon": "00386-615-558-361"
         },
         {
             "id": 208,
             "ime": "Gal",
-            "priimek": "Rihtar≈°iƒç",
+            "priimek": "RihtaröiË",
             "mail": "doyle47@hotmail.com",
-            "naslov": "≈Ωupanƒçiƒçeva ulica 3, 4000 Kranj",
+            "naslov": "éupanËiËeva ulica 3, 4000 Kranj",
             "telefon": "00386-605-557-287"
         },
         {
             "id": 202,
-            "ime": "Tja≈°a",
+            "ime": "Tjaöa",
             "priimek": "Kalan",
             "mail": "rutherford.enola@hotmail.com",
             "naslov": "Jezerska cesta 2, Kranj",
@@ -4763,15 +4763,15 @@
             "ime": "Tonja",
             "priimek": "Oman Sajovic ",
             "mail": "esta.watsica@sawayn.com",
-            "naslov": "Hotema≈æe 120, 4205 Preddvor",
+            "naslov": "Hotemaûe 120, 4205 Preddvor",
             "telefon": "00386-415-559-387"
         },
         {
             "id": 206,
             "ime": "Teja",
-            "priimek": "≈†kofic",
+            "priimek": "äkofic",
             "mail": "murl.murray@gmail.com",
-            "naslov": "Hotemaƒè≈ºÀùe 116, 4205 Preddvor",
+            "naslov": "HotemaÔøΩe 116, 4205 Preddvor",
             "telefon": "00386-415-552-51"
         },
         {
@@ -4792,10 +4792,10 @@
         },
         {
             "id": 205,
-            "ime": "Ne≈æa",
+            "ime": "Neûa",
             "priimek": "Vombergar",
             "mail": "kattie.beier@hotmail.com",
-            "naslov": "Srednja vas pri ≈†enƒçurju 202, 4208 ≈†enƒçur",
+            "naslov": "Srednja vas pri äenËurju 202, 4208 äenËur",
             "telefon": "00386-305-559-63"
         }
     ]
