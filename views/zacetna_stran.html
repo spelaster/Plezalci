@@ -1,0 +1,50 @@
+% rebase('osnova.html')
+<!DOCTYPE html>
+<html>
+    <body style="background-color:rgb(92, 248, 61);">
+        <pre style="background-color:rgb(92, 248, 61); font-size:10%">
+
+        </pre>   
+<h1 style="color:black; font-family:verdana; text-align:center; font-size:300%;">Plezalci</h1>
+<div style=" text-align:center;">
+    % if ime:
+        Prijavljen uporabnik: {{ime}}
+        (<a href="/odjava/">odjava</a>)
+    % else:
+    <a href="/prijava/">prijava</a> | 
+    <a href="/vpis/">vpis</a>
+    % end
+</div>
+<form action="/isci/">
+    <div class="field" >
+        <label style="font-size:120%; text-indent: 30px;" class="label">Iskalni niz</label>
+        <div class="control" style="text-indent: 30px">
+            <input class="input" type="text" placeholder="npr. Ela ali Abbie" name="iskalni_niz">
+        </div>
+    </div>
+
+    <div class="field">
+        <div class="control" style="text-indent: 30px">
+            <button class="button">Išči!</button>
+        </div>
+
+</form>
+<pre style="background-color:rgb(92, 248, 61); font-size:150%">
+
+Otroci po črkah: 
+</pre>
+<ul>
+    % for crka in znaki:
+    <li style="background-color:rgba(169, 247, 159, 0.473); font-size:150%">
+        Otroci, ki se začnejo s črko
+        <a href="/crke/{{crka}}/">{{crka}}</a>
+    </li>
+    % end
+</ul>
+</body>
+</html>
+
+
+
+
+

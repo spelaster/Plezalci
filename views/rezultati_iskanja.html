@@ -1,0 +1,10 @@
+% rebase('osnova.html')
+<h2>Otroci, ki imajo v imenu "{{iskalni_niz}}"</h2>
+
+<ul>
+    % for otrok in otroci:
+    <li>
+        {{otrok.ime[0]}}
+    </li>
+    % end
+</ul>
