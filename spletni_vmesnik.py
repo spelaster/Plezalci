@@ -107,6 +107,12 @@ def isci():
         otroci=otroci
     )
 
+@bottle.get('/skupina/')
+def izpisi_skupine():
+    return bottle.template(
+        'skupina.html'
+    )
+
 @bottle.get('/crke/<crka>/')
 def uredi_po_crkah(crka):
     return bottle.template(
