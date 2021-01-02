@@ -115,8 +115,8 @@ class Otrok:
                 FROM otrok
                 GROUP BY SUBSTR(ime, 1, 1);"""
         for crka in conn.execute(sql):
-            tab.append(crka[0])
-        return tab[0:len(tab)-5]
+            tab.append(crka[0])       
+        return tab
 
     @staticmethod
     def stevilo_otrok(): 
