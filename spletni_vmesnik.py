@@ -110,7 +110,9 @@ def isci():
 @bottle.get('/skupina/')
 def izpisi_skupine():
     return bottle.template(
-        'skupina.html'
+        'skupina.html',
+        skupine=Skupina.seznam_skupin(),
+        st_skupin=Skupina.stevilo_skupin()
     )
 
 @bottle.get('/crke/<crka>/')
