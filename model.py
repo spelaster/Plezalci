@@ -91,7 +91,7 @@ class Otrok:
         """
         Znakovna predstavitev otroka.
 
-        Vrne ime in priimek otroka
+        Vrne ime otroka
         """
         return self.ime
 
@@ -137,4 +137,78 @@ class Otrok:
         sql = 'SELECT ime FROM otrok WHERE ime LIKE ?'
         for ime in conn.execute(sql, ['%' + niz + '%']):
             yield Otrok(ime = ime)
+
+class Skupina:
+
+    def __init__(self, ime, id=None):
+        """
+        Konstruktor skupine.
+        """
+        self.id = id
+        self.ime = ime
+    
+
+    def __str__(self):
+        """
+        Znakovna predstavitev skupine.
+
+        Vrne ime skupine
+        """
+        return self.ime
+
+    
+    @staticmethod
+    def po_crkah(crka):
+        
+        '''Vrne skupine na isto črko. '''
+        sql = """SELECT ime
+                FROM skupina
+                WHERE ime LIKE ? """
+        for ime in conn.execute(sql, [crka + '%']):
+            yield Skupina(ime = ime)
+            
+
+    @staticmethod
+    def tab_crk():
+        "Vrne niz zacetnic imen skupin"
+        tab = []
+        sql = """SELECT SUBSTR(ime, 1, 1) 
+                FROM skupina
+                GROUP BY SUBSTR(ime, 1, 1);"""
+        for crka in conn.execute(sql):
+            tab.append(crka[0])       
+        return tab
+
+    @staticmethod
+    def stevilo_skupin(): 
+        sql = 'SELECT COUNT(*) FROM skupina'
+        (st_skupin,) = conn.execute(sql).fetchone()
+        return st_skupin
+
+    @staticmethod
+    def seznam_skupin(): 
+        skupine = []
+        sql = 'SELECT ime FROM skupina'
+        for ime in conn.execute(sql):
+            skupine.append(ime) 
+        return skupine
+    
+    @staticmethod
+    def podatki_skupine(niz):
+        
+        '''Vrne podatke o otrocih dane skupine. '''
+        sql = """SELECT ime, priimek, datum_rojstva, leto_vpisa
+                FROM otrok
+                JOIN pripada ON (otrok.id = pripada.otrok)
+                JOIN skupina ON (skupina.id = pripada.skupina)
+                WHERE skupina.ime LIKE ? """
+        for ime in conn.execute(sql, [niz + '%']):
+            yield Skupina(ime = ime)
+    
+
+    @staticmethod
+    def poisci_skupino(niz): 
+        sql = 'SELECT ime FROM skupina WHERE ime LIKE ?'
+        for ime in conn.execute(sql, ['%' + niz + '%']):
+            yield Skupina(ime = ime)
 
